@@ -1,1 +1,1 @@
-WizardryOnline_no_encryption.exe -res ./data/ -pref_real -use_cache -no-memtrack
+WizardryOnline_patched.exe -res ./data/ -pref_real
