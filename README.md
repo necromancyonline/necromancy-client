@@ -28,7 +28,7 @@ Specifies the Login Server IP where client will coonnect to.
 2. After installation complete, go to `C:\Program Files (x86)\Windows Kits\10\Debuggers\x64` and run `gflags.exe`
 3. Select Image File tab and populate Image and Debugger fields. Note: the Image should be populated with just filename of the application you want to debug.
 Debugger should be full path to debugger - `C:\Program Files (x86)\Windows Kits\10\Debuggers\x64\windbg.exe` in my case.
-Image currently would be `WizardryOnline_no_encryption.exe`
+Image currently would be `WizardryOnline_patched.exe`
 
 Example:
 
