@@ -21,7 +21,7 @@ https://github.com/necromancyonline/necromancy-client/blob/master/files/steam/da
 
 Specifies the Login Server IP where client will coonnect to.
 
-# Debugging the application
+# Debugging the application (OPTIONAL)
 
 ## Windows
 1. Install Windows SDK. You need to install [Debugging Tools for Windows 10](https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/debugger-download-tools). You don't need other components of the Windows SDK.
