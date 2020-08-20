@@ -39,8 +39,8 @@ Example:
 ## Ghidra
 HOST: `server.wizardry-online.com`  
 PORT: `13100`  
-New Account PW: `changeme`
-Ghidra Version: `9.1.2`
+New Account PW: `changeme`  
+Ghidra Version: `9.1.2`  
 Project Name: `WizardryOnlineClient`  
 
 If you require access please reach out to any tech role member the discord server.
