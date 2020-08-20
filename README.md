@@ -35,3 +35,27 @@ Example:
 ![Gflags example](docs/img/gflags.png)
 
 4. When you launch WizardryOnline_no_encryption.exe WinDbg would automatically start and you can debug client. 
+
+## Ghidra
+HOST: `server.wizardry-online.com`  
+PORT: `13100`  
+New Account PW: `changeme`
+Ghidra Version: `9.1.2`
+Project Name: `WizardryOnlineClient`  
+
+If you require access please reach out to any tech role member the discord server.
+
+Opening the project:  
+File -> New Project -> Shared Project  
+
+
+
+To make it easier to distiguish our own changes we utilize a few rules for naming:  
+Function Names: `func_*`  
+Suspected Function Names: `func_m_*`  
+labels: `lab_*`  
+
+
+
+
+
