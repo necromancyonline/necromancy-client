@@ -1,0 +1,5614 @@
+﻿#MainID,SubID,StringID,String
+#Basic
+0,0,0,NULL
+0,0,1,
+0,0,2, 
+0,0,3,　
+0,0,4, 
+
+#test
+0,1,0,Sample 1
+0,1,1,Sample 2
+
+1,2,0,Tesuto A
+1,2,1,Tesuto B
+
+1,3,0,chara_evflag
+1,3,1,chara_evstat
+1,3,2,soul_evflag
+1,3,3,soul_evstat
+1,3,4,gate_clear_flag
+1,3,5,gate_riddle_clear_flag
+1,3,6,gate_flag
+1,3,7,gate_stat
+
+1,4,0,set
+1,4,1,get
+
+1,5,0,Race change
+1,5,1,Occupation change
+1,5,2,Flag change
+
+1,10,0,Gagaga
+1,10,1,
+
+1,100,0,Automatic login start \n (Visible only debug)
+1,100,1,Set automatic login \n (Visible only debug)
+1,100,2,"Separate the account ID, password, world number, soul number (0 or 1), soul password, and character selection number \n with commas (,) in that order. Ex) wiztest, password, 0,0,1234,0"
+1,100,3,"%s,%s,%d,%d,%s,%d"
+
+1,100,100,Please set up automatic login.
+
+
+#Event
+2,0,0,Skip with Esc key
+2,1,0,Failed to play the movie.
+2,1,1,It may be improved by installing the latest version of Windows Media Player.
+2,1,2,"If you skip the event scene, you will never be able to see it. \n Are you sure?"
+
+#the term
+3,0,1,gold
+3,0,2,×
+3,0,3,...
+
+#File name etc.
+4,0,0,effect/fx/EP_BUFF_09.xml
+4,0,1,effect/fx/EP_CHR_%03d.xml
+4,0,2,effect/fx/EP_EVENT_00.xml
+4,0,3,effect/fx/EP_GMK_53.xml
+4,0,4,effect/fx/EP_ACT_84.xml
+4,0,5,effect/fx/EP_ACT_05.xml
+4,0,6,effect/fx/EP_ACT_46.xml
+4,0,7,effect/fx/EP_ACT_06.xml
+4,0,8,effect/fx/EP_ACT_14.xml
+4,0,9,effect/fx/EP_EVENT_05.xml
+4,0,10,effect/fx/EP_REG_%03d.xml
+4,0,11,effect/fx/EP_ACT_12.xml
+4,0,12,script/system/help_button.txt
+4,0,13,effect/fx/EP_ACT_07.xml
+4,0,14,effect/fx/EP_EVENT_00.xml
+4,0,15,effect/fx/EP_EVENT_10.xml
+4,10,0,effect/tex/chara_shadow.dds
+4,10,1,effect/tex/chara_shadow_mob.dds
+
+
+#Those using the #conversion specifier
+5,0,0,./interface/buff/buff_%06d.dds
+5,0,1,./interface/premiumservice/icon_%06d.dds
+5,0,2,./interface/buff_shop/buff_shop_%04d.dds
+5,0,3,sound/PC/0000/PC_%c%c_%03d.ogg
+5,0,4,sound/SE/SE%03d.ogg
+5,0,5,sound/EN/EN%03d_%02d.ogg
+5,0,6,./settings/%s
+5,0,7,./interface/map_image/img%02u.dds
+5,0,8,./interface/main/world_img%02u.dds
+5,0,9,./interface/main/world_map/%d.dds
+5,0,10,script/message/%08d.csv
+5,0,11,script/gimmick/%s.txt
+5,0,12,%lld
+5,0,13,%.02f
+5,0,14,%d
+5,0,15,%lld gold
+5,0,16,%.1f
+5,0,17,%1%s%2%s
+5,0,18,(%1%s)%2%s
+5,0,19,Lv%d
+5,0,20,%1%02d:%2%02d
+5,0,21,%s exp
+5,0,22,%s G
+5,0,23,%1%d/%2%d
+5,0,24,[%s]
+5,0,25,%1%s%2%d/%3%d\n
+5,0,26,　%d
+5,0,27,* AC *%1%d/%2%d
+5,0,28,%d %%
+5,0,29,sound/PC/%04d/PC_%03d.ogg
+5,0,30,interface/load/%07d.dds
+5,0,31,interface/partner/%07d_%02d.dds
+5,0,32,%s pt
+5,0,33,interface/partner_frame/%04d.dds
+5,0,34,%s sheets
+5,0,35,%d seconds
+
+#Map name related
+#Country name
+10,1,1,Kingdom of Diment
+10,1,2,Quapati Legal Institute
+10,1,3,Hersant Federation
+10,2,1,Entering a sealed chamber…
+10,2,2,Guardian's Astral Discipline Area
+10,2,3,Union Room
+10,2,4,Unknown
+10,3,1,Euclid's Infinite Corridor
+
+#Region name
+11,1,1,Port town Il Faro
+11,1,2,Il Faro Magic Bureau
+11,1,3,Old underground waterway
+11,1,4,Il Faro Training Center
+11,1,5,Sangent Ruins
+11,1,6,Babylim aerial garden
+11,1,7,Pseudepigrapha Labyrinth
+11,1,8,Azzam's Trial Ground
+11,1,9,Execution ground
+11,1,10,Adventurer training facility
+11,1,11,Guardian's Gate
+11,1,12,Caligulase sewer
+11,1,13,Deltis Okura Room
+11,1,14,Aria River Reservoir
+11,1,15,Kaoka Parazi Ruins
+11,1,16,Yellow Dragon Temple Trace
+11,1,17,Chicol Castle Ruins
+11,1,18,Temple of Oblivion
+11,1,19,Remains of the ritual site of the descendants
+11,1,20,Rosawald Submerged Fort
+11,1,21,Azzam's Trial Ground
+11,1,22,Devastated yard
+11,1,23,Dark round table
+11,1,24,No. 13 facility
+11,1,25,Underground dragoon ruins
+11,1,26,Labyrinth of the Abyss
+11,1,27,Battlefield
+11,1,28,Concealed battlefield
+11,1,29,Dum Spielow Speylow
+11,1,30,Capital city Itox
+11,1,31,Deep underground dragoon ruins
+11,1,32,Dream Trial Ground
+11,1,33,Grim Reaper's Stomach
+11,1,34,Ruins of Lot Hardy
+11,1,35,Land of turmoil
+11,1,36,House of lust and lewdness
+11,1,37,Blue cave
+11,1,38,Chaotic Strase
+11,1,39,November dungeon
+11,1,40,Labyrinth of Sharde
+11,1,41,Dimensional gap
+11,1,42,Nozomi: Capital Itox
+11,2,1,Interpersonal exercise facility
+11,2,2,M.A.C.
+11,2,3,Special venue
+11,2,4,Euclid's Infinite Corridor
+11,2,5,Juliana's playground
+11,3,1,Raven Antile
+11,3,2,Miskatonic University Branch
+11,3,3,Il Van Bole Mine
+11,3,4,Mad King's Trial Ground
+11,3,5,Crazy House
+11,3,6,Mad King's Trial Ground 2
+11,80,1,Labyrinth of the beginning
+11,80,11,Labyrinth of reincarnation
+11,80,21,The daily life of an explorer
+11,80,22,Abyss
+11,80,23,Dragon's nest
+11,80,24,Labyrinth of the Immortal
+11,80,25,Crazy alchemist abandoned house
+11,80,71,Infinite corridor of ashes and illusions
+11,99,99,New composition dungeon
+11,100,1,Union room
+
+#Floor name
+12,1,1,Square where heroes gather
+12,1,2,A harbor leading to the eternal ocean
+12,1,3,Alleys out of reach of light
+12,1,4,Freedom and bustling market
+12,1,5,The street where fierce and wise men talk about their dreams
+12,1,6,Angelfish Street
+12,1,7,Alleys of those who accepted the darkness
+12,1,8,The road where the Holy Knight swore allegiance
+12,1,9,Between knowledge and quest
+12,1,10,Mobile training center
+12,1,11,Combat training center
+12,1,12,Trial ground
+12,1,13,A hall where bonds gather
+12,1,14,entrance
+12,1,15,A true adult social gathering place
+12,1,16,Foreign country: Square where heroes gather
+12,2,1,1st basement floor
+12,2,2,2nd basement floor
+12,2,3,3rd basement floor
+12,2,4,4th basement floor
+12,2,5,5th basement floor
+12,2,6,6th basement floor
+12,2,7,7th basement floor
+12,2,8,8th basement floor
+12,2,9,9th basement floor
+12,2,10,10th basement floor
+12,2,11,Passage to the second basement floor
+12,2,12,Passage to the 3rd basement floor
+12,2,13,Between distorted lives
+12,2,14,Adventurer's entrance
+12,2,15,Planned treasure hall
+12,2,16,Water tank
+12,2,17,Deep region
+12,2,18,The room of the person who prevented the opening
+12,3,1,Traveler's constant outer gate
+12,3,2,Devastated corridor
+12,3,3,Forgotten alley
+12,3,4,Lake Temple
+12,3,5,Grand Canal trace
+12,3,6,Dead waterway
+12,3,7,Tower of silence
+12,3,8,Amphitheater
+12,3,9,Bol na Ya Road
+12,3,10,Taolu of all wounds
+12,3,11,Between Phil Erin
+12,3,12,Selective mutism
+12,4,1,Inside the castle
+12,4,2,Chapel of the soul
+12,4,3,Leader's shrine
+12,5,1,A gate leading to the depths
+12,5,2,Collapsed portico
+12,5,3,An underdrain filled with cold veins
+12,5,4,Angst altar
+12,6,1,Immoral hall
+12,6,2,During the bloody ritual
+12,7,1,Atypical paradise
+12,7,2,Awesome Hall
+12,7,3,Deep horror
+12,8,1,Decayed Daimon
+12,8,2,Isolated hall
+12,8,3,Broken corridor
+12,9,1,A rotten prison
+12,9,2,A vulgar straw mat
+12,10,1,Experimental site
+12,10,2,Controlled area
+12,11,1,Instigate playground
+12,11,2,Evil parliamentary hall
+12,11,3,The bed of the devil
+12,12,1,The scorn of a neglected architect
+12,13,1,Dum Spielow Speylow
+12,13,2,Ruten no Tou
+12,13,3,Crazy ringing
+12,14,1,Immature trial
+12,14,2,Half-ripe trial
+12,14,3,Trials of ripening
+12,14,4,Dream soul
+12,15,1,Hun and po hunting ground
+12,16,1,Closed floor of despair
+12,17,1,Collapsed Yotsumoto Corridor
+12,17,2,Decaying modern alchemy workshop
+12,17,3,Nilda control plot site
+12,18,1,Blue tunnel
+12,18,2,Deep blue
+12,19,1,Closed gate
+12,19,2,Old mysterious basket
+12,19,3,Center of fluctuation
+12,19,4,The depths of the darkness
+12,19,5,Dimensional gap
+12,20,1,A post town where dusk intersects
+12,20,10,Adult social gathering
+12,21,1,Contraindicated tabularium
+12,21,2,Witch's home
+12,22,1,The road leading to the city of sand
+12,23,1,Inheritance garden
+12,23,2,A rotating hall
+12,23,3,Chapel of the Guardian
+12,23,4,Sealed old garden
+12,23,5,West Berlin Air Corridor leading to Tengen
+12,23,6,Sage's Corridor
+12,23,7,Guardian's Temple
+12,24,1,Red ore tunnel
+12,24,2,Deep mine tunnel called red ore
+12,24,3,Railroad deposit zone
+12,24,4,Deep railway deposit zone
+12,25,1,Abandoned house of madman
+12,25,2,The Lord's Fushimaden in search of immortality
+12,26,1,Reckless slaughterhouse
+12,26,2,Bottleneck without returning
+12,26,3,Hermit's dead end
+12,26,4,Sealed Gate
+12,27,1,Upper layer
+12,27,2,Middle layer
+12,27,3,Bottom layer
+12,27,4,Wedge altar
+12,50,1,Between duels
+12,50,2,Between the mighty duels
+12,60,1,Circular training ground
+12,60,2,Circular playground
+12,61,1,Shooting field
+12,62,1,Taiko performance hall
+12,80,1,B1F
+12,80,2,B2F
+12,80,3,B3F
+12,80,4,B4F
+12,80,5,B5F
+12,80,6,B6F
+12,80,7,B7F
+12,80,8,B8F
+12,80,9,B9F
+12,80,10,B10F
+12,80,11,B11F
+12,80,12,B12F
+12,80,13,B13F
+12,80,14,B14F
+12,80,15,B15F
+12,80,16,B16F
+12,80,17,B17F
+12,80,18,B18F
+12,80,19,B19F
+12,80,20,B20F
+12,80,21,B21F
+12,80,22,B22F
+12,80,23,B23F
+12,80,24,B24F
+12,80,25,B25F
+12,80,26,B26F
+12,80,27,B27F
+12,80,28,B28F
+12,80,29,B29F
+12,80,30,B30F
+12,90,1,Monster festival
+
+#Part name
+13,1,1,Voltac store
+13,1,2,Quapati Temple
+13,1,3,Adventurer's inn
+13,1,4,Adventurer Guild
+13,1,5,Gilgamesh bar
+13,4,1,Voltac store
+13,4,2,Modamas Weapon Shop
+13,4,3,Sargil Armor Shop
+13,4,4,Magician Junon
+13,4,5,Ziddle Blacksmith
+13,31,1,Euclid's infinite corridor entrance
+13,101,1,Thieves hideout
+13,101,2,Sewer
+13,101,3,During the feast
+13,201,1,Kobold bed
+13,201,2,Insect-eating plant colony
+13,201,3,Kobold hideout
+13,201,4,Black Jewel Altar
+13,301,1,Orgy of the Dead
+13,301,2,Ajin's graveyard
+13,301,3,Guest room
+13,301,4,Basement with a rotten smell
+13,301,5,Between pet dogs
+13,301,6,Between the white jewels
+13,401,1,Thieves Firecracker Territory
+13,401,2,The hideout of the legendary junk metal troupe
+13,401,3,Survey team camp
+13,401,4,Execution ground
+13,501,1,Yellow Dragon Altar Trace
+13,601,1,Pest spawning ground
+13,601,2,Market not to sell
+13,601,3,Museum of darkness
+13,601,4,False safe
+13,601,5,Sewage pool
+13,602,1,Between loyalty and belief
+13,602,2,Fictional dance hall
+13,602,3,Hall of mirrors
+13,602,4,Survey team camp
+13,701,1,Between reincarnation
+13,701,2,Between the balance
+13,701,3,Altar of the soul
+13,801,1,Survey team base camp
+13,801,2,Blue Feather Management Zone
+13,801,3,Balboa Family Territory
+13,802,1,Miguel Haguel Market Trace
+13,802,2,A hangout for fierce men
+13,802,3,A hangout for sub-people
+13,802,4,Beastman's hangout
+13,802,5,Familiar bed
+13,803,1,Zalán Underground Store
+13,803,2,Dreamy inn
+13,803,3,Underground Arena First Venue
+13,803,4,Dark side street
+13,803,5,Tsuwamono Highway
+13,803,6,Nouveau riche path
+13,803,7,Adult social gathering
+13,803,8,Poker Land
+13,803,9,Underground Arena Second Venue
+13,803,10,Fairy path
+13,803,11,Underground Arena Third Venue
+13,803,12,Entrance to the underground dragoon ruins
+13,901,1,Dum Spielow Speylow
+13,902,1,DECAYED CROW
+13,902,2,THE BLOSSOMING BEELZEBU
+13,902,3,Akatsuki
+13,902,4,"DREAM BOX in the greed or the idea of ​​maturity and cold rain"
+13,902,5,Dripping stunned
+13,1001,1,Gate certification management room
+13,1012,1,Waste disposal site
+13,1021,1,Immature sunflower “The Sun”
+13,1021,2,Immature Akatsuki “Red Moon”
+13,1021,3,Immature heaven “The Sky”
+13,1021,4,Cemetery
+13,1022,1,Half-ripe sunflower “The Sun”
+13,1022,2,Half-ripe Akatsuki “Red Moon”
+13,1022,3,Half-ripe heaven “The Sky”
+13,1023,1,Ripe sunflower “The Sun”
+13,1023,2,Ripe Akatsuki “Red Moon”
+13,1023,3,Ripe heaven “The Sky”
+13,1023,5,The end of the illusion
+13,1031,1,Power spot
+13,1031,2,Fountain of Sacrifice [Order]
+13,1031,3,Fountain of Sacrifice [Neutral]
+13,1031,4,Fountain of Sacrifice [Chaos]
+13,1031,5,Fountain of sacrifice [different person]
+13,1032,1,Heart measurement balance [order]
+13,1032,2,Heart measurement balance [neutral]
+13,1032,3,Heart measurement balance [chaos]
+13,1032,4,Heart measurement balance [different person]
+13,1042,1,Hell meeting place
+13,1043,1,Rabbit hunting ground
+13,1043,2,Princess bedroom
+13,1055,1,Chimera management area
+13,1061,1,A true adult social gathering place
+13,1061,2,Torture room
+13,1061,3,Secret basement
+13,1061,4,Library
+13,1061,5,Large dining room
+13,1061,6,Guest room
+13,1071,1,To the Kingdom of Dimento
+13,1071,2,No man's land
+13,1071,3,To Hersant Federation
+,,.,
+#Dungeon selection description (provisional)
+11,99,0,"In the vicinity of Itox, the capital of the Kingdom of Dimento, \n there is an underground waterway that was drawn from the Aria River. \n \nIt has been expanding for many years. There are also routes that are no longer used\n \nThe number of adventurers has increased due to the recent turmoil. \nIt has become difficult to secure a water source. Plans to regenerate the waterway ... \nHowever, it turns out that there is a passage under the waterway that I have never seen \n, and strangers have begun to spring up from that passage \n"
+11,99,1,"An incident has begun to occur in the neighborhood of the Kingdom of Dimento, where people suddenly disappear. \n \nIt was the beginning of the ""spirited away incident"". \n \nHidden with a yellow rope in this neighborhood\nA group of evil spirits have also been witnessed\n"
+11,99,2,"A labyrinth created by a technician named Azzam to train an adventurer apprentice \n \nHowever, Azzam suddenly disappeared without waiting for the completion of the trial ground\n \n After that, the real purpose of this place was \n rumors that Azzam was to hide and dwell, \n and people began to speak honestly \n \nbecause from the depths of the ordeal. \nBecause you can hear something like a man's cry \n"
+,,.,
+#Dungeon difficulty
+14,0,1,Easy
+14,0,2,Normal
+14,0,3,Hard
+14,1,1,E
+14,1,2,N
+14,1,3,H
+
+#From here, commonly used strings
+#Occupation name (in order of wo :: common :: CHARA_JOB)
+50,0,0,Fighter
+50,0,1,Thief
+50,0,2,Mage
+50,0,3,Priest
+50,0,4,Samurai
+50,0,5,Ninja
+50,0,6,Bishop
+50,0,7,Road
+50,0,8,Crown
+50,0,9,Alchemist
+50,0,10,Monk
+50,0,11,Berserker
+50,0,12,Psionic
+50,0,13,Bird
+50,0,14,Machinist
+50,1,0,FIG
+50,1,1,THI
+50,1,2,MAG
+50,1,3,PRI
+50,1,4,SAM
+50,1,5,NIN
+50,1,6,BIS
+50,1,7,LOR
+50,1,8,CLO
+50,1,9,ALC
+50,1,10,
+50,1,11,
+50,1,12,
+
+
+
+# Commandment name (in order of wo :: common :: ALIGNMENT_TYPE)
+50,2,0,order
+50,2,1,Neutral
+50,2,2,chaoschaos
+50,2,10,Law
+50,2,11,Neu
+50,2,12,Cha
+
+#Ability score name (in order of wo :: common :: CHARA_ABILITY)
+50,3,0,STR
+50,3,1,VIT
+50,3,2,DEX
+50,3,3,AGI
+50,3,4,INT
+50,3,5,PIE
+50,3,6,LUK
+50,4,0,Muscle strength
+50,4,1,Vitality
+50,4,2,Dexterity
+50,4,3,agile
+50,4,4,Intelligence
+50,4,5,Faith
+50,4,6,Good luck
+
+#Classification name (in order of wo :: common :: EQUIPMENT_SLOT)
+50,5,0,right hand
+50,5,1,left hand
+50,5,2,Quiver
+50,5,3,Head
+50,5,4,Torso
+50,5,5,leg
+50,5,6,arm
+50,5,7,leg
+50,5,8,Cloak
+50,5,9,ring ring
+50,5,10,Earrings
+50,5,11,Necklace
+50,5,12,band
+50,5,13,Token ring 1
+50,5,14,Avatar head
+50,5,15,Avatar torso
+50,5,16,Avatar legs
+50,5,17,Avatar arm
+50,5,18,Avatar feet
+50,5,19,Avatar cloak
+50,5,20,Token ring 2
+50,5,21,Token ring 3
+50,5,22,Token ring 4
+50,5,23,Token ring 5
+50,5,24,Token ring 6
+
+
+#Quality name
+# 50,6,0,Low
+# 50,6,1,common
+# 50,6,2,Good
+# 50,6,3,Takumi
+# 50,6,4,Den
+# 50,6,5,Special
+# 50,6,6,poor
+# 50,6,7,normal
+# 50,6,8,good
+# 50,6,9,master master
+# 50,6,10,Legend
+# 50,6,11,Artifact
+
+
+#Race name (in order of wo :: common :: CHARA_RACE)
+50,7,0,HUM
+50,7,1,ELF
+50,7,2,DWA
+50,7,3,POR
+50,7,4,GNO
+
+
+
+#Race name (in order of wo :: common :: CHARA_SEX)
+50,8,0,♂
+50,8,1,♀
+
+#Other
+50,10,0,gold
+50,10,1,Skill points
+50,10,2,Experience point
+50,10,3,×
+50,10,4,Quantity
+50,10,5,Open file
+50,10,6,Save to file
+50,10,7,Failed to read the file.
+50,10,8,Failed to save the file.
+50,10,9,Gold
+50,10,10,Amount of money
+50,10,11,Get the title!
+50,10,12,OK
+50,10,13,Cancel
+50,10,14,Drop an item here
+50,10,15,Illegal behavior has been detected. Disconnect
+50,10,16,Drop skills here
+50,10,17,Illegal operation has been detected. Force quit the game.
+50,10,18,"""%s"""
+50,10,19,\n
+50,10,20,SPHERE
+50,10,21,RECT
+50,10,22,BOX
+50,10,23,cancel
+50,10,24,POS_S
+50,10,25,POS_E
+50,10,26,DOOR_L
+50,10,27,DOOR_R
+50,10,28,GENERIC
+50,10,29,MAIN
+50,10,30,SUB
+50,10,31,???
+50,10,32,0
+50,10,33,0
+50,10,34,(
+50,10,35,)
+50,10,36,?? ?? ??
+50,10,37,FPS:%.2f%s%s
+50,10,38,FPS:%.2f
+50,10,39,FPS:%.2f VRAM:%dMB
+50,10,40,○○
+50,10,41,list
+50,10,42,MAIN-MSG
+50,10,43,SUB-MSG
+50,10,44,/
+50,10,45,~
+50,10,46,** AnimID **
+50,10,47,%%
+50,10,48,<color PARAM_UP2>%</color>
+50,10,49,<color PARAM_DN2>%</color>
+50,10,50,＋
+50,10,51,---
+
+#Battle related
+60,0,0,Combo Bonus!
+
+
+
+
+
+
+
+
+#Strings related to systematic item operations
+85,0,0,To
+85,0,1,Use the. </br> Are you sure?
+85,0,2,I want to use
+85,0,3,Please select an item
+85,0,4,Please drop it on the item
+85,0,5,The item has already been assessed and has no effect when used
+85,0,6,Cannot be used for stack items
+85,0,7,The item cannot be used for unidentified items
+85,0,8,Can only be used with equipment
+85,0,9,"The durability of%s is not reduced by 100%, so it cannot be used."
+85,0,10,"The item already has a root prohibition attribute, so it has no effect"
+85,0,11,Cannot be used for items with the root prohibition attribute
+85,0,12,The item cannot be trained
+
+
+#Strings for unidentified items
+
+90,0,0,unknown
+
+
+
+#Item description column for unidentified items
+90,10,0,It is an unidentified item.
+
+
+#Add to the item name of the unidentified item
+90,20,0,%s
+
+
+#From here, UI definition string
+100,0,0,User interface
+100,0,1,Yes
+100,0,2,No
+100,0,3,Decision
+100,0,4,Cancel
+100,0,5,cancel
+100,0,6,OK
+100,0,7,Cancel
+100,0,8,close
+100,0,9,Return
+100,0,10,Consent
+100,0,11,Reject
+100,0,12,/
+100,0,13,Change
+
+#Test window related
+100,10,0,Trial window
+100,10,1,Edit
+100,10,2,button
+100,10,3,SampleEdit
+100,10,4,List item:%d
+100,10,5,Buttons & Buttons & Strings Long test buttons! Evil
+100,10,6,Gauge increase
+
+#Equipment test window related
+100,15,0,Equipment test
+100,15,1,None
+100,15,2,Search designation
+100,15,30,[%s] \nPlease select the item to equip
+100,15,31,[%s] \nPlease enter the item ID or item name
+100,15,50,%s-%08d:%s
+100,15,51,%s-%s
+100,15,52,%08d-%s
+100,15,100,Normal equipment
+100,15,101,Avatar
+
+#Reduced inventory related
+100,20,0,sort
+100,20,1,Money in possession
+100,20,2,%1%d/%2%d
+100,20,3,Trash can
+100,21,0,Do you want to discard%s?
+100,21,1,How many%s do you want to discard?
+100,21,2,%s cannot be discarded.
+100,21,3,How many%s do you want to move?
+100,21,4,Discarded%s.
+100,21,5,"The item you are trying to destroy is one of the following: \n \n-Items with quality ""Master, Epic, Legend, Artifact"" \n-Items strengthened by training \n-Items with gems attached to gem sockets \n- Sei Kom Amulet or Sogo Medal Items with the effect of \n \n ・ Avatar items \n ・ Special soul partner cards \n ・ Soul partner cards with a maximum level of 25 or higher \n \nAre you sure you want to discard them ??"
+100,21,6,"The item you are trying to destroy is one of the following: \n \n-Items with quality ""Master, Epic, Legend, Artifact"" \n-Items strengthened by training \n-Items with gems attached to gem sockets \n- Special soul partner card\n- Soul Partner Card with a maximum level of 25 or higher \n \nAre you sure you want to discard it?"
+100,22,0,Detail View
+100,23,0,"Once this equipment is equipped, it cannot be transferred to other players. \n Do you want to equip it?"
+100,23,1,"In the soul state, you cannot operate the inventory."
+100,23,2,The bag is not equipped.
+100,23,3,The bag cannot be put back in the same bag.
+100,23,4,The Diment Medal has expired. \nThe Medal with Diment can be purchased at the Royal Shop.
+100,23,5,Items cannot be operated on this screen
+100,23,6,The bag containing the item cannot be moved.
+100,23,7,Items cannot be discarded while trading.
+100,23,8,Items cannot be obtained in the soul state.
+100,23,9,You will not be able to move to the Premium Bag because the Medal with Diment has expired.
+100,23,10,Items in the Premium Bag cannot be used because the Medal with Diment has expired.
+100,23,11,Please throw it out of the trash during the shop.
+100,23,12,Items cannot be moved while operating the stall.
+100,23,13,Only avatar equipment can be included in the avatar inventory.
+100,23,14,"I created this item myself, do you really want to use it?"
+100,23,15,"The%2%s that can be obtained using ""%1%s"" does not correspond to this character."
+100,23,16,"Use ""%1%s"" to get%2%s. \n Are you sure?"
+100,23,17,* The released parts can be used by characters in Seoul. * Please use the character arrangement salon to set the released parts.
+100,23,18,"""%s"""
+100,23,19,Items cannot be withdrawn because the premium bag has expired.
+100,23,20,The EX bag slot has not been released.
+100,24,0,-%1%s-%2%s
+100,24,1,Ⅰ
+100,24,2,Ⅱ
+100,24,3,Ⅲ
+100,24,4,Ⅳ
+100,24,5,V
+100,24,6,VI
+100,24,7,VII
+100,24,8,VIII
+100,24,9,IX
+100,24,10,X
+100,24,11,
+100,24,12,
+100,24,13,
+100,24,14,
+100,24,15,
+100,25,0,Buy a bag slot
+100,25,1,EX bag shop
+100,29,99,12345678901234567890
+100,29,100,Adventurer's bag
+100,29,101,Premium bag
+100,29,102,Avatar inventory
+
+#Shop window related
+100,30,0,"Weapon shop ""Voltackle !!"""
+100,30,1,No use
+100,31,0,Do you want to change%1%s to \n%2%s?
+100,31,1,%s price
+100,31,2,%s number
+100,31,3,
+100,31,4,%s Change the number
+100,31,5,%s
+100,31,6,Stop
+100,31,7,How many%s do you want?
+100,31,8,%d
+100,31,9,%s G
+100,31,10,The number of possession 
+100,31,11,%d
+100,31,12,/Warehouse 
+100,31,13,Would you like to repair%s? \n Repair costs
+100,31,14,Would you like to repair the equipped items in bulk? \n Repair costs
+100,31,15,total fee
+100,31,16,Repair costs%d G
+100,31,17,Training cost%d G
+100,31,18,%lld/%lld
+100,31,19,SOULD OUT!
+100,32,0,Discipline
+100,32,1,Purchase
+100,32,2,sale
+100,32,3,Appraisal
+100,32,4,Repair
+100,32,5,Dispel
+100,32,6,Sale on behalf of
+100,35,0,G
+100,35,1,P
+100,35,2,Sheet
+100,38,0,All Items
+100,38,1,Products that can be equipped
+100,38,2,%s
+100,38,10,All possessed items
+100,38,11,weapon
+100,38,12,Armor
+100,38,13,tool
+100,38,14,Unidentified product
+100,38,20,All unidentified items
+100,38,21,Unidentified weapon
+100,38,22,Unidentified armor
+100,38,23,Unidentified tool
+100,38,30,Equipment that needs repair
+100,38,31,Weapons that need repair
+100,38,32,Armor that needs repair
+100,38,40,All equipment
+100,38,41,weapon
+100,38,42,Armor
+100,38,50,Show cursed equipment
+100,39,0,Insufficient money!
+100,39,1,I have a lot of belongings!
+100,39,2,Equipped
+100,39,3,Insufficient money!
+100,39,4,I have a lot of belongings!
+100,39,5,You cannot%s what is equipped
+100,39,6,%s I don't have what I can do
+100,39,7,Over your money!
+100,39,8,It was%s!
+100,39,9,* The number of unidentified items cannot be changed.
+100,39,10,Nothing can be repaired!
+100,39,20,"If you're chilling, go home!"
+100,39,21,"If you're chilling, go home!"
+100,39,30,* The dispelled equipment will disappear.
+100,39,31,* Dispelling is only for cursed equipment that has been equipped. \nCursed equipment that is only in your inventory will not be subject to dispelling. \nThe dispelled equipment will disappear.
+100,39,40,* \n%s G is deducted as a sales agency fee.
+100,39,99,%s cannot
+#New shop related
+100,33,0,Dispel
+100,33,1,Purchase
+100,33,2,sale
+100,33,3,Appraisal
+100,33,4,Repair
+100,33,5,Bulk repair
+100,33,6,Sale agency
+100,33,7,Discipline
+100,33,8,Special
+100,33,9,Transplant
+100,33,10,Arcane
+100,33,11,Extraction
+100,33,12,base
+100,33,13,sub
+100,33,14,Extraction
+100,33,15,Meal
+100,33,16,Exchange
+100,33,17,Stall purchase
+100,33,18,Street stall sale
+100,33,19,Restore
+100,33,20,Synthetic
+100,33,21,Destruction
+100,33,22,Exchange
+100,33,23,MAC
+100,33,24,Partnering
+100,33,25,Gold coins
+100,33,26,Silver coin
+100,33,100,result result
+100,34,0,Purchase
+100,34,1,Purchase reset
+100,34,2,Purchase list
+100,34,3,Money in possession
+100,34,4,Total purchase price
+100,34,5,sale
+100,34,6,Sale reset
+100,34,7,Total sale price
+100,34,8,Appraisal
+100,34,9,Appraisal reset
+100,34,10,All appraisal
+100,34,11,Total appraisal cost
+100,34,12,Repair
+100,34,13,Repair reset
+100,34,14,All repair
+100,34,15,Total repair costs
+100,34,16,Possession points
+100,34,17,Total exchange points
+100,34,18,Exchange
+100,34,19,Replacement reset
+100,34,20,Exchange list
+100,34,21,order
+100,34,22,Dispelling reset
+100,34,23,All cursed
+100,34,24,Total cost of dispelling
+100,34,25,Opening of a store
+100,34,26,Canceled
+100,34,27,Stall
+100,34,28,Do you want to close the stall?
+100,34,29,Please enter the price
+100,34,30,price
+100,34,31,Cancellation of listing
+100,34,32,Required Police Mata Copper Coin
+100,34,33,The number of possession
+100,34,34,total number
+100,34,35,Grant
+100,34,36,Granted to the base
+100,34,37,Granted to sub
+100,34,50,This item cannot be equipped. \n Can I add it to the purchase list?
+100,34,51,%s?
+100,34,52,%s stall
+100,34,53,You can make up for the shortage of Soul Material with \n [Life%s]
+100,34,54,* Please enter the stall name
+100,34,55,　%d
+100,34,56,Move what can be sold to sell
+100,34,57,"Items for sale include one of the following items: \n \n-Items with quality ""Master, Epic, Legend, Artifact"" \n-Items strengthened by training \n-Items with gems attached to gem sockets \n-Sei Kom Amulet or Sogo Guard Medal Items with the effect of \n \n ・ Avatar items \n ・ Special soul partner cards \n ・ Soul partner cards with a maximum level of 25 or higher \n \n Do you really want to sell them?"
+100,34,58,This item cannot be equipped. \n Can I add it to the exchange list?
+100,34,59,"Items for sale include one of the following items: \n \n-Items with quality ""Master, Epic, Legend, Artifact"" \n-Items strengthened by training \n-Items with gems attached to gem sockets \n-Avatar items \n-Special soul Partner Card\n ・ Soul Partner Card with a maximum level of 25 or higher \n \n Do you really want to sell it?"
+
+100,34,60,Use%s
+100,34,61,Train without using a ticket
+100,34,62,Do you train using%s?
+100,34,63,"I have a reinforced protective stone, but I haven't used it. \n If you continue training as it is, you will lose your equipment if you fail."
+100,34,64,MAC point
+100,34,65,The number of possession
+100,34,66,Grant effect
+
+100,34,80,Reset all
+100,34,81,Partnering
+100,34,82,Card to partner
+
+100,36,0,Durability%1%d/%2%d
+100,36,1,Durability%1%d/%2%d
+100,36,2,Number of uses%1%d/%2%d
+
+100,36,100,close
+
+100,37,0,grade
+100,37,1,effect
+100,37,2,C
+100,37,3,B
+100,37,4,A
+100,37,5,S
+
+#Item balloon related
+100,40,0,Item name
+100,40,1,+%d
+
+#Character Arrange Salon Related
+100,45,0,CHARACTER ARRANGE SALON
+100,45,1,Decision
+100,45,2,reset
+100,45,3,Display switching
+100,45,4,Audition
+100,45,5,background
+100,45,6,No equipment
+100,45,7,Avatar
+
+100,45,11,Do you want to release%s?
+100,45,12,"* The released parts can be used by characters in Seoul. \n \nIf you choose to cancel, ""%s"" will be inventoryed as a \n item."
+
+100,45,21,"You can unlock your voice by getting a \n ""Voice Exchange Ticket"" from the ""Voice Sphere"" where items appear randomly."
+100,45,22,"You can also purchase ""Voice Sphere"", which is a great deal of 5 pieces, from the Royal Shop."
+100,45,23,"* ""Voice exchange ticket"" can be exchanged for voices excluding \n limited voices from the character arrangement salon clerk. \n * The released voice can be used by characters in Seoul. \n * Limited voices cannot be exchanged with the ""Voice Exchange"" Ticket ""."
+
+100,45,50,%s
+100,45,51,%d/%d
+100,45,52,%d
+100,45,100,Apply character changes. \n Are you sure?
+
+
+#Login window related
+100,50,0,Login
+100,50,1,connecting
+100,50,2,Reconnecting
+100,50,3,Start connection
+100,50,4,send_base_enter send
+100,50,5,ID:
+100,50,6,PW:
+100,50,7,End
+100,50,8,During the authentication
+100,50,9,Acquiring character data \n (send_data_get_chara_data)
+100,50,10,Map change
+100,50,11,
+
+
+100,51,0,The ID or password is incorrect
+100,51,1,Unknown authentication error:%d
+100,51,2,You are already logged in
+100,51,3,Protocol version check not done
+100,51,4,Disconnected from the authentication server
+100,51,5,Could not connect
+100,51,6,Registration authentication has not been completed. Please check your registration email.
+100,51,7,Not the account for today's test.
+100,51,8,This account has been temporarily suspended.
+100,51,9,This account has been unsubscribed.
+100,51,10,ID or password has too many characters
+100,51,11,under maintenance now
+100,51,12,The server is busy. Please try again later.
+100,51,13,Please restart from your browser
+100,51,14,The authentication server is busy. Please try again later.
+100,51,15,"If you are using a one-time password, please start the game from the \n official website."
+100,51,16,The password change has not been completed. \n Please check the official website for details.
+100,51,17,Soul name verification has not been completed. \n Please check the official website for details.
+
+
+100,52,0,Is the game over?
+100,52,1,No
+100,52,2,Yes
+100,52,3,Do you want to return to the world selection screen?
+
+100,53,0,Keep your clients up to date
+100,53,1,The area server version of the client and server is different. (CL%1%d:%2%d SV:%3%d:%4%d)
+100,53,2,"During the game, I was disconnected from the server because I detected an illegal operation."
+100,53,3,Please restart to keep the client up to date
+100,53,4,Disconnected from the server because multiple logins were detected
+
+100,54,0,Save your login ID
+
+100,55,0,credit
+
+100,56,0,<login-id>
+100,56,1,<password>
+100,56,2,<save-id>
+
+#Choice window related
+100,60,0,msg
+100,60,1,StaticControl
+
+#Message window related
+100,70,0,StaticControl
+
+#InputNumWindow (Numeric input UI) related
+100,80,0,StaticControl
+100,80,1,1
+100,80,2,2
+100,80,3,3
+100,80,4,4
+100,80,5,5
+100,80,6,6
+100,80,7,7
+100,80,8,8
+100,80,9,9
+100,80,10,0
+100,80,11,C
+100,80,12,MAX
+100,80,13,Decision
+100,80,14,Cancel
+100,80,15,total
+100,80,16,G
+100,80,17,P
+100,80,18,Sheet
+100,80,100,100
+100,81,0,Set the \n value from%1%lld to%2%lld.
+100,82,0,Set maximum value
+100,82,1,Set the minimum value
+
+100,85,0,Back
+100,85,1,Clear
+100,86,0,Please set a soul password. \nThe soul password can be set with 4 to 10 digits.
+100,86,1,Please enter the \nsoul password you set earlier for confirmation.
+100,86,2,Please enter your soul password.
+100,86,3,"\nIf you forget it, please contact us from \n ""Support""-> ""Inquiries"" on the official website."
+100,86,4,Soul name:%s
+100,87,0,*
+
+
+
+
+#ItemDetailBalloon related
+100,90,0,Purchase
+100,90,1,sale
+100,90,2,Appraisal
+100,90,3,Dispel
+100,90,4,(Number of possessions%1%d/Warehouse%2%d)
+100,90,5,Classification
+100,90,6,Equipment part
+100,90,7,Offensive power
+100,90,8,Defense power
+100,90,9,Hardness/durability
+100,90,10,Defensive attribute
+100,90,11,weight
+100,90,12,Equipment conditions:
+100,90,13,Durability%d %%
+100,90,14,grade
+100,91,0,Owner
+100,91,1,Classification
+100,91,2,Equipment part
+100,91,3,Offensive power
+100,91,4,Defense power
+100,91,5,GP
+100,91,6,hardness
+100,91,7,weight
+100,91,8,Magic defense
+100,91,9,Physical attributes
+100,91,10,Durability
+100,91,11,quality
+100,91,12,Equipment conditions 
+100,91,13,Special effects
+100,91,14,(Number of possessions%1%d/Warehouse%2%d)
+100,91,15,Slash
+100,91,16,Hit
+100,91,17,Sudden
+100,91,18,Magic attack power
+100,91,19,Soul rank
+100,91,20,alignment
+100,91,21,(Maximum lot number%d)
+100,91,22,Gem socket
+100,91,23,Lv
+100,91,24,terms of use 
+100,91,25,Acquired
+100,91,26,Range distance
+100,91,27,Reservoir performance
+100,91,28,Loading performance
+100,91,29,Number of loads
+100,91,30,Range efficiency
+100,91,31,Reservoir efficiency
+100,91,32,Loading efficiency
+100,91,33,terms of use
+100,91,34,Base enchantment effect
+100,91,35,Applicable part
+100,91,36,Training value that can be given
+100,91,37,Allowable value
+100,91,38,Applicable quality
+100,91,39,cost
+100,91,40,All quality
+100,91,41,Applicable grade
+100,91,42,Base effect
+100,91,43,Sub effect
+100,91,44,Expiration date: Can be used for%s
+100,91,45,Expiration date: up to%s
+100,91,46,Expiration date: Can be used up to%s
+100,92,0,All races
+100,92,1,All occupations
+100,92,2,%u ~
+100,92,3,%3d
+100,92,4,??
+100,92,5,(Special training Lv%1%u) Lv%2%u ~
+100,92,6,%u
+100,93,0,Random dungeon only
+100,93,1,Not set
+100,93,2,Not set
+100,93,3,Not set
+100,94,0,Skill usage count
+100,94,1,%sLv +%d
+100,94,2,%sLv%d
+100,94,3,%d/%d
+100,94,4,Unlimited
+100,95,0,(+%d)
+100,95,1,(-%d)
+100,95,2,%1%d/%2%d
+100,95,3,%d 
+100,95,4,%d
+100,95,5,%s
+100,95,6,(+%s)
+100,95,7,(-%s)
+100,95,8,%s
+100,95,9,%d
+100,95,10,%d %%
+100,95,11,(%d %%)
+100,95,12,%.02f
+100,95,13, (+%d)
+100,95,14, (%d)
+100,95,15, (+%s)
+100,95,16, (%s)
+100,96,0,HP
+100,96,1,MP
+100,96,2,Abnormal condition (incidence rate) 
+100,96,3,Cannot be equipped
+100,96,4,Abnormal condition resistance (%s)
+100,96,5,Attack magic attribute (%s)
+100,96,6,Defensive magic attribute (%s)
+100,96,7,Equipped
+100,96,8,Damaged
+100,96,9,Cursed
+100,96,10,Blessed
+100,96,11,Unused state
+100,96,12,When equipped 
+100,96,13,I can't leave it in the warehouse
+100,96,14,Cannot be destroyed
+100,96,15,Not tradeable
+100,96,16,When not in use
+100,96,17,after use
+100,96,18,Not for sale
+100,96,19,Not available in the city
+100,96,20,Not looted
+100,96,21,After partnering
+100,96,22,The maximum number of skills cannot be recovered
+100,96,23,Expired
+100,96,24,Expired
+100,96,25,Expired
+100,97,0,Attack attribute
+100,97,1,Defensive attribute
+100,97,2,Resistance
+100,97,3,+%d
+100,98,0,No effect
+100,98,1,HP <color PARAM_UP2> +%.0f </color>
+100,98,2,MP <color PARAM_UP2> +%.0f </color>
+100,98,3,GP <color PARAM_UP2> +%.0f </color>
+100,98,4,STR <color PARAM_UP2> +%.0f </color>
+100,98,5,VIT <color PARAM_UP2> +%.0f </color>
+100,98,6,DEX <color PARAM_UP2> +%.0f </color>
+100,98,7,AGI <color PARAM_UP2> +%.0f </color>
+100,98,8,INT <color PARAM_UP2> +%.0f </color>
+100,98,9,PIE <color PARAM_UP2> +%.0f </color>
+100,98,10,LUK <color PARAM_UP2> +%.0f </color>
+100,98,11,Fire attribute attack <color PARAM_UP2> +%.0f </color>
+100,98,12,Water attribute attack <color PARAM_UP2> +%.0f </color>
+100,98,13,Wind attribute attack <color PARAM_UP2> +%.0f </color>
+100,98,14,Earth attribute attack <color PARAM_UP2> +%.0f </color>
+100,98,15,Light attribute attack <color PARAM_UP2> +%.0f </color>
+100,98,16,Dark attribute attack <color PARAM_UP2> +%.0f </color>
+100,98,17,Fire attribute defense <color PARAM_UP2> +%.0f </color>
+100,98,18,Water attribute defense <color PARAM_UP2> +%.0f </color>
+100,98,19,Wind attribute defense <color PARAM_UP2> +%.0f </color>
+100,98,20,Earth attribute defense <color PARAM_UP2> +%.0f </color>
+100,98,21,Light attribute protection <color PARAM_UP2> +%.0f </color>
+100,98,22,Darkness Defensive <color PARAM_UP2> +%.0f </color>
+100,98,23,Poison resistance <color PARAM_UP2> +%.0f </color>
+100,98,24,Paralysis resistance <color PARAM_UP2> +%.0f </color>
+100,98,25,Petrification resistance <color PARAM_UP2> +%.0f </color>
+100,98,26,Stun resistance <color PARAM_UP2> +%.0f </color>
+100,98,27,Darkness resistance <color PARAM_UP2> +%.0f </color>
+100,98,28,Sleep tolerance <color PARAM_UP2> +%.0f </color>
+100,98,29,Silence resistance <color PARAM_UP2> +%.0f </color>
+100,98,30,Fascination resistance <color PARAM_UP2> +%.0f </color>
+100,98,31,Confusion tolerance <color PARAM_UP2> +%.0f </color>
+100,98,32,Fear resistance <color PARAM_UP2> +%.0f </color>
+100,98,33,Bind resistance <color PARAM_UP2> +%.0f </color>
+100,98,34,Physical%s <color PARAM_UP2> +%.0f </color>
+100,98,35,Magic%s <color PARAM_UP2> +%.0f </color>
+100,98,36,Weight <color PARAM_DN2> +%.2f </color>
+100,98,37,Durability <color PARAM_UP2> +%.0f </color>
+100,98,38,Magical HP recovery amount <color PARAM_UP2> +%.0f%</color>
+100,98,39,GP recovery amount <color PARAM_UP2> +%.0f%</color>
+100,98,40,OD recovery amount <color PARAM_UP2> +%.0f%</color>
+100,98,41,Casting speed <color PARAM_DN2> +%.0f%</color>
+100,98,42,Experience points acquired <color PARAM_UP2> ＋%.0f%</color>
+100,98,43,Get GOLD <color PARAM_UP2> +%.0f%</color>
+100,98,44,Buff ID <color PARAM_UP2> +%.0f </color>
+100,98,45,Ranged Weapon Range <color PARAM_UP2> +%.0f%</color>
+100,98,46,Long-range weapon storage performance <color PARAM_UP2> +%.0f%</color>
+100,98,47,Ranged weapon loading performance <color PARAM_UP2> +%.0f%</color>
+100,98,48,Learn%sLv%d
+100,98,49,%s skill Lv <color PARAM_UP2> +%d </color> (maximum SL%d)
+100,98,50,All <color PARAM_UP2> +%.0f </color>
+100,98,100,No effect
+100,98,101,HP <color PARAM_DN2> -%.0f </color>
+100,98,102,MP <color PARAM_DN2> －%.0f </color>
+100,98,103,GP <color PARAM_DN2> －%.0f </color>
+100,98,104,STR <color PARAM_DN2> －%.0f </color>
+100,98,105,VIT <color PARAM_DN2> －%.0f </color>
+100,98,106,DEX <color PARAM_DN2> －%.0f </color>
+100,98,107,AGI <color PARAM_DN2> －%.0f </color>
+100,98,108,INT <color PARAM_DN2> －%.0f </color>
+100,98,109,PIE <color PARAM_DN2> －%.0f </color>
+100,98,110,LUK <color PARAM_DN2> －%.0f </color>
+100,98,111,Fire attribute attack <color PARAM_DN2> －%.0f </color>
+100,98,112,Water attribute attack <color PARAM_DN2> －%.0f </color>
+100,98,113,Wind attribute attack <color PARAM_DN2> －%.0f </color>
+100,98,114,Earth attribute attack <color PARAM_DN2> －%.0f </color>
+100,98,115,Light attribute attack <color PARAM_DN2> －%.0f </color>
+100,98,116,Darkness Attack <color PARAM_DN2> －%.0f </color>
+100,98,117,Fire attribute defense <color PARAM_DN2> －%.0f </color>
+100,98,118,Water attribute defense <color PARAM_DN2> －%.0f </color>
+100,98,119,Wind attribute protection <color PARAM_DN2> －%.0f </color>
+100,98,120,Earth attribute defense <color PARAM_DN2> －%.0f </color>
+100,98,121,Light attribute protection <color PARAM_DN2> －%.0f </color>
+100,98,122,Darkness Defense <color PARAM_DN2> －%.0f </color>
+100,98,123,Poison resistance <color PARAM_DN2> －%.0f </color>
+100,98,124,Paralysis resistance <color PARAM_DN2> －%.0f </color>
+100,98,125,Petrification resistance <color PARAM_DN2> －%.0f </color>
+100,98,126,Stun resistance <color PARAM_DN2> －%.0f </color>
+100,98,127,Darkness resistance <color PARAM_DN2> －%.0f </color>
+100,98,128,Sleep tolerance <color PARAM_DN2> －%.0f </color>
+100,98,129,Silence resistance <color PARAM_DN2> －%.0f </color>
+100,98,130,Fascination resistance <color PARAM_DN2> －%.0f </color>
+100,98,131,Confusion tolerance <color PARAM_DN2> －%.0f </color>
+100,98,132,Fear resistance <color PARAM_DN2> －%.0f </color>
+100,98,133,Bind resistance <color PARAM_DN2> －%.0f </color>
+100,98,134,Physical%s <color PARAM_DN2> －%.0f </color>
+100,98,135,Magic%s <color PARAM_DN2> －%.0f </color>
+100,98,136,Weight <color PARAM_UP2> －%.2f </color>
+100,98,137,Durability <color PARAM_DN2> －%.0f </color>
+100,98,138,Magic HP recovery amount <color PARAM_DN2> －%.0f%</color>
+100,98,139,GP recovery amount <color PARAM_DN2> －%.0f%</color>
+100,98,140,OD recovery amount <color PARAM_DN2> －%.0f%</color>
+100,98,141,Casting speed <color PARAM_UP2> －%.0f%</color>
+100,98,142,Experience points acquired <color PARAM_DN2> －%.0f%</color>
+100,98,143,Get GOLD <color PARAM_DN2> －%.0f%</color>
+100,98,144,Buff ID <color PARAM_DN2> －%.0f </color>
+100,98,145,Ranged Weapon Range <color PARAM_DN2> +%.0f%</color>
+100,98,146,Long-range weapon storage performance <color PARAM_DN2> －%.0f%</color>
+100,98,147,Ranged weapon loading performance <color PARAM_DN2> －%.0f%</color>
+100,98,148,Learn%sLv%d
+100,98,149,%s skill Lv <color PARAM_DN2> －%d </color> (maximum SL%d)
+100,98,150,All <color PARAM_DN2> －%.0f </color>
+100,98,200,Offensive power
+100,98,201,Defense power
+
+#Status related
+100,100,0,HP
+100,100,1,LV%d
+100,100,2,GP
+100,100,3,MP
+100,100,4,OD
+100,100,5,Amount of information
+100,100,6,??
+100,100,7,Soul rank%u
+100,100,8,Limit LV%d (LV%d)
+100,100,99,Those who aim to be adventurers
+100,101,0,HP%1%d/%2%d
+100,101,1,MP%1%d/%2%d
+100,101,2,OD%1%d/%2%d
+100,101,10,alignment
+100,101,11,Condition \n%1%d/%2%d
+100,101,12,%d
+100,101,13,Satiety \n%1%d/%2%d
+100,101,20,Beginner protection period
+100,101,21,criminal
+100,101,22,membership
+100,101,30,Mentoring
+100,101,31,(Limit LV%d)
+100,101,32,(No limit LV)
+100,101,33,Level limit
+
+
+#ReStart related
+100,110,0,Will it be resurrected?
+100,110,1,Resurrection
+
+
+
+#ItemSelect related
+100,120,0,Can be equipped
+100,120,1,Cannot be equipped
+100,120,2,Offensive power
+100,120,3,Defense power
+100,120,4,(+%d)
+100,120,5,(-%d)
+100,120,6,Show all items
+100,120,7,GP
+100,120,8,Equipment ??? ??
+100,120,9,ffffffffffffffffffffffffffffffff
+100,120,10,　%s
+100,120,11,
+100,120,12,
+100,120,13,
+100,120,14,
+100,120,15,
+100,120,16,
+100,120,17,
+100,120,18,
+
+100,121,0,Dark device
+100,121,1,dagger
+100,121,2,Rapier sword
+100,121,3,One-handed sword
+100,121,4,Double-handed sword
+100,121,5,One-handed sword
+100,121,6,Two-handed sword
+100,121,7,One-handed hatchet
+100,121,8,Two-handed ax
+100,121,9,spear
+100,121,10,One-handed blunt instrument
+100,121,11,Two-handed blunt instrument
+100,121,12,One-handed cane
+100,121,13,Two-handed cane
+100,121,14,bow
+100,121,15,Crossbow
+100,121,16,gun
+100,121,17,Musical instrument
+100,121,18,Small shield
+100,121,19,Medium shield
+100,121,20,large shield
+100,121,21,arrow
+100,121,22,bolt
+100,121,23,bullet
+100,121,24,Armor
+100,121,25,accessory
+100,121,26,Other
+
+
+
+#MainMenu related
+100,130,0,Inventory [F1]
+100,130,1,Equipment/Status [F2]
+100,130,2,skill
+100,130,3,Party
+100,130,4,community
+100,130,5,journal
+100,130,6,transaction
+100,130,7,system
+100,130,8,Party invitation reply
+100,130,9,Party participation permission
+100,130,10,Trade request reply
+100,130,11,Friend registration reply
+100,130,12,Union solicitation reply
+100,130,13,Corpse recovery reply
+100,130,14,Union registration request reply
+100,130,15,List of acquired skills [F3]
+100,130,16,Skill board
+100,130,17,Create a party
+100,130,18,Join the party
+100,130,19,Party search
+100,130,20,Invite to party
+100,130,21,Exiled from the party
+100,130,22,Withdraw from the party
+100,130,23,Disband the party
+100,130,24,Leader change
+100,130,25,Party type change
+100,130,26,Members Wanted
+100,130,27,Cancellation of recruitment of members
+100,130,28,Change recruitment content
+100,130,29,Request to join the party
+100,130,30,Cancellation of party participation
+100,130,31,Member search
+100,130,32,draw
+100,130,33,friend
+100,130,34,Union
+100,130,35,Talk ring
+100,130,36,Change corpse recovery permit
+100,130,37,Accepting corpse recovery
+100,130,38,List of recovered corpses
+100,130,39,Return to soul state
+100,130,40,blacklist
+100,130,41,Order mission [F4]
+100,130,42,Order Story Quest
+100,130,43,Complete mission
+100,130,44,Complete story quest
+100,130,45,Encyclopedia
+100,130,46,Title list
+100,130,47,trade
+100,130,48,Stall
+100,130,49,option
+100,130,50,help help
+100,130,51,escape
+100,130,52,Log out [Esc]
+100,130,53,dummy
+100,130,54,Member recruitment notice
+100,131,0,Whisper
+100,131,1,See stalls
+100,131,2,trade
+100,131,3,Invite to party
+100,131,4,Join the party
+100,131,5,Register as a friend
+100,131,6,Invite to union
+100,131,7,Email
+100,131,8,Add to deny list
+100,131,9,close
+100,131,10,Profile (equipment)
+100,132,0,inventory
+100,132,1,Quest mission
+100,132,2,Equipment/status
+100,132,3,Skill tree
+100,132,4,option
+100,132,5,Main menu
+100,132,6,There are unselected items in the draw box
+100,132,7,Royal shop
+100,133,0,Experience %%1%s/%2%s
+100,133,1,Experience %%s/? (Level cap)
+100,134,0,Warp to the statue of the guardian
+100,134,1,Retired
+100,135,0,Invited to the party
+100,135,1,Is coming to join the party
+100,135,2,I have a trade request from Mr.
+100,135,3,Has sent a friend registration request
+100,135,4,Has sent a request to join Union
+100,135,5,I'm getting a request for a corpse recovery response
+100,135,6,Is coming to join the union
+100,135,7,Recruited members
+100,136,0,Invitation from <color PC>%s </color> to \n <color NOTIFY> party </color>
+100,136,1,Hope to join \n <color NOTIFY> party </color> from <color PC>%s </color>
+100,136,2,Request \n <color NOTIFY> trade </color> from <color PC>%s </color>
+100,136,3,Request to register \n <color NOTIFY> friend </color> from <color PC>%s </color>
+100,136,4,Request to join \n <color NOTIFY> Union </color> from <color PC>%s </color>
+100,136,5,<color NOTIFY> Corpse recovery </color> response request
+100,136,6,<color PC>%s </color> wants to join <color NOTIFY> Union </color>
+100,136,7,Party search information updated\n
+100,136,8,Skip the interval
+100,139,0,%d seconds remaining
+#New menu
+100,137,0,inventory
+100,137,1,Equipment/status
+100,137,2,Skill tree
+100,137,3,Command macro
+100,137,4,Create a party
+100,137,5,Join the party
+100,137,6,Party search
+100,137,7,Invite to party
+100,137,8,Exiled from the party
+100,137,9,Withdraw from the party
+100,137,10,Disband the party
+100,137,11,Start mentor
+100,137,12,End of mentor
+100,137,13,Leader change
+100,137,14,Party type change
+100,137,15,Members Wanted
+100,137,16,Cancellation of recruitment of members
+100,137,17,Change recruitment content
+100,137,18,Check the recruitment details
+100,137,19,Request to join the party
+100,137,20,Cancellation of party participation
+100,137,21,Member search
+100,137,22,draw
+100,137,23,Member recruitment notice
+100,137,24,Cancel member recruitment notification
+100,137,25,friend
+100,137,26,Union
+100,137,27,Talk ring
+100,137,28,Change corpse recovery permit
+100,137,29,Accepting corpse recovery
+100,137,30,List of recovered corpses
+100,137,31,Change online status
+100,137,32,Return to soul state
+100,137,33,blacklist
+100,137,34,Deny list
+100,137,35,comment
+100,137,36,Quest mission
+100,137,37,Soul partner
+100,137,38,Encyclopedia
+100,137,39,Title list
+100,137,40,trade
+100,137,41,Stall
+100,137,42,Email
+100,137,43,Royal shop
+100,137,44,option
+100,137,45,help help
+100,137,46,escape
+100,137,47,Log out
+100,137,48,Contact support
+
+
+
+#StatusDetailWindow related
+100,140,0,%s
+100,140,1,%1%s%2%s
+100,140,2,%s
+100,140,3,%d
+100,140,4,%1%s%2%s
+100,140,10,Low full
+100,140,11,neutral
+100,140,12,chaoschaos
+100,140,20,status
+100,140,21,Synthetic proficiency
+100,141,0,GP
+100,141,1,HP
+100,141,2,MP
+100,141,3,OD
+100,141,4,STR
+100,141,5,VIT
+100,141,6,DEX
+100,141,7,AGI
+100,141,8,INT
+100,141,9,PIE
+100,141,10,LUK
+100,141,11,fire
+100,141,12,water
+100,141,13,Wind
+100,141,14,Ground
+100,141,15,light
+100,141,16,darkness
+100,141,17,poison
+100,141,18,paralysis
+100,141,19,Mineralization
+100,141,20,Fainted
+100,141,21,darkness
+100,141,22,sleep
+100,141,23,silence
+100,141,24,Fascination
+100,141,25,confusion
+100,141,26,Fear
+100,141,27,Equipment weight/maximum weight
+100,141,28,Physical attack/Magic attack
+100,141,29,Physical defense/magic defense
+100,141,30,life
+100,141,31,Reincarnation
+100,141,32,order
+100,141,33,chaoschaos
+100,141,34,Equipment weight
+100,141,35,Maximum weight
+100,141,36,Physical attack
+100,141,37,Magic attack
+100,141,38,Physical defense
+100,141,39,Magic defense
+100,141,40,Normal equipment
+100,141,41,Avatar equipment
+100,141,42,Display switching
+100,141,43,AC evaluation value
+100,141,44,Shooting attack
+100,141,45,Normal equipment
+100,141,46,Avatar
+100,142,0,%d
+100,142,1,%d%
+100,142,2,%1%d/%2%d
+100,142,3,%1%s/%2%s
+100,142,4,%1%s/%2%s
+100,142,5,%1%d/%2%d
+100,142,6,(+%d)
+100,142,7,(-%d)
+100,142,8,%s
+100,142,9,?? (Level cap)
+100,142,10,black magic
+100,142,11,White magic
+100,142,12,Ancient magic
+100,142,13,%1%lld/? (Level cap)
+100,142,14,%1%lld/%2%lld
+100,142,15,%1%s/? (Level cap)
+
+100,145,0,(Not set)
+100,145,1,None 
+100,146,0,LV
+100,146,1,EXP
+100,146,2,condition
+100,146,3,alignment
+100,146,4,Lawful
+100,146,5,Neutral
+100,146,6,Chaos
+100,146,7,Experience boost gauge
+100,146,8,Attack magic attribute
+100,146,9,Defensive magic attribute
+100,146,10,Abnormal condition resistance
+100,146,11,Soul point
+100,146,12,Soul material
+100,146,13,NEXT
+100,146,14,Satiety
+
+# Equipment status/title related
+100,147,0,?? ?? ?? ?? ??
+100,147,1,Equipped with title
+100,147,2,"Equipped with the title of ""%s"""
+
+100,147,10, Get
+100,147,11, Unacquired
+100,147,12,%d
+100,147,13,%%
+100,147,14,Complete
+100,147,15,?? ?? ?? ?? ?? Do not display
+100,147,16,%d
+
+100,147,20,Special
+100,147,21,%s
+
+# Self-introduction (equipment) related
+100,148,0,Self-introduction setting
+100,148,1,Do not disclose equipment information and self-introduction to others
+100,148,2,Display switching
+100,148,3,Normal equipment
+100,148,4,Avatar
+
+100,148,10,Please enter your self-introduction
+100,148,11,OK
+100,148,12,Cancel
+
+100,148,20,I feel the line of sight from the criminal (%1%s%2%s)
+100,148,21,Profile (equipment) is not published
+
+100,148,30,%d
+100,148,31,%s
+
+#ServerSelectWindow related
+100,150,0,Connect
+100,150,1,connecting
+100,150,2,Connecting to message server
+100,150,3,Message server connection failed
+100,150,4,Please select a world
+
+100,150,5,Keep your clients up to date
+100,150,6,The client and server versions are different. (CL%1%d:%2%d SV:%3%d:%4%d)
+
+100,150,7,certification failed
+100,150,8,Authentication failed (CPF error code:%d)
+
+100,150,10,Skipping soul selection
+
+100,151,0,Skip soul selection \n (automatically select soul at last login)
+
+
+
+#CharSelectWindow related
+100,160,0,Return
+
+100,161,0,Deleted characters cannot be restored. \nItems not deposited in the cloak will also be deleted. \n \nItems purchased at the Royal Shop are also included in the \n deletion target. \n \n Do you really want to delete this character?
+100,161,1,Cancel
+100,161,2,Decision
+
+100,161,10,Deleted souls cannot be restored. \nItems incorporated in the cloak will also be deleted. \n \nItems purchased at the Royal Shop are also included in the \n deletion target. \n \n Do you really want to delete this soul?
+100,161,11,Cancel
+100,161,12,Decision
+
+100,162,0,Select the slot to create the character \n and create the character
+
+100,163,0,%2d
+
+#CharMakeNameWindowCharMakeRaceModel,Alignment Window related related,,
+100,170,0,Please enter between 2 and 8 characters.
+100,170,1,Contains characters that cannot be used.
+100,170,2,Nothing has been entered.
+100,170,3,Allocate all bonus points.
+100,170,4,Cannot be the chosen profession \n
+100,170,5,Incorrect alignment/lack of required status
+100,170,6,Insufficient required status
+100,170,7,Improper alignment
+100,170,10,What is the name of the person who landed on the land of adventure?
+100,170,11,Do you want to stop creating the character? \nThe information you have set so far will be lost.
+100,170,12,You can't go back during the lost character make-up
+100,171,0,Leave it to us (recommended status)
+100,171,1,Allocate by yourself
+100,172,0,Please choose how to assign the status.
+100,172,1,Selectable occupations
+100,172,2,Proper alignment
+100,172,3,Required basic status
+100,172,4,Bonus points
+100,172,5,Re-lottery
+100,172,6,Re-lottery
+100,172,7,HP
+100,172,8,MP
+100,172,9,"Would you like to create this character? \n \nCheck the settings carefully, and if there are no problems, press the \nOK button to finish creating the character \n."
+100,172,10,Profession
+100,172,11,(+%d)
+100,172,12,(-%d)
+100,172,13,%d
+100,172,14,%1%d/%2%d\n
+100,172,15,(+%d)
+100,172,16,(%d)
+100,172,17,(-%d)
+100,173,0,"Bonus points for stats are fixed, and a bonus of 6 points will be automatically allocated according to the selected profession."
+100,173,1,Randomly determined bonus points can be freely assigned to any status.
+100,174,0,%1%s (%2%s)
+100,174,1,Tribal skills
+100,174,2,Occupational skills
+100,175,0,"The offensive and defensive balance is good, and the initial HP is high, so it is easy to handle as the first profession. \n You can handle adventures in solo play without problems. It can be equipped with many weapons and armor, and in the future it can be specialized in either offensive or defensive roles, and it is indispensable for parties. \n On the other hand, I don't learn magic and I'm not good at preventing magic damage. \n \n If you change jobs with fighter skills, you can expect further success."
+100,175,1,"A technical job that uses various skills such as attacking with traps, unlocking treasure chests, stealth, and demonstration. Players need their own sense to master it. \nIf you can make an accurate action with quick judgment even in battle, you can play an active part in both solo play and party play. \n On the other hand, due to equipment restrictions, it cannot be expected to be protected. \n \n If you change jobs with thief skills, you can expect more tricky activities."
+100,175,2,"It is a high-powered attack magic that gives damage that surpasses that of fighters, and is indispensable in battles with powerful monsters that dominate \n battles. \nThe magic of sabotage also creates an advantage in party play, and\n is a way to compensate for its low defense during solo play. \nHowever, magic consumes MP, defense is fragile, and solo play in the early stages is \n for advanced players who prefer a response. \n \n If you change jobs with mage skills , you can expect more aggressive activities."
+100,175,3,"Healing and supportive abilities keep the party in good shape and help continue the adventure. \nRecovery is important during treasure hunting in the dungeon. With the height and equipment of HP next to the fighter, it can act as a temporary substitute in the defense, save various crisis situations that come to the party, and enable the battle to be rebuilt. \n However, the attack power is poor, and solo play in the early stages is for advanced players. \n \n If you change jobs with priest skills, you can expect to be active both solo and at parties."
+100,175,4,NODATA
+100,175,5,NODATA
+100,175,6,NODATA
+100,175,7,NODATA
+100,175,8,NODATA
+100,175,9,NODATA
+100,175,10,NODATA
+100,175,11,NODATA
+100,175,12,NODATA
+100,175,13,NODATA
+100,176,0,It affects the attack power. \nYou need <color INFO> STR 6 or above </color> to become a fighter.
+100,176,1,It affects defensive power and maximum equipment weight.
+100,176,2,Affects the release of traps and the detection of enemies. \nYou need <color INFO> DEX 6 or above </color> to become a thief.
+100,176,3,It affects the time taken for action.
+100,176,4,Affects the effects of spells. \n <color INFO> INT must be 6 or higher </color> to become a mage.
+100,176,5,Affects the effects of healing spells. \nYou need <color INFO> PIE 6 or above </color> to be a priest.
+100,176,6,It affects the luck of the character.
+100,177,0,Race/Appearance/Commandment
+100,177,1,Status and occupation
+100,177,2,Initial skills
+100,177,3,Verification
+100,178,0,Would you like to redraw the bonus points?
+100,180,0,Human%s
+100,180,1,Elf%s
+100,180,2,Dwarf%s
+100,180,3,Poker%s
+100,180,4,Gnome%s
+100,184,0,Human
+100,184,1,Elf
+100,184,2,Dwarf
+100,184,3,Porkul
+100,184,4,Gnome
+100,185,0,A versatile race that has no weaknesses in exchange for excellent abilities and is suitable for any profession
+100,185,1,"A race with high intelligence and faith, suitable for professions that use magic. However, it is not suitable for <color INFO> fighter </color> due to its low power and vitality."
+100,185,2,A race for <color INFO> fighter </color> that increases a strong body and high strength. You can also be a <color INFO> priest </color> because you have faith.
+100,185,3,"It moves quickly and has high luck, so it is suitable for <color INFO> thief </color>. It is difficult to become another profession."
+100,185,4,A race with a high degree of faith and suitable for <color INFO> priest </color>. You can also be a <color INFO> fighter </color> because you have some strength and physical strength.
+100,186,0,♂
+100,186,1,♀
+100,187,0,Lawful
+100,187,1,Neutral
+100,187,2,Chaos
+100,188,0,"The commandment of order is ""the aesthetics of the weak,"" and we believe that it is the most precious act for the weak to help each other and live in this harsh world, which is completely in opposition to the individualist Chaos commandment. On the downside, they tend to be stubborn in admitting nothing but their own discipline. \n <color INFO> You can't be a thief. </color>"
+100,188,1,"Neutral people tend to be ridiculed by being compared to the mythical god dragon, as they have no discipline = neither. Also, probably because he doesn't follow his faith, he can't get a job such as <color INFO> priest </color> that requires the blessing of God. \n Good and evil Equally benefit from Avrule and use healing spells because Avrule itself is neither good nor evil. But those who do not believe in God have no blessing."
+100,188,2,"The commandment of chaos is ""the aesthetics of the strong,"" and follows the natural principle that the strong live and the weak die, so there is a tendency to prioritize oneself over others and pursue only one's own interests. Is there. \n However , it does not lack humanity, and although it is evil, it is not a ""bad guy."""
+100,189,0,"・ Once the character name is decided, it cannot be changed."
+100,189,1,"・ You can use the same name as other players,"
+100,189,2,　The same name cannot be used in one soul.
+100,189,3,・ You can enter from 2 to 8 full-width or half-width characters.
+
+#TreasureBoxWindow related
+100,190,0,Inventory is full
+100,190,1,There are no items
+100,190,2,You do not have root privileges
+100,190,3,The contents of the treasure box are empty
+100,190,100,TreasureChest
+
+#Level up display related
+100,200,0,The level of%1%s has increased to%2%d!
+100,200,1,%1%s increased by%2%d
+100,200,2,Obtained%1%s by%2%d and became%3%d
+100,200,3,You can now remember%s!
+100,200,4,%d experience points to the next level
+100,200,5,Gained%d skill points
+100,200,10,%s is
+100,200,11,The level has risen to%d!
+100,200,12,Skill points 
+100,200,13, Obtained.
+100,200,14,HP 
+100,200,15,MP 
+100,200,16, It went up.
+100,200,17,%s 
+100,200,18, Get 
+100,200,19, Became.
+100,200,20,To the next level 
+100,200,21,%d Experience value.
+100,200,22,%d
+100,200,23,%s 
+100,200,24, lost 
+100,200,25, Became.
+100,200,26,You can now learn%d skills!
+100,201,0,Open skill tree
+100,201,1,next
+100,201,2,close
+100,201,3,Close (for debugging)
+100,201,4,Skip to current level
+
+
+#AccountMakeWindow related
+100,210,0,-Characters may be lost (disappear).
+100,210,1,"・ Even if lost, some of the results of the adventure will be remembered in the soul."
+100,210,2,・ You can enter from 2 to 8 full-width or half-width characters.
+100,210,3,・ Soul names already used by other players cannot be used.
+100,210,4,What is the soul name of the new soul ...?
+100,211,0,Decide on a soul name. \n Is there any problem with the set name?
+100,211,1,Yes
+100,211,2,No
+
+
+#Lost window related
+100,220,0,Lost! Do you want to inherit?
+100,220,1,Do you want to return to the character selection screen?
+100,220,2,<color NOTIFY> <self name> </color> has been lost </strong> Do you want to return to the character selection screen?
+100,220,3,<self name> lost
+
+100,220,10,aaa
+100,220,11,Yes
+100,220,12,No
+
+#CharSelectDeleteWindow related
+100,230,0,The character is being deleted.
+100,230,1,Deleted%s.
+100,230,2,"""LV:%1%2d%2%s"" has been deleted."
+
+100,231,0,I'm deleting soul.
+
+
+
+#Equipment related
+100,300,0,Please select the part you want to equip
+100,300,1,
+100,300,2,Cannot be equipped
+100,300,3,The race is different
+100,300,4,Occupation is different
+100,300,5,Alignment is different
+100,300,6,Maximum HP is not enough
+100,300,7,Not enough maximum MP
+100,300,8,Not enough parameters
+100,300,9,Not enough soul rank
+100,300,10,broken
+100,300,11,Remove equipment
+100,300,12,Not enough levels
+100,301,0,Equipment
+100,301,1,Avatar
+100,301,2,status
+100,301,3,profile
+100,301,4,title
+100,301,5,ability
+100,301,6,attribute attribute
+100,301,7,Soul
+100,301,8,title
+100,302,0,Total attack power of equipment
+100,302,1,Total defense of equipment
+100,302,2,"Total weight of currently equipped equipment \n (not including those not equipped) \n \nIf the equipment weight exceeds the maximum weight, \nmovement at the time of sword removal will be slow, and step movement will be \nn You will not be able to do it."
+100,302,3,"It is a comprehensive evaluation of \n defensive strength based on your equipment and status. The lower the \n value, the better the evaluation."
+100,303,0,%s has been missed because the equipment conditions are no longer met.
+
+#Profile related
+100,304,0,player
+100,304,1,partner
+100,304,20,+%d
+
+
+#Mission related
+100,310,0,Requester
+100,310,1,level
+100,310,2,Soul rank
+100,310,3,Time limit
+100,310,4,Reward
+100,310,5,Choice reward
+100,310,6,Target
+100,310,7,Experience point
+100,310,8,(remaining time
+100,310,9,)
+100,310,10,Prize money
+100,310,11,Skill points
+100,310,12,No quest name
+100,310,13,Progress
+100,310,14,Completion quest
+100,310,15,This mission cannot be a bandoned
+100,310,16,It's a soul-based mission.
+100,310,17,%1%02d:%2%02d
+100,310,18,Experience points and Gold%d times for mission rewards once a day!
+100,310,19,item
+100,310,20,AdPoint
+100,310,21,Earn only once a day AdPoint up!
+100,310,22,Earn AdPoints only once a day!
+100,310,23,[Limited campaign reward multiplier up! !! !!]
+100,310,24,Daily order limit
+100,310,25,%1%d/%2%d
+100,311,0,Orders received
+100,311,1,Done
+100,311,2,Cancel
+100,311,3,Verification
+100,311,4,Abandoned
+100,311,5,quest
+100,311,6,Mission
+100,311,7,report
+100,311,8,Valuables
+100,311,9,Report and reorder
+100,312,0,Would you like to order this mission?
+100,312,1,Do you want to complete this mission?
+100,312,2,This mission has already been ordered.
+100,312,3,This mission has already been completed.
+100,312,4,Do you want to abandon%s? \n All mission progress will be lost.
+100,312,5,The order conditions are not met.
+100,312,6,Elective reward not selected\n
+100,312,7,Please choose what you want from the selection rewards
+100,312,8,The quest failed
+100,312,9,Mission failed
+100,313,10,The number of mission orders has exceeded the upper limit.
+100,313,11,The number of mission orders per soul has exceeded the upper limit.
+100,313,12,The number of Rogue mission orders has exceeded the upper limit.
+100,313,0,I have achieved my goal.
+100,314,0,"The quest ""%s"" has failed."
+100,314,1,"The mission ""%s"" has failed."
+100,314,2,"Skipped the quest ""%s""."
+100,315,0,Defeat%s
+100,315,1,Collect%s
+100,315,2,Head to the designated place
+100,315,3,Untrap
+100,315,4,Treasure chest opened
+100,315,5,Check the specified location
+100,315,6,Destroy the object
+100,315,7,Talk to%s
+100,315,8,Pass%2%s to%1%s
+100,315,9,Target%s
+100,315,10,Guard against%s attacks
+100,315,11,Step
+100,315,12,Skill chip placement
+100,315,13,Skill acquisition
+100,315,14,Register skills as shortcuts
+100,315,15,Train%s
+100,315,16,Get%s
+100,315,17,Pass%2%s to%1%s
+100,315,18,
+100,315,19,Appraise%s
+100,315,20,Repair%s
+100,315,21,Install%s
+100,315,22,Restore%s
+100,315,23,Synthesize%s
+100,315,24,Recover condition
+100,315,25,Condition decreases
+100,315,26,Touch the statue of the guardian
+100,315,27,
+100,315,28,Use%s
+100,316,0,area
+100,316,8,Pass%s
+100,317,0,[%s]
+100,317,1,%1%d/%2%d
+100,317,2,Remaining time%s
+100,318,0,There are no quests ordered
+100,318,1,There are no missions ordered
+100,318,2,Select a quest to view details
+100,318,3,Select a mission to view details
+100,318,4,Show completed items
+100,318,5,There are no reportable missions
+100,318,6,There are no quests that can be ordered
+100,318,7,There are no missions that can be ordered
+100,319,0,Gate clear
+100,319,1,Defeat the Bad Rose Bandits
+100,319,2,Defeat the monster hidden in the back of the Deltis Okura room
+100,319,3,Defeat the monsters hidden behind the Aria River Reservoir
+100,319,4,Defeat the monsters hidden on the 2nd floor of the old underground waterway
+100,319,5,Defeat the monsters hidden on the 3rd floor of the old underground waterway
+100,319,6,Defeat the monster that destroyed the investigation team
+100,319,7,"Find a ""connoisseur"""
+100,319,8,Search for and defeat Chimera
+100,319,9,Stop the mysterious assailant from interfering
+100,319,10,Capture the Innoverci priest
+100,319,11,Explore trends in shards
+100,319,12,Prevent the resurrection of the powerful dark angel of the dark round table
+100,319,13,Rescue the Cardinal's son and daughter
+100,319,14,Guide to the palace
+100,319,15,Ask a key craftsman to create a key
+100,319,16,Restore a secret crystal ball
+100,319,17,Touch the lithograph in the back of the training facility
+100,319,18,Clear Riddle
+100,319,19,Clear the Guardians Gate
+100,319,20,Light the fire of the guardian statue
+100,319,21,Protect Kezena and collect the wand of fluctuations
+100,319,22,Prevent Sharde from resurrection of Harcia's sword
+100,319,23,Revive and protect Harcia's sword
+100,319,24,Subdue the dark angel that appeared in the deepest part
+100,319,25,Search for and rescue people in need
+100,319,26,Collect the mined ore and store it in the barn
+100,319,27,Find an incident in the square where heroes gather
+100,319,28,Look for changes in the free and busy market
+100,319,29,Find the alleys of those who have accepted the darkness
+100,319,30,Look for the darkness of knowledge and quest
+100,319,31,Inquire about Bersch and Sharde
+100,319,32,Clear stage 1
+100,319,33,Clear stage 2
+100,319,34,Complete stage 3
+100,319,35,Clear the area
+100,319,36,Escort Bersch to the entrance to the Labyrinth of Sharde
+100,319,37,Prevent the resurrection of the shard
+100,319,38,Install the flag
+100,319,39,Investigate the new depths of the Mad King's Trial Ground
+
+#Filter setting related
+100,320,0,display
+100,320,1,pocket
+100,320,2,Hide
+100,320,10,Main log
+100,320,11,Sublog
+
+100,321,0,Maximum number of lines displayed in the main log
+100,321,1,Minimum number of lines to display
+100,321,2,Display time
+100,321,10,Maximum number of lines displayed in the pocket log
+100,321,11,Minimum number of lines to display
+100,321,12,Display time
+100,321,20,∞
+100,321,30,Maximum number of lines to display sublog
+100,321,31,Minimum number of lines to display
+100,321,32,Display time
+
+100,322,0,Setting
+
+100,323,0,Message filter settings
+100,323,1,Message display color setting
+
+#escape
+100,330,0,Escape in%2d seconds
+100,330,1,It will be canceled if you move or take damage
+
+
+# Trap related
+100,340,0,Identification rate
+100,340,1,I messed up!
+100,340,2,Time limit
+100,340,3,%s?
+100,340,4,Oops!%s
+100,340,5,%d seconds
+100,340,6,Skill description
+100,340,7,Release%s
+100,341,0,Release the trap
+100,341,1,Go away
+100,341,2,Trap release skill
+100,341,3,Unlocking success rate
+100,341,4,Unknown because not investigated
+100,341,5,%d%
+
+
+
+#LootChr,CollectDeadChrWindow related,,
+100,350,0,Get all
+100,350,1,Collect the corpse
+100,350,2,I'm getting%s ...
+100,350,3,There is nothing that can be routed.
+100,350,4,I was robbed of%s!
+100,350,5,The inventory is full.
+100,350,6,There are no items.
+100,350,7,Would you like to collect the corpse of%s?
+100,350,8,The corpse is protected by a ghost and cannot be dealt with.
+100,350,9,%s tried to retrieve your corpse \n but refused. \nYou can allow the collection from the corpse collection permission change in the main menu.
+100,350,10,The corpse was recovered and attached to the ghost of \n%s.
+100,350,11,Your corpse has been recovered and attached to \n%s.
+100,350,12,"%s canceled the corpse collection, so \ndropped the collected corpse."
+100,350,13,Someone seems to be trying to recover ...
+100,350,14,Do you accept the recovery of \n corpses from%s?
+100,350,15,Currently <color NOTICE>%1%s </color>. \n Do you want to change it to <color NOTICE>%2%​​s </color>?
+100,350,16,Allow collection
+100,350,17,Refuse to collect
+100,350,18,%s of the corpse
+100,350,19,Would you like to restore the recovered corpse and return to the soul state?
+100,350,20,Recovery has been disabled.
+100,350,21,There are no collectors.
+100,350,22,It is protected by a mysterious power.
+100,350,23,There is no corpse.
+100,350,24,The distance is out of reach of the corpse.
+100,350,25,The soul seems to have been saved ...
+100,350,26,The soul seems to have been lost ...
+100,350,27,No more can be collected.
+100,350,28,The time limit to see the contents of the corpse has passed.
+100,350,29,The corpse was recovered by someone.
+100,350,30,I can't see the contents because the corpse is out of reach.
+100,350,31,It takes%d seconds to open the corpse inventory.
+100,350,32,%s \n corpse is being recovered.
+100,350,33,Stealing an item from a corpse is a criminal offense. \n Do you still do it?
+100,350,34,You cannot route \n from a corpse killed by a player who is 20 or more levels away.
+100,350,35,The corpse is logged out and cannot be recovered.
+100,350,36,An attempt to retrieve the corpse of%s \n was rejected.
+100,350,37,%s has canceled the recovery of your corpse.
+100,350,38,%1%s carried the corpse of%2%s to the temple.
+100,350,39,Carried the corpse of%s to the temple.
+100,350,40,%s corpse recovery has been canceled\n.
+100,350,41,Error notification from SV
+100,350,42,This item cannot be routed.
+100,350,43,Could not route.
+100,350,44,(Recovery is disabled)
+100,350,45,(The collector disappeared)
+100,350,46,The corpse could not be accessed.
+100,350,47,%1%s%2%s stolen%3%s%4%s!
+100,350,48,%d
+100,350,49,Corpse recovery -%s-
+100,350,50,The corpse is being revived and cannot be recovered.
+100,350,51,Set to%s of corpse.
+100,350,52,"The corpse is being accessed by another character, so \nthe corpse inventory cannot be opened."
+100,350,53,The soul is about to revive ...
+100,350,54,%1%s is trying to steal%2%s!
+100,350,55,"Currently, we are in the beginner protection period, so we cannot steal items from others."
+100,350,56,You cannot steal items from this player because you are a player under beginner protection.
+100,350,57,It is%d seconds until the balance can be used.
+100,350,58,%1%s gave up taking%2%s.
+100,350,59,The corpse is out of reach and cannot be recovered.
+100,350,60,I stole%1%s by%2%s!
+100,350,61,It was canceled because the collector's line was disconnected.
+100,350,62,Corpses cannot be recovered on the current map.
+100,350,63,The distance is out of reach of your corpse.
+100,350,64,The looting was interrupted due to the attack.
+100,350,65,The route was canceled because the item cannot be placed in the specified slot.
+100,350,66,The corpse was protected.
+100,351,0,%s is collecting the corpse.
+100,351,1,Someone is fishing your corpse.
+100,352,0,List of people to be collected
+100,352,1,Lv%02d
+100,352,2,%s \n Would you like to retrieve this corpse?
+100,352,10,Choose the corpse to throw away.
+100,352,11,Do you want to throw away the corpse of%s?
+100,352,20,%1%s%2%s%3%s Lv%4%02d
+100,355,0,Revive
+100,355,1,Stop
+100,355,2,Items to be weighed
+100,355,3,Items from Morgue
+100,355,4,Dedicate money
+100,355,5,Please enter the amount to be dedicated
+100,356,0,Hallelujah!
+100,356,1,Light in front of the wind
+100,356,2,Do you believe in miracles?
+100,356,3,Not a possibility! It's important to believe!
+100,356,4,"If you don't try anything, you can't move on!"
+100,356,5,Five-minute soul
+100,356,6,Don't be afraid to fail!
+100,356,7,The goddess is not pessimistic even if she is not smiling
+100,356,8,The goddess should be smiling
+100,356,9,The goddess is smiling
+100,356,10,Blessed and strong soul
+100,356,11,Those who oppose fate with strong beliefs
+100,356,12,Immortal soul
+100,356,13,Approximately 1%
+100,356,14,Approximately 10%
+100,356,15,Approximately 20%
+100,356,16,Approximately 30%
+100,356,17,Approximately 40%
+100,356,18,Approximately 50%
+100,356,19,Approximately 60%
+100,356,20,Approximately 70%
+100,356,21,Approximately 80%
+100,356,22,Approximately 85%
+100,356,23,Approximately 90%
+100,356,24,Approximately 95%
+100,356,25,100%
+100,356,26,If you fail
+100,356,27,Will be.
+100,356,28,To do.
+100,356,29,Basic resuscitation rate
+100,356,30,penalty
+100,356,31,Dedicated item
+100,356,32,Resurrection success rate
+100,356,33,The revival rate changes when you give your belongings or money.
+100,356,34,%s G
+100,356,35,%d%
+100,356,36,-%d%
+100,356,37,+%d%
+100,356,38,%d%
+100,356,39,Medal with Diment
+100,356,40,Buy a tribute
+100,357,0,Status:
+100,357,1,cadaver
+100,357,2,Corruption 1
+100,357,3,Corruption 2
+100,357,4,Ash
+100,357,5,lost
+100,357,10,It was resurrected.
+100,357,11,I died.
+100,357,12,It has rotted.
+100,357,13,It has rotted.
+100,357,14,It became ashes.
+100,357,15,Lost.
+100,358,0,Balance value:
+100,358,1,provider:
+100,358,2,Amount devoted:
+100,358,3,☆
+100,358,4,★
+100,358,10,Show all your belongings
+100,358,11,Show weapons
+100,358,12,Show armor
+100,358,13,Show item
+100,359,0,"If the character fails to revive in the ashes state, the character will be lost and can never be used again. \n Also, all items owned by the character (including chargeable items) will be lost. \n \n Do you want to revive?"
+100,359,1,Do you want to stop the resurrection?
+100,359,2,Dedicate your belongings
+100,359,3,Dedicate your money
+100,359,4,close
+100,359,5,I don't have enough money.
+100,359,6,There are no items.
+100,359,7,I have already opened the balance of my soul.
+100,359,8,An error has occurred
+100,359,9,Up to 5 items can be dedicated to the balance.
+100,359,10,This item has already been dedicated.
+100,359,11,Cursed equipment that the corpse is equipped with cannot be dedicated.
+100,359,12,Unidentified items cannot be dedicated.
+100,359,13,Items that cannot be destroyed cannot be dedicated.
+100,359,14,Items on sale at stalls cannot be dedicated.
+100,359,15,"Resurrection success rate is not 100%! \n \nSince it is revived from ashes, it will be ""lost if it fails"". \nAre you sure you want to resurrect it as it is?"
+
+
+#Storage related
+100,360,0,Please select the item you want to deposit.
+100,360,1,We collected%1%s and%2%d.
+100,360,2,Deposited%s.
+100,360,3,%1%s ×%2%d
+100,360,4,You will not be able to move to the special cloakroom because the Diment Medal has expired.
+100,361,0,Please select the item to with draw.
+100,361,1,%1%s was withdrawn by%2%d.
+100,361,2,Withdrawn%s.
+100,362,0,You can switch between inventory and warehouse with L1/R1
+100,362,1,Deposit gold
+100,362,2,Withdraw gold
+100,362,3,Sort in inventory
+100,362,4,Sort in the warehouse
+100,362,5,There is no space in the warehouse.
+100,362,6,Items that are equipped cannot be bonded
+100,362,7,There is no free inventory.
+100,363,0,How many do you want to with draw?
+100,363,1,How many do you deposit?
+100,363,2,How much do you want to with draw?
+100,363,3,How much do you deposit?
+100,365,0,Deposit amount
+100,365,1,What is the deposit amount?
+100,365,2,What is the withdrawal amount?
+100,365,3,I collected%dG.
+100,365,4,Withdrawn%dG.
+100,365,5,Not enough space
+100,365,6,Only the expansion frame can be replaced.
+100,366,0,Deposit money
+100,366,1,Withdraw money
+100,366,2,sort
+100,366,3,Search reset
+100,367,0,Main
+100,367,1,Expansion I
+100,367,2,Expansion II
+100,367,3,Expansion III
+100,367,4,Special
+100,367,5,Expansion IV
+100,367,6,Expansion V
+100,367,7,Expansion VI
+100,367,8,Expansion VII
+100,367,9,Expansion VIII
+100,367,10,Expansion IX
+100,367,11,Expansion X
+100,367,12,Expansion XI
+100,367,13,Expansion XII
+100,367,14,Expansion XⅢ
+100,367,15,Expansion X XⅩⅣ
+100,367,16,Expansion XV
+100,367,17,Expansion X VI VI
+100,367,101,Expansion 1
+100,367,102,Expansion 2
+100,367,103,Expansion 3
+100,367,104,Expansion 4
+100,367,105,Expansion 5
+100,367,106,Expansion 6
+100,367,107,Expansion 7
+100,367,108,Expansion 8
+100,367,109,Expansion 9
+100,367,110,Expansion 10
+100,367,111,Expansion 11
+100,367,112,Expansion 12
+100,367,113,Expansion 13
+100,367,114,Expansion 14
+100,367,115,Expansion 15
+100,367,116,Expansion 16
+100,367,117,Expansion 17
+100,367,118,Expansion 18
+100,367,119,Expansion 19
+100,367,120,Expansion 20
+100,367,121,Expansion 21
+100,367,122,Expansion 22
+100,367,123,Expansion 23
+100,367,124,Expansion 24
+100,367,125,Expansion 25
+100,367,126,Expansion 26
+
+100,368,0,rename
+100,368,1,Expand
+100,368,2,Automatic sorting
+100,368,3,Enter a search keyword ...
+100,368,4,search results
+100,368,5,%1%d/%2%d
+100,368,6,Medal with Diment
+100,368,7,Please enter the name of the list
+100,368,8,Petit Royal Shop
+
+100,368,100,Head
+100,368,101,Torso
+100,368,102,leg
+100,368,103,arm
+100,368,104,leg
+100,368,105,Cloak
+100,368,106,ring ring
+100,368,107,Earrings
+100,368,108,Necklace
+100,368,109,band
+
+#TradeWindow related
+100,370,0,trade
+100,370,1,Please show the item to trade
+100,370,2,Waiting for the other party's presentation
+100,370,3,Waiting for the other party's decision
+100,370,4,"Representation was chosen, please present the item to trade"
+100,370,5,"If there is no problem with the content presented by the other party, please close the trade"
+100,371,0,OK
+100,371,1,Transaction details presentation
+100,371,2,Cancellation
+100,371,3,Represent
+100,371,4,Exchange established
+100,371,5,email
+100,371,6,Reject
+100,371,7,Content reset
+100,372,0,G
+100,372,1,Do you want to trade with this content?
+100,372,2,How many do you want to exchange?
+100,373,0,I don't have enough money
+100,373,1,The amount of money you have in%s exceeds the upper limit.
+100,373,2,Insufficient inventory for%s
+100,374,0,%s applied for \n trade
+100,374,1,Do you want to stop trading?
+100,374,2,You cannot get gold that exceeds the maximum amount of money you have.
+100,374,3,Insufficient inventory
+100,374,4,Please set the amount
+100,375,0,I approached%s to trade and wait for the other party's reaction
+100,375,1,Trade with%s has been canceled
+100,375,2,Canceled trading with%s
+100,375,3,The trade with%s was successful.
+100,375,4,%s is offline
+100,376,0,%d seconds remaining
+
+#Skill board related
+100,400,0,Skill points:%d
+100,400,1,Skill placement
+100,400,2,Skill details
+100,401,0,Insufficient skill board level
+100,401,1,"* If you do not meet the skill level, you will not be able to place \n"
+100,401,2,Cannot overwrite because the currently deployed skill is \nacquired
+100,401,3,Skills have already been placed
+100,401,4,* Skills other than special power can only be placed up to \n
+100,401,5,Not enough points required for placement
+100,401,6,"* If there are two or more adjacent skills, \n 10 points will be charged for each skill."
+100,401,7,Do you want to place it in this place?
+100,401,8,Skill points%d consumed
+100,401,9,Overwrite currently deployed skills
+100,401,10,Placed%s
+100,401,11,Not enough points to acquire skills
+100,401,12,Not mastered in your current profession
+100,401,13,There are no acquired skills in the adjacent square
+100,401,14,Do you want to learn%s?
+100,401,15,Mastered%s
+100,401,16,What do you do with%s?
+100,401,17,Skills are not available \nAre you really okay with the placement?
+100,401,18,Contains skills that cannot be used even if inherited.
+100,402,0,List of acquired skills
+100,402,1,all
+100,402,2,Attack system
+100,402,3,Defensive system
+100,402,4,Recovery system
+100,402,5,Resuscitation system
+100,402,6,Auxiliary system
+100,402,7,Interfering system
+100,402,8,Other
+100,402,9,undefined
+100,402,10,Unlearned
+100,403,0,Do you want to open the skill board?
+100,403,1,I don't have a skill chip item
+100,403,2,To learn
+100,403,3,Overwrite
+100,403,4,Cancel
+100,403,5,OK
+100,403,6,Reselect
+100,405,0,Skill points
+100,405,1,%d pt
+100,405,2,Inheritance skills
+100,405,3,Total skill levels that can be inherited
+100,405,4,Total current skill level
+100,405,5,Do you remember this skill?
+100,405,6,Skill points are required for acquisition
+100,405,7,Would you like to level up this skill?
+100,405,8,Skill points to level up
+100,405,9,Is required
+100,405,10,"<color MONSTER> * The same skill exists in the inherited skill. \nIf you increase the inherited skill and the level of that skill, \n it will not be reset even if you use a skill point reset item such as ""Oblivion Legacy"" . </color>"
+100,406,0,Skill does not exist
+100,406,1,Already learned
+100,406,2,I don't remember all the necessary skills
+100,406,3,I haven't mastered the original skill
+100,406,4,The character level is not enough
+100,406,5,It's an unlearnable profession.
+100,406,6,Not enough points
+100,406,99,Failed to learn
+
+100,407,0,
+100,407,1,The same skill is already in the inherited skill
+100,407,2,Cannot register because the total level of skills to be inherited has exceeded the maximum level that can be inherited.
+100,407,3,Number of skills that can be inherited
+100,407,4,You have exceeded the maximum number of skills you can inherit
+100,407,5,The total level of skills to be inherited exceeds the maximum level that can be inherited
+100,408,0,List
+100,408,1,Active skills
+100,408,2,Passive skills
+100,408,3,Trap skill
+100,408,4,Equipment skills
+100,408,5,Inheritance skills
+100,408,6,Custom slot
+
+
+#Skill details related
+100,410,0,Placement conditions
+100,410,1,Profession
+100,410,2,Consumption points
+100,410,3,Special conditions
+100,410,4,effect
+100,410,5,Usable armor
+100,410,6,MP consumption
+100,410,7,Casting time
+100,410,8,Recast time
+100,410,9,"Acquire the skill ""%s"""
+100,410,10,It can not be used
+100,410,11,OD consumption
+100,410,12,Skill board
+100,410,13,Active
+100,410,14,passive
+100,410,15,Untrap
+100,410,16,Lv
+100,410,17,(Maximum Lv
+100,410,18, %d
+100,410,19,Available occupations
+100,410,20,Skill points consumed 
+100,410,21,Required character level
+100,410,22, %d or more
+100,410,23,Learning conditions
+100,410,24, %1%.1f ~%2%.1f
+100,410,25, %.1f
+100,410,26,%1%s (%2%s)
+100,410,27,Additional effect activation alignment
+100,410,28,Available occupations
+100,410,29,Armor that activates the effect
+100,410,30,Level up conditions
+100,410,31,)
+100,410,32,All occupations
+100,410,33,All armor
+100,410,34,%1%sLv%2%d or more
+100,410,35,Unlearned
+100,410,36,MAX
+100,410,37,Required skill level
+100,410,38,%1%s%2%u pieces
+100,410,39,Consumption items
+100,410,40,%1%s%2%.0f
+100,410,41,Skill Lv%1%d Character Lv%2%d or higher
+100,410,42,%1%d ~%2%d
+100,410,43,%d
+100,410,44,---
+100,410,45,%1%.1f ~%2%.1f
+100,410,46,%.1f
+100,410,47,Seconds
+100,410,48,Available races
+100,410,49,All races
+100,410,50,1
+100,410,51,HP consumed
+100,410,52,GP consumed
+100,410,53,(Learn%d or more from the following)
+100,410,54,shield
+100,410,55,Consumption bonus points 
+100,410,56,When chanting%s
+100,410,57,When activated%s (%d seconds)
+100,410,58,Cost of use
+100,410,59,%d/%d
+100,410,60,Number of uses
+100,410,61,%d/%d
+100,410,62,∞
+100,410,63,%s acquisition
+100,411,0,Occupational characteristics
+100,411,1,level
+100,411,2,Other
+100,411,3,%d
+100,411,4,%s
+100,412,0,Consumed PLv%1%d (%2%s)
+100,412,1,Available level%d
+
+
+
+
+
+#Action button related
+100,420,1,pick up
+100,420,2,speak speak
+100,420,3,Find out
+100,420,4,grab
+100,420,5,grab
+100,420,6,open
+100,420,7,Go up
+100,420,8,Go down
+100,420,9,Climb
+100,420,10,Find out
+100,420,11,contact
+100,421,0,Let go
+100,422,0,Opening and closing
+100,422,1,Push pull
+100,422,2,Lifting and lowering
+
+#Challenge map (PvE) related
+100,430,0,Until the end of the interval
+100,430,1,%d seconds left
+100,430,2,Skip%d/%d
+100,430,3,stage
+100,430,4,Clearing conditions
+100,430,5,Secret factor
+100,430,6,MAC point
+100,430,7,Time limit
+100,430,8,Number of subjugation
+100,430,9,%d
+100,430,10,%02d
+100,430,11,M
+100,430,12,S
+100,430,13,Unlimited
+100,430,14,%d/%d
+100,430,15,Areas are syncing ...
+100,430,16,Score
+100,430,17,area
+100,430,18,Result
+100,430,19,Earn MAC points
+100,430,20,Possession MAC points
+100,430,21,point
+100,430,40,Area score 1st
+100,430,41,%s/%s
+100,430,42,Point
+100,430,50,Earn MAC points
+100,430,51,Stage Bonus
+100,430,52,Score
+100,430,53,point
+100,430,54,Special stage
+100,430,60,MAC point
+
+100,431,0,Admission
+100,431,1,MAC ticket
+100,431,2,%d sheets
+100,431,3,Which stage do you start with?
+100,431,4,%d
+100,431,5,Remaining number of plays
+100,431,6,%d/%d times
+100,431,7,The party leader
+100,431,8,%s \n%s \n%s
+100,431,9,Stage%d
+100,431,10,I decided.
+100,431,11,One \nM.AC ticket is required to challenge the Monster allocation Center Trial. Do you want to challenge?
+100,431,12,Number of MAC tickets remaining:%d
+100,431,20,Maximum number of participants:%d
+100,431,21,Area Buff:%s
+100,431,22,Number of stages:%d
+100,431,23,Secret factor:%s
+100,431,24,Area open when clearing:%s
+100,431,25,Earn MAC points%d times campaign in progress!
+100,431,26,You can learn AdPoint for the first time
+100,431,30,Yes
+100,431,31,None
+100,431,40,■ Explanation
+
+100,431,70,Area score ranking
+100,431,71,"The area score ranking is based on the sum of the personal bests of each area, 1st, 2nd, and 3rd."
+100,431,72,* Aggregation period From%d/%d/%d to%d/%d/%d
+100,431,73,* Outside the aggregation period
+100,431,80,%s/%s
+100,431,81,self
+100,431,82,1st place
+100,431,83,2nd place
+100,431,84,3rd place
+100,431,90,Personal best
+100,431,91,%d place%s
+
+100,431,100,normal
+100,431,101,Event
+100,431,102,The entire
+100,431,120,Area information
+100,431,121,Ranking
+
+100,432,0,Show yourself
+100,432,1,reset
+100,432,2,close
+100,432,20,%d/%d
+
+
+#Party related
+100,450,0,Lv
+100,450,1,Party creation
+100,450,2,Item distribution
+100,450,3,Open party
+100,450,4,Closed party
+100,450,5,random
+100,450,6,draw
+100,450,7,Do not distribute
+100,450,8,Reset all
+100,450,10,Party members
+100,450,11,No party members
+100,450,12,remain_sec is minus!. Set 300sec by force.
+100,451,0,Would you like to invite%s to the party?
+100,451,1,Please select a party type.
+100,451,2,Create
+100,451,3,Cancel
+100,451,4,Do you want to expel%s?
+100,451,5,Currently it is%1%s. Do you want to change it to \n%2%s?
+100,451,6,participate participate
+100,451,7,Will not participate
+100,451,8,Do you approve?
+100,451,9,Application player details
+100,451,10,Would you like to make%sa new leader?
+100,451,11,Withdraw from the party. \n Are you really okay?
+100,451,12,Would you like to disband the current party?
+100,451,13,I was invited to a party. Do you approve?
+100,451,14,I applied to join the party. Do you approve?
+100,451,15,Apply to join the%s party. \n Are you really okay?
+100,451,16,I changed the registration details
+100,451,17,We have started recruiting members
+100,451,18,We have started recruiting parties
+100,451,19,Please set the purpose
+100,451,20,Advanced settings
+100,451,21,No matter
+100,451,22,Would you like to join this party?
+100,451,23,Total number of people
+100,451,24,Search occupation
+100,451,25,Other
+100,451,26,Would you like to invite this member?
+100,451,27,\n due to lack of search conditions
+100,451,28,The search cannot be started.
+100,451,29,Please select a member to exile.
+100,451,30,Please select a new leader.
+100,451,31,I received an application for participation.
+100,451,32,Please check the details of the applicant player.
+100,451,33,I was invited by the party. \n
+100,451,34,Check the party details.
+100,451,35,Please check the details of the applicant player.
+100,451,36,I was invited by the party. \n
+100,451,37,Member recruitment notification settings are complete.
+100,452,0,No party currently being recruited
+100,452,1,Currently no players want to participate
+100,453,0,Invited%s to the party.
+100,453,1,The party invitation was rejected.
+100,453,2,I declined the party invitation.
+100,453,3,%s is now the leader.
+100,453,4,I was refused to join the party.
+100,453,5,I refused to join the party.
+100,453,6,"The target player is not ready to answer, so please try again later."
+100,453,7,"The target player is not ready to answer, so please try again later."
+100,454,0,It doesn't matter
+100,454,1,1 person
+100,454,2,2 people
+100,454,3,3 people
+100,454,4,4 people
+100,454,5,5 people
+100,454,6,Beginners welcome
+100,454,7,Expert welcome
+100,454,8,Emphasis on relaxation
+100,454,9,Level up
+100,454,10,Collect items
+100,454,11,Mission clear
+100,454,12,Dungeon exploration
+100,454,13,Special
+100,454,14,Purpose
+100,454,15,Details Details
+100,454,16,Setting the purpose
+100,454,17,Number of applicants
+100,454,18,Recruitment occupation
+100,454,19,Other
+100,454,20,Do you want to change the recruitment content?
+100,454,21,Party information
+100,454,22,Cancel
+100,454,23,Change
+100,454,24,comment
+100,454,25,Recruitment start
+100,454,26,Start search
+100,454,27,Hope to join the party
+100,454,28,anything
+100,454,29,anywhere
+100,454,30,comment
+100,454,31,It is a recruitment from the party receptionist.
+100,454,32,It is a recruitment from the party receptionist.
+100,454,33,This application has been closed.
+100,454,34,6 people
+100,454,35,MAC
+100,454,36,Mentor
+100,454,37,Infinite corridor
+100,455,0,%d people
+100,455,1,/
+100,455,2,Previous page
+100,455,3,next page
+100,455,4,update
+100,455,5,Party information
+100,455,6,Recruiting occupations
+100,455,7,None
+100,455,8,%1%s%2%s
+100,455,9,Lv%d
+100,456,0,Normal item distribution
+100,456,1,Rare item distribution
+100,456,2,Normal
+100,456,3,Only leaders can invite members to a closed party. This is a party system in which you cannot join the party without an invitation from the leader.
+100,456,4,"Open parties allow all party members to invite others to the party. In addition, it is a party system that allows other members to apply for participation to any member."
+100,456,5,Closed party
+100,456,6,Open party
+100,456,7,Party type
+100,456,8,closed
+100,456,9,open
+100,456,10,%1%s:%2%s
+100,456,11,OD recovery amount up Lv1
+100,456,12,OD recovery amount up Lv2
+100,456,13,OD recovery amount up Lv3
+100,456,14,OD recovery amount up Lv4
+100,456,15,OD recovery amount up Lv5
+100,456,20,Membership subscriber bonus \n
+100,456,21,1 subscriber ・ ・ ・ Experience value + 4%\n for all parties
+100,456,22,2 subscribers ・ ・ ・ Experience value + 8%\n for all parties
+100,456,23,3 subscribers ... Experience + 12%\n for all parties
+100,456,24,4 subscribers ・ ・ ・ Experience value + 20%\n for all parties
+100,456,25,5 subscribers ... Experience points for all parties +? ??%\n
+100,456,26,6 subscribers ... Experience points for all parties +? ??%\n
+100,456,30,<color IMPORTANT02>
+100,456,31,</color>
+100,456,40,Membership subscribers
+100,456,41,Membership subscribers
+100,456,50,Membership subscribers
+100,456,51,1 membership member
+100,456,52,2 membership members
+100,456,53,3 membership members
+100,456,54,4 membership members
+100,456,55,5 membership members
+100,456,56,6 membership members
+100,456,57,Mentoring
+100,457,0,War
+100,457,1,Steal
+100,457,2,Demon
+100,457,3,monk
+100,458,0,Mission dungeon name
+100,458,1,Recruitment occupation
+100,458,2,Number of people
+100,458,3,Other
+100,458,4,level
+100,458,5,Player details
+100,458,6,Profession
+100,458,20,Draw box
+100,458,21,remaining time
+100,458,22,Participate in the draw
+100,458,23,%d seconds
+100,458,24,Pass the draw
+100,458,25,"If you change the map, you will lose the right to participate"
+100,458,30,I participated in the draw.
+100,458,31,\n Cannot join because the inventory is full.
+100,458,32,I have already participated.
+100,458,33,The draw box is empty.
+100,458,34,It has already passed.
+100,458,40,Participation
+100,458,41,path
+100,459,0,Another player is applying. \nPlease wait a while and then apply again.
+100,459,1,I couldn't participate because the recruitment conditions were met.
+100,459,2,I cannot apply because I am currently applying.
+100,459,3,Another party is inviting. \nPlease wait a while and invite again.
+100,459,4,Currently inviting.
+100,459,5,I could not apply for participation. \nPlease wait a while and then apply again.
+100,459,6,I couldn't invite you. \nPlease wait a while and then apply again.
+100,459,7,Due to lack of recruitment conditions. \n Recruitment cannot be started.
+100,459,8,You cannot participate because the target is a closed party.
+100,459,9,Hoping to join the party
+100,459,10,Looking for party members
+100,459,11,We have closed the recruitment of members because the maximum number of members has been reached.
+100,459,12,We have closed the recruitment of members because we changed to a closed party.
+
+
+
+#Shortcut related
+100,460,0,Register item
+100,460,1,Register skill
+100,460,2,Delete
+100,460,3,close
+100,461,0,While editing
+100,462,0,(Cool time remaining%d seconds)
+
+#Option related
+100,470,0,option
+100,470,1,drawing
+100,470,2,voice
+100,470,3,Key config
+100,470,4,Other
+100,470,5,Decision
+100,470,6,Default
+100,470,7,Application
+100,470,8,Do you want to apply the settings and close the options?
+100,470,9,\n * The screen resolution will be reflected after restarting.
+100,470,10,Do you want to close the option without applying the settings?
+100,470,11,\n * Antialiasing will be reflected after restarting
+100,471,0,Screen settings
+100,471,1,Screen resolution
+100,471,2,Full screen view
+100,471,3,Nameplate
+100,471,4,Party member name
+100,471,5,Other player's name
+100,471,6,NPC name
+100,471,7,Monster name
+100,471,8,My HP and MP
+100,471,9,Shadow display
+100,471,10,Mini map
+100,471,11,effect
+100,471,12,Screen brightness
+100,471,13,Time to pop up (seconds)
+100,471,14,Ming
+100,471,15,Dark
+100,471,16,indicate indicate
+100,471,17,Do not show
+100,471,18,effect
+100,471,19,Screen brightness
+100,471,20,Time to pop up (seconds)
+100,471,21,1024 x 768
+100,471,22,1152 x 864
+100,471,23,1280 x 960
+100,471,24,1600 x 1200
+100,471,25,Soul name + name
+100,471,26,Title + name
+100,471,27,Show all
+100,471,28,Display when there is a change
+100,471,29,Always displayed
+100,471,30,Show all
+100,471,31,Simple display
+100,471,32,Do not show
+100,471,33,%1%d ×%2%d
+100,472,0,volume
+100,472,1,BGM volume
+100,472,2,SE volume
+100,472,3,My character voice volume
+100,472,4,Character voice volume of others
+100,472,5,mute
+100,472,6,Play BGM
+100,472,7,Play SE
+100,472,8,Play your character voice
+100,472,9,Play another person's character voice
+100,473,0,Pad check
+100,473,1,Operation key assignment
+100,473,2,display
+100,473,3,allocation
+100,473,4,Gamepad not found. Check the gamepad connection.
+100,473,5,Pad operation
+100,473,6,Keyboard operation
+100,473,7,Setting
+100,473,8,At the time of sword delivery
+100,473,9,When pulling out the sword
+100,473,10,Common time
+100,473,11,Pad operation 1
+100,473,12,Pad operation custom
+100,473,13,Keyboard operation 1
+100,473,14,Keyboard operation 2
+100,473,15,Keyboard operation custom
+100,473,16,It is not possible to assign the function when pulling out or delivering the sword and the function when common to the same button.
+100,473,17,Some features are not visible or assigned
+100,473,18,Press the button to assign the function \n \n
+100,473,19,* Cancel with Esc key * \n * Unassigned with Enter key *
+100,473,20,* Not assigned with Enter key *
+100,473,21,"Pad checking \nStart, press select simultaneously \n or Esc key to exit"
+100,473,50,△
+100,473,51,×
+100,473,52,○
+100,473,53,□
+100,473,54,Select
+100,473,55,Start
+100,473,56,←
+100,473,57,↑
+100,473,58,→
+100,473,59,↓
+100,473,60,L1
+100,473,61,L2
+100,473,62,L3
+100,473,63,R1
+100,473,64,R2
+100,473,65,R3
+100,473,66,Show button numbers
+100,473,67,Unallocated
+100,473,100,Jump
+100,473,101,Crouching
+100,473,102,dash
+100,473,103,attack
+100,473,104,Step
+100,473,105,guard
+100,473,106,action
+100,473,107,Cancel
+100,473,108,Map switching
+100,473,109,Whole map display
+100,473,110,Target ON/OFF
+100,473,111,Target site selection
+100,473,112,Switch between target and ally
+100,473,113,Target switching to the right
+100,473,114,Target switching left
+100,473,115,Main menu
+100,473,116,Sword pulling/sword delivery
+100,473,117,Open shortcut
+100,473,118,Shortcut switching
+100,473,119,Shortcut 1 Open/close
+100,473,120,Shortcut 2 opening and closing
+100,473,121,Shortcut 3 Open/close
+100,473,122,Shortcut 4 opening and closing
+100,473,123,Skill activation
+100,473,124,Chant cancellation
+100,473,125,Walking
+100,473,126,Inventory opening and closing
+100,473,127,Character window opening and closing
+100,473,128,Skill window opening and closing
+100,473,129,Friend window opening and closing
+100,473,130,Union window opening and closing
+100,473,131,Order mission window opening and closing
+100,473,132,Option window opening and closing
+100,473,133,SS save
+100,473,134,Move character to the left
+100,473,135,Move forward character
+100,473,136,Move character to the right
+100,473,137,Move behind the character
+100,473,138,Camera zoom in
+100,473,139,Camera zoom out
+100,473,140,UI display ON/OFF switching
+100,473,141,Free shortcut 1
+100,473,142,Free shortcut 2
+100,473,200,Unallocated
+100,473,201,Pad button
+100,473,202,Alt +
+100,473,203,Setting
+100,473,204,Verification
+100,473,205,
+100,473,206,Verification
+100,474,0,community
+100,474,1,Refuse to trade
+100,474,2,Refuse party solicitation
+100,474,3,Refuse to register as a friend
+100,474,4,Friend login notification
+100,474,5,Status setting
+100,474,6,camera
+100,474,7,Turn the camera upside down
+100,474,8,Flip the camera left and right
+100,474,9,Log settings
+100,474,10,Message filter settings
+100,474,11,Message color setting
+100,474,12,Display time/number of display lines setting
+100,474,13,Setting
+100,474,14,Damage only criminals
+100,474,15,
+
+100,474,50,online
+100,474,51,off-line
+100,474,52,Away in
+
+100,475,0,Allocation 1
+100,475,1,Allocation 2
+100,475,2,Button%d
+100,475,3,Please set so that it is arranged as shown in the figure.
+100,475,4,Move operation
+100,475,5,Camera operation
+100,475,6,Axis settings
+100,475,7,Preset 1
+100,475,8,Preset 2
+100,475,9,custom
+100,475,10,Set the left and right of the left analog stick. \nMove either the left or right side of the left analog stick to the full. \nPress any button on the gamepad.
+100,475,11,Set the top and bottom of the left analog stick. \nMove the left analog stick up or down as far as it will go. \nPress any button on the gamepad.
+100,475,12,Set the left and right of the right analog stick. \nMove either the left or right side of the right analog stick to the full. \nPress any button on the gamepad.
+100,475,13,Set the top and bottom of the right analog stick. \nMove either up or down the right analog stick all the way \npress any button on the gamepad.
+100,475,14,A
+100,475,15,B
+100,475,16,C
+100,475,17,D
+100,475,18,E
+100,475,19,F
+100,475,20,G
+100,475,21,H
+100,475,22,I
+100,475,23,J
+100,475,24,K
+100,475,25,L
+
+100,476,0,%s
+100,476,1,No NoAA
+100,476,2,2x MSAA low quality
+100,476,3,4x MSAA high quality
+100,476,4,8x MSAA Top quality
+
+100,477,0,Do not display the same content
+100,477,1,? type =%d
+
+100,479,0,"Disable ""damage only criminals""."
+100,479,1,Enabled to only damage criminals.
+100,479,2,The quest guide display has been disabled.
+100,479,3,Quest guide display is enabled.
+
+#Lost Soul Related
+100,490,0,"Also, you can select%d items"
+100,490,1,Would you like to transfer this content to a new character?
+
+100,490,10,Show all products
+100,490,11,Show training items
+
+
+#Training related
+100,510,0,Training result of%s
+100,510,1,Training cost
+100,510,2,Training success rate
+100,510,3,Training items
+100,510,4,Training support item
+100,510,5,Discipline
+100,510,6,Cancel
+100,510,7,Offensive power
+100,510,8,Durability
+100,510,9,hardness
+100,510,10,Magic defense
+100,510,11,Defense power
+100,510,12,Magic attack power
+100,510,13,Display smelting stones
+100,511,0,An item that cannot be used for training!
+100,511,1,There are no training items!
+100,511,2,"If you're chilling, go home"
+100,511,3,This wrought stone cannot be used
+100,511,4,This wrought stone is already set
+100,512,0,Successful training!
+100,512,1,Oops! \n Training failed!
+100,512,2,Training failed!
+100,512,3,Succeeded in strengthening the equipment!
+100,513,0,I guarantee success!
+100,513,1,Success rate is not bad
+100,513,2,Somewhat anxious
+100,513,3,Luck
+100,513,4,Easy to fail
+100,513,5,Quite easy to fail
+100,513,6,Probably fail
+100,513,7,Believe in miracles
+100,513,8,God's request
+100,513,99,Please set the wrought stone.
+100,513,100,Please set the equipment first.
+100,513,101,Set the equipment and wrought stone.
+100,515,0,Equipment to train
+100,515,1,Training items
+100,515,2,Support items
+100,515,3,A word from a craftsman:
+100,515,4,At the time of success
+100,515,5,Physical attack power
+100,515,6,Magic attack power
+100,515,7,Physical defense
+100,515,8,Magic defense
+100,515,9,Maximum durability
+100,515,10,hardness
+100,515,11,(+%d)
+100,515,12,(-%d)
+100,515,13,Reset all
+100,515,14,Discipline
+100,515,15,%d
+100,515,16,(+%d.
+100,515,17,%d.
+100,515,18,)
+100,515,19,weight
+100,515,20,%1%d.%2%d
+100,515,21,(-%1%d.%2%d)
+100,515,22,%02d
+100,515,23,GP
+100,515,24,Range distance
+100,515,25,Accumulation speed
+100,515,26,Loading speed
+
+
+# Arcane related
+100,516,0,Equipment
+100,516,1,Arcane stone
+100,516,2,Parameters
+100,516,3,Present value
+100,516,4,range
+100,516,5,Physical attack power
+100,516,6,Physical defense
+100,516,7,Magic attack power
+100,516,8,Magic defense
+100,516,9,Maximum durability
+100,516,10,weight
+100,516,11,GP
+100,516,12,Reset all
+100,516,13,Arcane
+100,516,14,Total cost
+100,516,15,%d.
+100,516,16,%02d
+100,516,17,(+%d.
+100,516,18,(-%d.
+100,516,19,)
+100,516,20,%d
+100,516,21,(+%d
+100,516,22,(-%d
+100,516,23,Range distance
+100,516,24,Accumulation speed
+100,516,25,Loading speed
+100,516,100,I succeeded in arcane art!
+100,516,101,Oops! \n I failed in mystery!
+100,516,102,I failed in mystery!
+100,516,103,Set the equipment and arcane stones.
+100,516,104,Please set the equipment first.
+100,516,105,* Parameters in parentheses are displayed before training correction.
+
+#Enchantment grant related (equipment customization)
+100,517,0,Equipment to be given
+100,517,1,Material
+100,517,2,Support items
+100,517,3,Please set the equipment and materials.
+100,517,4,cost
+100,517,5,Grant effect
+100,517,6,Please set the equipment to be given first.
+100,517,7,Grant cost
+100,517,8,Grant
+100,517,9,\nThe base enchantment attached to the equipment will be overwritten.
+100,517,10,Do you want to remove the base enchantment attached to the equipment?
+100,517,11,Do you want to remove all \n sub-enchantments attached to the equipment?
+100,517,100,Succeeded in granting [%s]!
+100,517,101,Succeeded in inheriting [%s]!
+100,517,102,Failed to grant [%s]!
+100,517,103,Failed to inherit [%s]!
+100,517,104,It did not disappear due to the effect of protection.
+100,517,105,Removed the base effect!
+100,517,106,Removed sub-effects!
+100,517,110,Please set the scroll.
+100,517,111,Please set the equipment first.
+100,517,112,Set the equipment and scroll.
+100,517,113,I guarantee success!
+100,517,114,"The retention rate is about this, but what do you do?"
+
+#Enchantment drawing related (equipment customization)
+100,518,0,Equipment
+100,518,1,item
+100,518,2,Scroll to create
+100,518,3,Extraction
+100,518,4,Extraction cost
+100,518,5,Base enchantment
+100,518,6,Sub-enchantment
+100,518,7,[%s]
+100,518,10,Set the equipment and scroll.
+100,518,11,Please set the scroll.
+100,518,12,Please set the equipment.
+100,518,13,Select the enchantment you want to extract.
+100,518,14,Do you want to extract this enchantment?
+100,518,20,Do you want to extract the enchantment [%s]?
+100,518,21,Extract the enchantment [%s] and engrave it in the \nscroll!
+
+#Assist rank related
+100,520,0,Acquisition assist rank
+100,520,1,Receiving Lost Bonus </strong> Selected items can be received from Iseek after inheritance or reincarnation.
+100,520,2,"<color RED> * If you reach the next inheritance/reincarnation without receiving it, <br> unacquired items will be lost."
+
+#Map window related
+100,530,0,Current position%1%c%2%d
+
+
+#Logout related
+100,540,0,Return to title screen
+100,540,1,Return to character selection
+100,540,2,Game over
+100,540,3,Return to soul selection screen
+
+100,540,10,Cancel
+100,540,20,%d seconds to the title screen
+100,540,21,%d seconds to select a character
+100,540,22,%d seconds left until the end of the game
+100,540,23,%d seconds to the soul selection screen
+
+100,540,30,"If you log out in the dungeon while in the soul state, the items you have will remain in the place where the corpse is located even during the logout. </br> There is a risk that the item will be taken away by another player . Do you really want to log out? </br> <color PARAM_DN> * The time until incineration/loss progresses even during logout. </color PARAM_DN>"
+100,540,31,"If you log out in the dungeon while in the soul state, the items you have will remain in the place where the corpse is located even during the logout. </br> Do you really want to log out? PARAM_DN> * The time until incineration/loss progresses even during logout. </color PARAM_DN>"
+
+
+#City/channel selection related
+100,550,0,connecting ...
+100,550,1,Please select a channel
+100,550,2,Location selection
+100,550,3,Cancel
+100,550,4,Channel selection
+
+#Soul rank related
+100,560,0,Benefits of rank%d
+100,560,1,Contents of the benefits of rank%d
+100,560,2,Soul rank has been increased to%d!
+100,560,3,Soul rank
+100,560,4,Soul point
+100,560,5,%d
+100,560,6,%1%lld/%2%lld
+100,560,7,Show benefits
+100,560,8,%1%lld/? (Level cap)
+100,560,9,%1%s/%2%s
+100,560,10,%1%s/? (Level cap)
+
+#Soul Material Related
+100,561,0,life
+100,561,1,Reincarnation
+100,561,2,order
+100,561,3,chaoschaos
+100,561,4,Insufficient soul material!
+100,561,5,You can make up for the shortage of Soul Material with \n [Deficiency%1%d: Life%2%d]
+100,561,6,Looks like it's not enough
+100,561,7,I have a lot of belongings!
+100,561,8,It looks like you can't carry any more luggage \nPlease come back after organizing your belongings
+100,562,0,Get Soul Material
+100,562,1,Please select the item to pass
+
+100,565,0,Obtained%1%s of Soul Material%2%d
+100,565,1,Soul Material%1%s%2%d
+100,565,2,Lost%1%s of Soul Material%2%d
+
+#Adventurer medal related
+100,566,0,Adventurer medal
+100,566,1,Necessary adventurer medal
+100,566,2,The number of possession
+100,566,3,Necessary Athenian gold coins
+100,566,4,Necessary data silver coins
+100,566,5,Athenian gold coin possession
+100,566,6,Number of data silver coins
+100,566,50,Adventurer medal
+100,566,51,Adventurer medal
+100,566,52,Adventurer medal
+100,566,53,Athenian gold coin possession
+100,566,54,Number of data silver coins
+100,566,100,%d
+100,566,101,/
+100,566,102,Sheet
+
+#Dungeon selection related
+100,570,0,destination
+100,570,1,Channel
+100,570,2,Difficulty%u
+100,570,3,%1%u/%2%u
+100,570,4,Channel%d
+100,570,5, %d\n
+100,570,6, %d 
+100,570,7,
+100,579,0,This channel is fully booked.
+100,579,1,Depart for%2%s of%1%s. \n Are you sure?
+100,579,2,Please select a channel.
+100,579,3,Waiting for the leader to depart. \n Departure will be canceled when you leave the door.
+
+#Past log selection related
+100,580,0,The entire
+100,580,1,combat
+100,580,2,conversation
+100,580,3,system
+
+#Character selection related
+100,590,0,%s \n
+100,590,1,LV.%d\n
+100,590,2,%s
+100,590,3,-(Create New)
+100,590,4,Record of life
+100,590,5,Purchase
+
+
+100,590,10,The character does not exist and cannot be deleted
+100,590,11,You cannot delete \nsoul unless you delete all the characters in the soul.
+100,590,12,This character is lost and cannot be adventurous
+100,590,13,Please select a character
+100,590,14,Please select the character you want to delete
+100,590,15,The character does not exist and cannot be renamed
+
+100,590,20,<color NOTIFY> RG is missing. \n \nYou can open the purchase screen of \nRG by clicking the charge button. </color>
+100,590,21,"Expand the character slot. \n Are you sure? \n \n <color ITEM> Caution \n If you perform Soul Delete, \nThe expansion of the character slot will also disappear. </color>"
+100,590,22,I bought a character slot.
+100,590,23,"Expand one character slot. \n <color ITEM> If you perform Soul Delete, \nThe expansion of the character slot will also disappear. </color>"
+100,590,24,Character slot expansion
+100,590,25,I couldn't buy the character slot.
+
+100,591,0,Returning to soul selection
+
+#New character selection related
+100,595,0,%s \n
+100,595,1,LV.%d%s%s%s
+100,595,2,%s
+100,595,3,Create New
+100,595,4,Record of life
+100,595,5,Purchase
+100,595,6,New creation is possible
+100,595,7,You can increase the character frame with RG
+100,595,10,Lv%d
+100,595,11,%s%s
+100,595,12,Character name change procedure in progress (%s)
+
+
+#Text tag
+100,600,0,Seconds
+100,600,1,Minutes
+100,600,2,time
+100,600,3,Day
+
+100,600,10,%1%04d/%2%02d/%3%02d%4%2d:%5%02d
+100,600,11,%1%d%2%s
+
+#Buff balloon relations
+100,620,0,remaining　
+
+100,620,10,Deadline%s
+100,620,11,Or
+100,620,12,The effect ends with
+
+#Gem's balloon relations
+100,625,0,HP <color PARAM_UP2> +%1%.0f </color>
+100,625,1,MP <color PARAM_UP2> +%1%.0f </color>
+100,625,2,STR <color PARAM_UP2> +%1%.0f </color>
+100,625,3,VIT <color PARAM_UP2> +%1%.0f </color>
+100,625,4,DEX <color PARAM_UP2> +%1%.0f </color>
+100,625,5,AGI <color PARAM_UP2> +%1%.0f </color>
+100,625,6,INT <color PARAM_UP2> +%1%.0f </color>
+100,625,7,PIE <color PARAM_UP2> +%1%.0f </color>
+100,625,8,LUK <color PARAM_UP2> +%1%.0f </color>
+100,625,9,Fire attack attribute <color PARAM_UP2> +%1%.0f </color>
+100,625,10,Water attack attribute <color PARAM_UP2> +%1%.0f </color>
+100,625,11,Wind attack attribute <color PARAM_UP2> +%1%.0f </color>
+100,625,12,Ground attack attribute <color PARAM_UP2> +%1%.0f </color>
+100,625,13,Light attack attribute <color PARAM_UP2> +%1%.0f </color>
+100,625,14,Dark attack attribute <color PARAM_UP2> +%1%.0f </color>
+100,625,15,Fire protection attribute <color PARAM_UP2> +%1%.0f </color>
+100,625,16,Water protection attribute <color PARAM_UP2> +%1%.0f </color>
+100,625,17,Wind protection attribute <color PARAM_UP2> +%1%.0f </color>
+100,625,18,Ground defense attribute <color PARAM_UP2> +%1%.0f </color>
+100,625,19,Light protection attribute <color PARAM_UP2> +%1%.0f </color>
+100,625,20,Darkness defense attribute <color PARAM_UP2> +%1%.0f </color>
+100,625,21,Poison resistance <color PARAM_UP2> +%1%.0f </color>
+100,625,22,Paralysis resistance <color PARAM_UP2> +%1%.0f </color>
+100,625,23,Petrification resistance <color PARAM_UP2> +%1%.0f </color>
+100,625,24,Stun resistance <color PARAM_UP2> +%1%.0f </color>
+100,625,25,Darkness resistance <color PARAM_UP2> +%1%.0f </color>
+100,625,26,Sleep tolerance <color PARAM_UP2> +%1%.0f </color>
+100,625,27,Silence resistance <color PARAM_UP2> +%1%.0f </color>
+100,625,28,Fascination resistance <color PARAM_UP2> +%1%.0f </color>
+100,625,29,Confusion tolerance <color PARAM_UP2> +%1%.0f </color>
+100,625,30,Fear resistance <color PARAM_UP2> +%1%.0f </color>
+100,625,31,Increased hate <color PARAM_UP2> +%1%.0f%</color>
+100,625,32,Hate reduction <color PARAM_UP2> －%1%.0f%</color>
+100,625,33,Heal magic recovery amount <color PARAM_UP2> +%1%.1f%</color>
+100,625,34,Healed magic recovery amount <color PARAM_UP2> +%1%.1f%</color>
+100,625,35,MP recovery amount at camp <color PARAM_UP2> +%1%.0f%</color>
+100,625,36,HP recovery amount at camp <color PARAM_UP2> +%1%.0f%</color>
+100,625,37,Physical defense <color PARAM_UP2> +%1%.0f </color>
+100,625,38,Magic defense <color PARAM_UP2> +%1%.0f </color>
+100,625,39,Physical attack power <color PARAM_UP2> +%1%.0f </color>
+100,625,40,Magic attack power <color PARAM_UP2> +%1%.0f </color>
+100,625,41,OD recovery amount <color PARAM_UP2> +%1%.0f%</color>
+100,625,42,Maximum weight <color PARAM_UP2> +%1%.1f </color>
+100,625,43,GP damage reduction <color PARAM_UP2> －%1%.0f%</color>
+100,625,44,Treasure chest unlock success rate <color PARAM_UP2> +%1%.0f%</color>
+100,625,45,OD reduction amount during step <color PARAM_UP2> －%1%.0f%</color>
+100,625,46,OD reduction amount when dashing <color PARAM_UP2> －%1%.0f%</color>
+100,625,47,Resurrection magic success rate <color PARAM_UP2> +%1%.0f%</color>
+100,625,48,Pillage time extension <color PARAM_UP2> +%1%.1f seconds </color>
+100,625,49,HP <color PARAM_UP2> +%1%.0f </color> Poison resistance <color PARAM_UP2> +%2%.0f </color>
+100,625,50,HP <color PARAM_UP2> +%1%.0f </color> Paralysis resistance <color PARAM_UP2> +%2%.0f </color>
+100,625,51,HP <color PARAM_UP2> +%1%.0f </color> Petrification resistance <color PARAM_UP2> +%2%.0f </color>
+100,625,52,HP <color PARAM_UP2> +%1%.0f </color> Stun resistance <color PARAM_UP2> +%2%.0f </color>
+100,625,53,HP <color PARAM_UP2> +%1%.0f </color> Darkness resistance <color PARAM_UP2> +%2%.0f </color>
+100,625,54,MP <color PARAM_UP2> +%1%.0f </color> Sleep tolerance <color PARAM_UP2> +%2%.0f </color>
+100,625,55,MP <color PARAM_UP2> +%1%.0f </color> Silence resistance <color PARAM_UP2> +%2%.0f </color>
+100,625,56,MP <color PARAM_UP2> +%1%.0f </color> Fascination resistance <color PARAM_UP2> +%2%.0f </color>
+100,625,57,MP <color PARAM_UP2> +%1%.0f </color> Fear resistance <color PARAM_UP2> +%2%.0f </color>
+100,625,58,Fire/water attack attribute <color PARAM_UP2> +%1%.0f </color>
+100,625,59,Wind/ground attack attribute <color PARAM_UP2> +%1%.0f </color>
+100,625,60,Fire/Water/Wind Attack Attribute <color PARAM_UP2> +%1%.0f </color>
+100,625,61,Fire/Dark Attack Attribute <color PARAM_UP2> +%1%.0f </color>
+100,625,62,Water/Dark Attack Attribute <color PARAM_UP2> +%1%.0f </color>
+100,625,63,Wind/Dark Attack Attribute <color PARAM_UP2> +%1%.0f </color>
+100,625,64,Earth/Dark Attack Attribute <color PARAM_UP2> +%1%.0f </color>
+100,625,65,Ranged attack range extension <color PARAM_UP2> +%1%.0f%</color>
+100,625,66,Bow storage speed & gun loading speed increase <color PARAM_UP2> +%1%.0f%</color>
+100,625,67,Animal killer <color PARAM_UP2> +%1%.0f%</color>
+100,625,68,Plant killer <color PARAM_UP2> +%1%.0f%</color>
+100,625,69,Humanoid killer <color PARAM_UP2> ＋%1%.0f%</color>
+100,625,70,Ajin Killer <color PARAM_UP2> +%1%.0f%</color>
+100,625,71,Beastman Killer <color PARAM_UP2> +%1%.0f%</color>
+100,625,72,Devil Killer <color PARAM_UP2> +%1%.0f%</color>
+100,625,73,Zombies Killer <color PARAM_UP2> +%1%.0f%</color>
+100,625,74,Material killer <color PARAM_UP2> +%1%.0f%</color>
+100,625,75,God Beast Killer <color PARAM_UP2> +%1%.0f%</color>
+100,625,76,Spirit Killer <color PARAM_UP2> +%1%.0f%</color>
+100,625,77,HP recovery at the time of attack <color PARAM_UP2> +%1%.0f </color>
+100,625,78,Hard hit rate increase <color PARAM_UP2> +%1%.0f%</color>
+100,625,79,Ignore defense <color PARAM_UP2> +%1%.0f%</color>
+100,625,80,Reduced casting time <color PARAM_UP2> －%1%.0f%</color>
+100,625,81,Skill consumption MP <color PARAM_UP2> －%1%.0f%</color>
+100,625,82,Skill consumption OD <color PARAM_UP2> －%1%.0f%</color>
+100,625,83,Skill recast time <color PARAM_UP2> －%1%.0f%</color>
+100,625,84,Hate reduction when damaged <color PARAM_UP2> －%1%.0f%</color>
+100,625,85,OD natural recovery upper limit <color PARAM_UP2> +%1%.0f </color>
+100,625,86,OD natural recovery amount <color PARAM_UP2> +%1%.0f </color>
+100,625,87,GP maximum value <color PARAM_UP2> +%1%.0f </color>
+100,625,88,Trap damage <color PARAM_UP2> －%1%.0f%</color>
+100,625,89,MP <color PARAM_UP2> +%1%.0f </color> Confusion resistance <color PARAM_UP2> +%2%.0f </color>
+100,625,90,Fire/Wind Attack Attribute <color PARAM_UP2> +%1%.0f </color>
+100,625,91,Water/ground attack attribute <color PARAM_UP2> +%1%.0f </color>
+100,625,92,Provocation skill effect increase <color PARAM_UP2> +%1%.0f%</color>
+100,625,93,Combo bonus <color PARAM_UP2> +%1%.0f%</color>
+100,625,94,Tolerance to abnormal physical conditions <color PARAM_UP2> +%1%.0f </color>
+100,625,95,Tolerance to abnormal mental conditions <color PARAM_UP2> +%1%.0f </color>
+100,625,96,Physical attack power at the front <color PARAM_UP2> +%1%.0f%</color>
+100,625,97,Observation success rate <color PARAM_UP2> ＋%1%.0f%</color>
+100,625,98,MP recovery at the time of attack <color PARAM_UP2> +%1%.0f </color>
+100,625,99,All attack attributes <color PARAM_UP2> +%1%.0f </color>
+100,625,100,Physical attack power <color PARAM_UP2> +%1%.0f%</color>
+100,625,101,Magic attack power <color PARAM_UP2> +%1%.0f%</color>
+100,625,102,Physical defense <color PARAM_UP2> +%1%.0f%</color>
+100,625,103,Magic defense <color PARAM_UP2> +%1%.0f%</color>
+100,625,104,Fire attribute additional attack
+100,625,105,Water attribute additional attack
+100,625,106,Wind attribute additional attack
+100,625,107,Earth attribute additional attack
+100,625,108,Light attribute additional attack
+100,625,109,Darkness additional attack
+100,625,110,Non-attribute additional attack
+100,625,111,shock wave
+100,625,112,Slash
+100,625,113,Satiety reduction rate due to traps <color PARAM_UP2> －%1%.0f%</color>
+100,625,114,<Color PARAM_UP2>%1%.0f </color>%chance of fullness <color PARAM_UP2> +%2%.0f </color> at the time of attack
+100,625,115,HP <color PARAM_UP2> +%1%.0f </color> [CP]
+100,625,116,MP <color PARAM_UP2> +%1%.0f </color> [CP]
+100,625,117,STR <color PARAM_UP2> +%1%.0f </color> [CP]
+100,625,118,VIT <color PARAM_UP2> +%1%.0f </color> [CP]
+100,625,119,DEX <color PARAM_UP2> +%1%.0f </color> [CP]
+100,625,120,AGI <color PARAM_UP2> +%1%.0f </color> [CP]
+100,625,121,INT <color PARAM_UP2> +%1%.0f </color> [CP]
+100,625,122,PIE <color PARAM_UP2> +%1%.0f </color> [CP]
+100,625,123,LUK <color PARAM_UP2> +%1%.0f </color> [CP]
+
+#Talk egg creation relationship
+100,630,0,Decide on a name for the Token Ring you want to create
+100,630,1,Please enter your name
+100,630,2,"I already have a Master Token Ring, so I can't create it"
+100,630,3,Decide on a name for the Token Ring to change \n <color ITEM> Old Token Ring Name:%s </color>
+100,631,0,Finished the role
+100,631,1,of
+
+
+100,632,0,"The ""old Token Ring name"" has a duplicate name with other Token Rings and needs to be changed."
+100,632,1,Create with the Token Ring name of. \n Are you sure?
+100,632,2,Change to the Token Ring name of. \n Are you sure?
+
+
+#Chat relationship
+100,640,0,To
+100,640,1,::
+100,640,2,From
+100,640,3,(
+100,640,4,)
+100,640,5,Overall [%d]
+100,640,6,Whisper transmission failed
+100,640,7,%s is on the deny list
+100,640,8,Do you want to add <color PARAM_UP>%s </color> to the deny list?
+100,640,9,%s was poisoned
+100,640,10,%s poison has been removed
+100,640,100,%1%c%2%d
+
+100,641,0,<%1%s>%2%​​s
+100,641,1,<%1%s%2%s>%3%s
+100,641,2,<%1%s>%2%​​s
+
+100,642,0,SHOW
+100,642,1,[CHAT]
+100,642,2,[WINDOWS]
+100,642,3,[TABS]
+100,642,4,[FILTER-ATTRIBUTE]-[BEGIN]
+100,642,5,[FILTER-ATTRIBUTE]-[END]
+100,642,6,chat.dat
+
+
+
+
+#Caution message related
+100,650,0,"Attacking other players or NPCs is considered a criminal offense. \n For your safety, don't pull out your sword in the city."
+100,651,0,Status weakened due to poor condition
+100,651,1,Status strengthened due to the effect of rising conditions
+100,652,0,(limit)
+100,652,1,(Absolute upset)
+100,652,2,(Failure)
+100,652,3,(normal)
+100,652,4,(Good)
+100,652,5,(Great condition)
+100,653,0,Dash not possible/Status drop (Large)
+100,653,1,Status drop (large)
+100,653,2,Status drop (small)
+100,653,3,
+100,653,4,Status increase (small)
+100,653,5,Status increase (large)
+100,654,0,limit
+100,654,1,Absolute upset
+100,654,2,Upset
+100,654,3,normal
+100,654,4,Strong
+100,654,5,Great condition
+100,655,1,It's the limit ...
+100,655,2,"I'm terribly hungry, I'll be stuck"
+100,655,3,I'm feeling hungry ...
+
+
+
+#Gold relationship
+100,660,0,Got%lld gold
+
+#Blacklist relations
+100,670,0,"Up to 20 past PK acts and theft acts against you are memorized. \n Locked items are not deleted even if the list becomes 20 or more, and you can do up to 10 items."
+100,670,1,PK%d times 
+100,670,2,Looting from corpses%1%d times%2%d items 
+100,670,3,Theft failure
+100,670,4,%1%d/%2%d/%3%d
+100,670,5,%1%s%2%s
+
+#Email related
+100,680,0,Incoming email
+100,680,1,Transmission history
+100,680,2,Do you want to send an email?
+100,680,3,Soul name is blank
+100,680,4,The subject is blank
+100,680,5,The text is blank
+100,680,6,It's a soul name that doesn't exist
+100,680,7,Do you want to delete this email?
+100,680,8,Re:
+100,680,9,Do you want to reset the entered contents?
+100,681,0,From
+100,681,1,subject
+100,681,2,Contents Contents
+100,681,3,Items to be shipped
+100,681,4,Send money
+100,681,5,Discard
+100,681,6,Bulk discard
+100,681,7,Opened
+100,681,8,Send
+100,681,9,Receipt
+100,681,10,destination
+100,681,11,reset
+100,681,12,%d
+100,681,13,Received
+100,681,14,Receive
+100,681,15,Transmission history
+100,681,16,Create New
+100,681,17,reply
+100,681,18,reset
+100,681,19,Do you want to discard this email?
+100,681,20,Do you want to discard unprotected emails in bulk?
+100,681,21,Received an email
+100,681,22,How much do you want to send?
+100,681,23,I sent an e-mail
+100,681,24,How many will you send?
+100,681,25,%1%d/%2%d/%3%d%4%02d:%5%02d
+100,681,26,%lld
+
+
+#Friend list relationship
+100,690,0,Whisper
+100,690,1,Party invitation
+100,690,2,Move
+100,690,3,Delete
+100,690,4,Participate in the party
+100,690,5,Register as a friend
+100,690,6,Union solicitation
+100,691,0,%1%s%2%s and\n Do you want to move to the same channel?
+100,691,1,Do you want to remove%s from the \nfriend list?
+100,691,2,Do you want to register%1%s%2%s as a friend? \n
+100,691,3,* Caution * \n All characters with the same soul name will be registered as friends! \n
+100,691,4,%1%s%2%s applied for \n friend registration.
+100,692,0,Number of registrations%1%d/%2%d
+100,692,1,Hide offline
+100,692,2,View comments
+100,692,3,Change comment
+100,692,4,comment
+100,693,0,friend
+100,693,1,acquaintance
+100,693,2,A list of people who have partyed with you.
+100,693,3,The day I met
+100,693,4,%1%d/%2%d
+100,693,5,%1%d/%2%02d/%3%02d
+100,693,6,%d
+
+
+
+
+#Parcel relation
+100,700,0,Would you like to send a parcel?
+100,700,1,Soul name is blank
+100,700,2,The subject is blank
+100,700,3,Do you want to delete this parcel?
+
+#Buff shop relations
+100,710,0,Effect time
+100,710,1,I don't have enough money.
+100,710,2,Do you want to order%s?
+100,710,3,Price%dG
+100,710,4,"The current cooking effect will be lost, but would you like to order \n%s?"
+
+#Extracting window relation
+100,720,0,Currently being extracted
+100,720,1,Please wait a moment
+
+#Chat log related (after UI repair)
+100,730,0,::
+100,730,1, 
+
+
+#Union related
+100,740,0,Would you like to invite%s to the \n union?
+100,740,1,Would you like to disband the union?
+100,740,2,Would you like to leave the union?
+100,740,3,Do you want to establish a union?
+100,740,4,%1%s invited to \n Union. Do you want to join \n%2%s? \n \nUnion membership is different for each character even in the same soul.
+100,740,5,Do you want to change%s to \nunion reader?
+100,740,6,Do you want to remove%s \n?
+100,740,7,Would you like to invite%s to the party?
+100,740,8,Do you want to register%s as a friend?
+100,740,9,Determine the design of the cloak. \n Are you sure?
+100,740,10,
+100,740,11,who
+100,740,12,Benefits of union level%d
+100,740,20,Union benefits
+100,740,21,Period to benefit
+100,740,22,Union point
+100,740,23,Required points
+100,740,24,%s/%s pt
+100,740,25,%s pt
+100,740,26,Union Lv%d ~
+100,740,27,Day
+100,740,28,"Is granted\n%d days. \nThe amount of union benefit special effects depends on the number of union members in the same party, except yourself. \n Benefits already granted will be removed. \n Are you sure?"
+100,740,29,remaining
+100,740,30,Is granted\n%d days. \n Benefits already granted will be removed. \n Are you sure?
+100,740,100,leader
+100,740,101,sub leader
+100,740,102,member
+100,740,103,apprentice
+100,740,104,
+100,740,105,
+100,741,0,Union information
+100,741,1,leader
+100,741,2,sub leader
+100,741,3,Date of establishment
+100,741,4,Number of people
+100,741,5,personal information
+100,741,6,Join date
+100,741,7,Position
+100,741,8,Notice
+100,741,9,Change
+100,741,10,Union name
+100,741,11,Setting
+100,741,12,Union
+100,741,13,Union level
+100,741,14,Union experience points
+100,741,15,Display switching
+100,741,100,Union cloak design
+100,741,101,Create a cloak
+100,742,0,Party invitation
+100,742,1,Whisper
+100,742,2,Register as a friend
+100,742,3,Expulsion
+100,743,0,%1%d/%2%d/%3%d
+100,744,0,leader
+100,744,1,General warehouse
+100,744,2,Solicitation
+100,744,3,Expulsion
+100,744,4,Notice
+100,744,5,Application
+100,744,6,Undo
+100,744,7,Not applied
+100,744,8,Are you sure you want to apply the permission change?
+100,744,9,%s is \n
+100,744,10,Up to 1 person
+100,744,11,Up to 2 people
+100,744,12,Can only be set.
+100,744,13,It is not possible to concurrently serve as a leader and a sub-leader.
+100,744,14,Soul name
+100,744,15,"If you change the reader, you may not be able to \n change the permissions you are currently editing. \n Do you want to change the reader?"
+100,744,16,Senior warehouse
+100,745,0,%s established.
+100,745,1,%1%s%2%s joined.
+100,745,2,%1%s%2%s has withdrawn.
+100,745,3,%1%s%2%s to%3%s to%4%s.
+100,745,4,%1%s%2%s collapses in the middle of the ambition.
+100,745,5,%1%s%2%s is lost.
+100,745,6,%1%s%2%s changed%3%s to%4%s.
+100,745,7,%1%s%2%s removes%3%s.
+100,745,8,%1%s%2%s deposited%3%s in%4%d pieces in a general warehouse.
+100,745,9,%1%s%2%s withdrew%3%s from the general warehouse by%4%d.
+100,745,10,%1%s%2%s deposited%3%sG in a general warehouse.
+100,745,11,%1%s%2%s withdrew%3%sG from the general warehouse.
+100,745,12,%1%s%2%s dedicated%3%d experience points.
+100,745,13,Union level is now%d.
+100,745,14,%1%s%2%s deposited%3%s and%4%d pieces in the senior warehouse.
+100,745,15,%1%s%2%s withdrew%3%s from the senior warehouse by%4%d.
+100,745,16,%1%s%2%s deposited%3%sG in the senior warehouse.
+100,745,17,%1%s%2%s withdrew%3%sG from the senior warehouse.
+100,745,18,The soul rank of%1%s is now%2%s.
+100,745,19,%1%s%2%s contributed%3%s points.
+100,745,20,%1%s%2%s granted%3%s.
+100,745,100,%1%s%2%s is%3%s.
+100,746,0,Notification settings
+100,746,1,Change permissions
+100,746,2,Please set Union Info.
+100,746,3,Inauguration
+100,746,4,Become
+100,746,5,comment
+100,746,6,Change comment
+100,746,7,Please set a comment.
+100,746,8,View comments
+100,747,7,Union unaffiliated
+100,747,8,I can't see the union information because I don't belong to the union.
+100,747,9,Disbanded the union.
+100,747,10,Please enter the union name.
+100,747,11,Notice from Union:%s
+100,747,12,Establish a union name with%s. \n Are you sure?
+100,747,13,Change the union name to%s. \n Are you sure?
+100,747,14,The union name has not been entered.
+100,747,15,Union points have reached the upper limit.
+100,747,16,%s has been granted.
+100,747,17,%s has been released.
+100,747,100,The checked items are displayed.
+100,747,101,The display settings will be reflected\n after a certain period of time.
+100,747,130,Union establishment
+100,747,131,Join a member
+100,747,132,Member withdrawal
+100,747,133,Member position update
+100,747,134,Member died
+100,747,135,Member lost
+100,747,136,Change of member title
+100,747,137,Member expulsion
+100,747,138,Union warehouse item added
+100,747,139,Union warehouse item retrieval
+100,747,140,Union warehouse GOLD added
+100,747,141,Union Warehouse GOLD Drawer
+100,747,142,Union growth
+100,747,143,Union level up
+100,747,144,Union Warehouse (Advanced) Item added
+100,747,145,Union Warehouse (Advanced) Item Removal
+100,747,146,Union warehouse (advanced) GOLD added
+100,747,147,Union Warehouse (Advanced) GOLD Drawer
+100,747,148,Member soul rank up
+100,747,149,Add benefit points
+100,747,150,Start giving benefits
+100,748,0,Please set only one reader.
+100,748,1,There are a maximum of 2 sub-leaders.
+100,748,2,A leader and a sub-leader cannot serve concurrently.
+100,749,0,news
+100,749,1,member
+100,749,2,management
+100,749,3,benefit
+
+
+
+
+
+
+
+
+#Chat filter related (after UI repair)
+100,750,0,Color setting/tab name
+100,750,1,Default
+
+#Dungeon selection related (after UI repair)
+100,760,0,Recommended level
+100,760,1,Party number limit
+100,760,2,difficulty
+100,760,3,Mode selection
+
+100,760,10,depart
+100,760,11,close
+
+100,761,0,Port town Il Faro
+
+
+
+#Common channel selection related (after UI repair)
+100,770,0,Normal
+100,770,1,Channel order with parties
+100,770,2,In ascending order of visitors
+100,770,3,In descending order of visitors
+
+
+100,771,0,congestion
+100,771,1,A little crowded
+100,771,2,comfortable
+
+
+
+
+#Command list related
+100,780,0,Command list
+100,780,1,Currently set of:
+
+100,781,0,OFF
+100,781,1,ON
+
+100,782,0,command
+100,782,1,macro
+
+
+#Help related
+100,790,0,Select the help you want to check from the list on the left
+100,790,1,Recommended help button added
+100,790,2,help
+100,790,3,See the keyboard layout guide
+100,790,4,For default key settings
+
+#Soul Eater Penalty Related
+100,800,0,Decrease in resuscitation success rate%d %%
+100,800,1,"Whenever your soul is captured by a soul eater monster such as Walker, the success rate of revival decreases, and when it reaches 100%, the condition of the corpse deteriorates by one level. )"
+100,801,0,After%s
+100,801,1,%1%02d:%2%02d
+
+
+
+#Character list window related
+100,810,0,Soul name
+100,810,1,level
+100,810,2,Profession
+100,810,3,Current location
+100,810,4,area
+100,810,5,Channel
+100,810,6,Character name
+100,810,7,SR
+100,810,10,%1%s%2%s
+100,810,11,Lv%d
+100,810,12,---
+100,810,13,%d
+
+
+#UI related to character makeup after collection
+100,820,0,Cancel
+100,820,1,OK
+100,820,2,Cancel
+
+100,820,10,Race selection
+100,820,11,Character creation
+100,820,12,Bonus point lottery
+
+100,820,20,Please choose a race
+100,820,21,Would you like to create a character in this race?
+
+
+100,820,30,name
+100,820,31,Please enter your name
+100,820,32,There are too few characters
+100,820,33,Too many characters
+
+
+100,821,0,alignment
+100,821,1,Bonus points%d
+100,821,2,reset
+100,821,3,Profession
+100,821,4,Initial skills
+100,821,5,face
+100,821,6,hair
+100,821,7,color
+100,821,8,%s initial skill
+
+
+100,821,20,Please select an alignment
+100,821,21,Please select a skill
+100,821,22,Please select a profession
+
+
+100,822,0,HP 
+100,822,1,MP 
+100,822,2,STR 
+100,822,3,VIT 
+100,822,4,DEX 
+100,822,5,AGI 
+100,822,6,INT 
+100,822,7,PIE 
+100,822,8,LUK 
+
+100,822,20,Selectable alignment:
+100,822,21,Required stats:
+100,822,22,::
+
+100,822,30,I do not meet the conditions for this profession.
+
+100,822,40,Bonus points cannot be allocated more than 10 to a single ability score.
+
+100,822,50,%d
+
+100,823,0,Create a character with this setting. Is it OK?
+
+
+100,824,0,Affects the attack power of the weapon.
+100,824,1,It affects the physical defense and the movement speed when pulling out the sword.
+100,824,2,It affects the rate of hard hits and the amount of damage done.
+100,824,3,It affects the reduction rate of hard hits from enemies and the range of damage received.
+100,824,4,Affects the magic attack power of the mage system.
+100,824,5,Affects priest magic effects.
+100,824,6,It affects the luck of the character. If this parameter is high ...?
+
+100,825,0,Bonus point lottery
+100,825,1,Bonus points
+100,825,10,OK
+100,825,11,Redraw
+
+100,825,20,It is currently not possible to create this character.
+100,825,30,"Bonus points are points that can be freely assigned to the character's \n status. \n \nFor each status, \n up to 10 points can be allocated. \nAll bonus points earned must be allocated\n. \nThe number of bonus points is randomly determined\n. \n \nBonus points can be drawn again when changing jobs."
+
+
+#Online status setting related
+100,830,0,Change online status
+100,831,0,online
+100,831,1,off-line
+100,831,2,Away in
+
+
+#Return related
+100,840,0,Do you want to execute the return command?
+100,840,1,The return command cannot be executed yet.
+100,840,2,The return command cannot be executed.
+100,840,3,Remaining%s until executable
+100,840,4,Do you want to retire?
+100,840,5,Retired
+100,840,6,"Warning: When you retire, the buffs granted inside the dungeon will disappear \n."
+
+#UI related to soul name creation after UI repair
+100,850,0,What is your soul name?
+100,850,1,Please enter within 2-8 characters
+100,850,2,OK
+100,850,3,Cancel
+100,850,4,No special symbols can be used within 2 to 8 characters.
+
+
+100,850,10,Soul name
+100,850,11,"The soul name is the name of your soul, like a surname, and the soul is shared by all your characters. </br> * Even if the character is lost (cannot be revived), such as the progress of the main story or crime (theft or PK in the city), </strong> soul information is newly created. It will be taken over by the character."
+100,850,12,"Even if the character is lost (cannot be revived), the soul information will be carried over to the newly created character."
+100,850,13,"Soul names already used by other players cannot be used. </br> Once the registration is complete, the soul name cannot be changed. </br> Soul names that are judged to be slanderous, offensive to public order and morals, or have a strong advertising intent are subject to regulation. </br> Some special symbols and characters cannot be used."
+100,850,14,What is soul
+100,850,15,"You will grow your soul through a number of adventures. </br> This soul is shared by all your characters. </br> * Benefits from Seoul, progress of the main story, crime history, etc."
+100,850,16,Duplicate soul names cannot be used. </br> The soul name cannot be changed.
+100,850,17,Display example
+
+100,851,0,Please enter your soul name
+
+100,851,20,The name has too few characters
+100,851,21,There are too many characters in the name
+
+100,851,100,Create a soul with this soul name. Is it OK?
+
+100,852,0,connecting
+
+
+#Rejection list related
+100,860,0,Deny list
+100,860,1,Soul name
+100,860,2,%1%d/%2%d
+100,860,3,Additional registration
+100,860,4,Please enter the <color NOTICE> soul name </color> to be added to the rejection list.
+100,860,5,Please enter your soul name
+100,860,6,Are you sure you want to remove it from the deny list?
+
+
+#Billing lost resurrection window related
+100,870,0,Resurrection soul
+100,870,1,%d RG
+100,870,2,"The power of miracles to revive the lost soul. After the resurrection, it will resume from the temple."
+100,870,3,Possession RG
+100,870,4,%s RG
+100,870,5,charge
+100,870,6,To buy
+
+100,870,20,"Would you like to purchase ""<color ITEM> Soul of Resurrection </color>"" and restore <self name> from lost?"
+
+100,871,0,Return to the character selection screen
+100,871,1,<self name> is back from lost.
+
+#Billing name change window related
+100,872,0,%d RG
+100,872,1,%s RG
+100,872,2,Possession RG
+100,872,3,charge
+100,872,4,Change procedure
+100,872,5,Character name
+100,872,6,Character name change
+100,872,7,Please enter your name
+
+100,872,20,<color NOTIFY> RG is missing. \n \nYou can open the purchase screen of \nRG by clicking the charge button. </color>
+100,872,21,"Change the character name of ""%s"" \n."
+100,872,22,"<color ITEM> -Changes in character names will not be reflected immediately. Changes will be made all at once during regular maintenance. \n ・ RG will be consumed when the character name change procedure is completed. \n ・ After the character name change procedure, you cannot cancel or redo, so please be careful about writing mistakes. </color>"
+100,872,23,Make the change procedure. \n Are you sure? \n
+100,872,24,*%dRG will be consumed when you change the procedure. Please note that you cannot cancel or redo.
+100,872,25,<color ITEM> * Character name changes will not be reflected immediately. Changes will be made all at once during regular maintenance. </color>
+
+100,872,100,The character name change procedure has been completed
+100,872,101,Please set a name
+100,872,102,Failed to change the character name
+100,872,103,The same character name already exists
+100,872,104,Illegal name
+100,872,105,The change procedure is already underway with the same character name
+100,872,106,Renamed from%1%s to%2%s.
+
+
+#Billing lost resurrection screen related
+
+
+#Gem related
+100,890,0,Gem debris
+100,890,1,Gem after restoration
+100,890,2,You need 5 shards to restore the gem
+100,890,3,Gem to be restored
+100,890,4,Restore
+100,890,5,Would you like to put a gem on this equipment? \nGems cannot be removed unless they are destroyed or extracted.
+100,890,6,Destroyed gems will disappear \n Extraction will give you a few pieces of the gem to be extracted.
+100,890,7,Gem to synthesize
+100,890,8,Synthetic material
+100,890,9,A word from a craftsman
+100,890,10,At the time of success
+100,890,11,Synthetic
+100,890,12,Destroy all gems attached to the equipment
+100,890,13,Destruction
+100,890,14,cost
+100,890,15,Gem after synthesis
+100,890,16,Equipment to extract
+100,890,17,Gem socket
+100,890,18,Support items
+100,890,19,Gem to extract
+100,890,20,Extraction prediction
+100,890,21,Extraction cost
+100,890,22,Please set the equipment to be extracted
+100,890,23,Please set the equipment
+100,890,50,Successful extraction!
+100,890,51,Take out the spirit!
+100,890,100,Upward conversion:
+100,890,110,Nothing
+100,890,111,Fine
+100,890,112,small
+100,890,113,During ~
+100,890,114,Big
+100,891,1,I don't think it will be a good result
+100,891,2,I don't think I can take it out very much
+100,891,3,Little by little
+100,891,4,I think I can take it out
+100,891,5,Seems to work
+100,891,6,This can be expected
+100,891,7,I'll show you how to pick it up!
+
+
+#Akashic Records related
+100,900,0,Akashic Records
+100,900,1,close
+100,900,2,Information is being acquired ..
+
+100,901,0,death
+100,901,1,lost
+100,901,2,Job change
+100,901,3,Number of monsters subdued
+100,901,4,Number of successful revival
+100,901,5,Cumulative acquisition gold
+100,901,6,Cumulative experience points (characters)
+100,901,7,Cumulative experience points (Seoul)
+
+100,901,8,Highest price
+
+100,901,9,Number of trainings
+100,901,10,Successful training
+100,901,11,Number of training failures
+100,901,12,Training highest value
+
+100,901,13,Number of items obtained
+
+100,901,14,Number of hard hits
+100,901,15,Number of critical hits
+100,901,16,Maximum damage to monsters
+100,901,17,Maximum damage from monsters
+100,901,18,Number of skills acquired (character)
+100,901,19,Number of skills acquired (Soul)
+100,901,20,Number of roots
+100,901,21,Number of times routed
+100,901,22,Cumulative damage to other PCs
+100,901,23,Cumulative damage received from other PCs
+100,901,24,PK number
+100,901,25,Number of PKs
+100,901,26,Number of items obtained
+
+100,902,0,Times
+100,902,2,Animal
+
+100,903,0,Start walking as an adventurer.
+100,903,1,Reborn again.
+100,903,2,
+100,903,3,Be buried.
+100,903,4,Kill.
+100,903,5,Is killed by.
+100,903,6,Root.
+100,903,7,Was routed.
+100,903,8,Get!
+100,903,9,Succeeded in training!
+100,903,10,Defeat!
+100,903,11,Get the title!
+100,903,12,Reached level%d!
+100,903,13,Soul rank is now%d!
+100,903,14,The map is complete!
+100,903,15,Reached!
+100,903,16,Achieve the story quest!
+100,903,17,Achieved the Soul Mission Quest!
+100,903,18,
+100,903,19,Renamed to.
+
+100,904,0,%1%d/%2%02d/%3%02d%4%s%5%s%6%d
+100,904,1,･
+100,904,2,From
+100,904,3,To
+100,904,4,But
+
+#If sentences are connected in the second half, 905 series
+100,905,4,0
+100,905,6,0
+100,905,7,0
+100,905,9,!!
+100,905,11,0
+100,905,15,!!
+100,905,16,"""Complete!"
+100,905,17,"""Complete!"
+
+
+
+#For map icons
+100,910,0,Statue of the guardian
+100,910,1,%s corpse
+100,910,2,The last statue of the guardian who lit the fire \n
+
+
+#Billing shop
+100,920,0,%s RG
+100,920,1,%s G
+100,920,2,＋%s Life material
+100,920,3,TOP
+100,920,4,Add to cart
+100,920,5,See the items that appear
+100,920,6,menu
+100,920,7,%s set
+100,920,8,It is an item that can be presented
+100,920,9,Billing
+100,921,0,All Items
+100,921,1,Available for purchase at RG
+100,921,2,What can be equipped
+100,921,3,Forging stone
+100,921,4,bag
+100,921,5,Consumables (recovery)
+100,921,6,Consumables (special effects)
+100,921,7,Consumables (Other)
+100,921,8,Gifts available
+100,922,0,Display order
+100,922,1,Price order (RG priority)
+100,922,2,Price order (Gold priority)
+100,923,0,ascending order
+100,923,1,descending order
+100,924,0,status
+100,924,1,Hide avatar equipment
+100,924,2,Show avatar equipment
+100,924,3,Release all fitting
+100,924,4,Add all to cart
+100,924,5,Equipment weight/maximum weight
+100,924,6,%1%s/%2%s
+100,924,7,??
+100,924,8,%d
+100,925,0,cart
+100,925,1,Charge RG
+100,925,2,What is RG?
+100,925,3,Cart clear
+100,925,4,To buy
+100,925,5,subtotal
+100,925,6,Possession
+100,925,100,membership
+100,925,101,Redeem a Code
+100,925,102,You have not entered the ZIP code for this account. \nPlease enter your zip code to complete your purchase.
+100,925,103,Postal code
+100,925,104,Not a valid ZIP.
+100,925,105,"The Royal Shop window must be closed to reflect the membership discount. If it is open, it will close automatically."
+100,926,0,Purchase confirmation
+100,926,1,RG
+100,926,2,Gold
+100,926,3,Balance
+100,926,4,Obtained amount of Soul Material of Life
+100,926,5,Present
+100,929,0,This item cannot be equipped. \n Can I add it to my shopping cart?
+100,929,1,There is nothing in the cart
+100,929,2,Are you sure you want to complete the purchase with this content?
+100,929,3,Make sure that the soul name you entered is correct so that you don't accidentally send it to someone with a similar name.
+100,929,4,Please enter the soul name of the person to whom you are giving the gift
+100,929,5,Gift list
+100,929,6,I will give it to%s. \n Are you sure you want to complete your purchase with this content?
+100,929,7,%s is an item that cannot be presented
+100,929,8,The cart is full.
+100,929,9,Items that cannot be equipped cannot be tried on.
+100,929,10,We are currently preparing for the Royal Shop ...
+100,929,11,The purchase is complete.
+
+
+
+#Title balloon window
+100,930,0,Title effect
+
+100,931,0,0
+100,931,1,Maximum HP
+100,931,2,Maximum MP
+100,931,3,+%d
+100,931,4,%d
+
+#Insurance period for billing items
+100,940,0,protection 
+100,940,1,security
+
+
+
+
+#Repair of billing items
+100,945,0,The durability of%1%s has been restored to%2%d %%
+
+
+
+
+
+#Job change check
+100,950,0,What you need to change jobs to%s
+100,950,2,Your alignment
+100,950,3,Your status
+100,950,4,Alignment that allows you to change jobs
+100,950,5,Required status
+100,950,6,Job change bonus
+100,950,7,"Depending on the level at the time of changing jobs, you can get a bonus for \n points that can be allocated to \n status and skills after changing jobs."
+100,950,8,OK
+100,950,9,Go away
+100,950,10,%sG
+100,950,11,0
+100,950,12, %d
+100,950,13,%d\n
+100,950,14,%s \n
+
+100,951,0,Please choose how to decide the status
+100,951,1,Redetermine bonus points
+100,951,2,We will draw bonus points again and reassign them to status. \n You can also assign job change bonuses to status.
+100,951,3,Take over bonus points
+100,951,4,Inherit the previous bonus points (cannot be reassigned) \n Only the job change bonus can be assigned to the status
+100,951,5,Cancellation of job change
+100,951,6,Return
+100,951,7,Inherit the previous bonus points (can be reassigned) \n Only the job change bonus can be assigned to the status
+
+100,952,0,"By changing jobs,%d%will be inherited from the current amount of experience gained. \nAlso, if the Diment Medal and Hersant Medal are valid, \n you can get a bonus of 10%each. \n"
+100,952,1,Experience value to be inherited (%d%):%s
+100,952,2,%s usage bonus (%d%):%s
+100,952,3,Total:%s (equivalent to level%d) \n * Maximum level 90
+
+#Job change setting
+100,960,0,point
+100,960,1,(Bonus points　
+100,960,2,Job change bonus
+100,960,3,)
+100,960,4,reset
+100,960,5,Skills to inherit are not selected
+100,960,6,Skills to inherit
+100,960,7,Select skills to inherit
+100,960,8,Cancellation of job change
+100,960,9,OK
+100,960,10,Return
+
+100,961,1,Not enough points
+100,961,2,Bonus points cannot be allocated more than 10 to a single ability score.
+100,961,3,Allocate all bonus points.
+
+100,962,0,%d
+100,962,1,+%d
+100,962,2, %d
+100,962,3,%d 
+
+
+
+#Job change confirmation
+100,970,0,"Do you want to change jobs? \n Once you complete a job change, you cannot undo it"
+100,970,1,Job change costs
+100,970,2,G
+100,970,3,Job change certificate
+100,970,4,Current status
+100,970,5,Status after changing jobs
+100,970,6,Job change
+100,970,7,Return
+100,970,8,%d
+100,970,9,%d\n
+100,970,10,%s 
+
+100,971,0,Lv.
+100,971,1,HP
+100,971,2,MP
+100,971,3,Attack magic attribute
+100,971,4,Defensive magic attribute
+100,971,5,Abnormal condition resistance
+
+100,972,0,I changed my job to%s!
+
+
+#Random box
+100,980,0,Get it all
+100,980,1,Open the next sphere
+
+
+#Target mode display
+100,990,0,Main target target mode:
+100,990,1,Sub-target target mode:
+100,990,2,Equipment buff:
+
+100,991,0,<color MONSTER> Monster </color>
+100,991,1,<color NPC> Party </color>
+100,991,2,Others (NPCs and other players)
+100,992,0,display
+100,992,1,Hide
+
+#Comment display
+100,1000,0,display
+100,1000,1,close
+100,1000,2,Hide
+
+100,1000,10,Please enter a comment
+
+
+#Blacklist related
+100,1010,0,%1%d/%2%02d/%3%02d
+100,1010,1,close
+100,1010,2,Clear list
+100,1010,3,%1%d/%2%d
+100,1010,4,PK and theft against you will be recorded.
+100,1010,5,Clear the unprotected list. \n Are you sure?
+100,1010,6,Blacklist is being deleted
+
+100,1011,0,%1%s%2%d
+100,1011,1,PK
+100,1011,2,%d times
+100,1011,3,Looting
+100,1011,4,%d item
+100,1011,5,off-line
+100,1011,6,Hold the prize
+
+#Prize money related
+100,1015,0,Please select the prize amount.
+100,1015,1,Do you want to multiply \n%2%sG by%1%s?
+100,1015,2,Bounty point
+100,1015,3,From%s people
+100,1015,4,"To be released on bail, you should pay \n <color WANTED_Y>%1%s G </color> or roll \n <color WANTED_Y>%2%​​s </color> times! \n Let's put it out with compassion!"
+100,1015,5,Bail roll lottery
+100,1015,6,roll
+100,1015,7,In order of prize amount
+100,1015,8,By number of people
+100,1015,9,Registration date order
+100,1015,10,Prize money
+100,1015,11,Erase
+100,1015,12,release
+100,1015,13,Bail%s G
+100,1015,14,Possession%s G
+100,1015,15,what should I do?
+100,1015,16,Pay bail
+100,1015,17,Turn the roll
+100,1015,18,Go away
+100,1015,19,release!
+100,1015,20,%1%d/%2%d/%3%d
+100,1015,21,---
+100,1015,22,%s pt
+100,1015,23,You cannot open the order form for offline characters.
+100,1015,24,Imprisoned
+
+100,1016,0,It has been <color WANTED_R> erased </color> from the bounty neck.
+100,1016,1,<color WANTED_Y> Imprisoned </color>.
+100,1016,2,<color WANTED_Y> Released </color>.
+
+#Quapati Bulletin Board Related (Lost Bulletin Board)
+100,1020,0,"Pray for salvation in the souls of those who have neglected to offer to God, and try not to be in the same situation."
+100,1021,0,lost
+100,1022,0,Soul lost yesterday
+100,1023,0,Soul lost last month
+100,1024,0,Forecast tomorrow
+100,1025,0,I am worried about some loss. \n Don't let your guard down Don't forget to carry your tribute.
+100,1025,1,"It will be a wonderful day with little loss. \n However, you may be hit by an unexpected event that you think you are off guard! ??"
+100,1025,2,"The number of people who lose in the afternoon gradually increases. \n At night, a considerable number of people are worried about losing."
+100,1025,3,There is no end to those who are lost in the morning. \n It will settle down in the afternoon.
+100,1025,4,A few lost people are worried. \n Don't let your guard down Don't forget to carry the devotee with you.
+100,1025,5,Adventurers who have forgotten their offerings will be lost. \nBe careful not to neglect the preparation before you wish for an adventure.
+100,1025,6,"Although it is not lost, it seems that people who have stopped ashes will continue to appear. \n It will be a dull day."
+100,1025,7,It seems that \n cases that lead from ashes to lost occur frequently due to leaving the corpse in the dungeon. Keep an eye on the passage of time.
+100,1025,8,"It seems that some people forget their offerings and go out. \n Not only before life, but also after death!"
+100,1025,9,Lost suddenly appears in front of you. \n Take good care of your daily life.
+100,1025,10,It seems that Walker's behavior becomes active from midnight to morning. Be aware of their whimsical course.
+100,1025,11,"Due to the lost adventurer, the fee has not been paid. \n No tsuke! ~ Il Faro store party ~"
+100,1025,12,West high east low winter type walkers are wandering around. \n Please do not neglect the measures against thugs.
+100,1025,13,There are rumors that odd-shaped monsters will be active tomorrow. \n Adventurers should be careful.
+100,1025,14,"Tomorrow, more people will be lost, so it will be difficult for Il Faro Commercial Union \n to collect the tsuke."
+100,1025,15,"It is said that death leads to ashes, and ashes lead to lost. \n Please note that tomorrow will be a dying day."
+100,1025,16,* We will be closed today due to the absence of the person in charge *
+100,1025,17,"Tomorrow, the Adventurer's Guild staff will be lost."
+100,1025,18,"Please be careful about the lost spirit rather than the lost body tomorrow. \n If life is easy, it is painful, and if it is painful, it is easy."
+100,1025,19,* We will be closed today due to the cleaning of the Quapati Temple *
+100,1025,20,Let's be careful about the fortune-telling of the masked man tomorrow.
+100,1025,21,"Experienced adventurers should be aware of \n lost belongings, not physical lost."
+100,1025,22,It's a good idea to eat chicken tomorrow to prevent loss.
+100,1025,23,"Urgent recruitment! Lost forecaster Preferential treatment for experienced people \n Complete commission system For details, please contact Guido in charge of human resources"
+100,1025,24,Don't scribble here. \n It's very hard to erase.
+100,1025,25,"Are you all looking at this bulletin board? \n You don't know even if you make a proper forecast, right?"
+100,1025,26,We are not guardians. \n I'm just a friendly neighbor.
+100,1025,27,It may or may not be lost. \n There are days when I don't feel like it.
+100,1025,28,"Your loved one will be lost. \n Before that, it's a good idea to have your valuables handed over."
+100,1025,29,It will be a good day when no one is lost. \n * This forecast is from a newcomer! *
+100,1025,30,"Some people will be lost in unexpected places. \n For inquiries about lost, please contact Quapati Temple!"
+100,1025,101,"Wishing for health and happiness this year, \n there will be no end to those who lose."
+100,1025,102,Celebrating the official service launch \n many adventurers will be ashes.
+100,1025,103,"Today is Mr. Azzam's birthday, so let's celebrate. \n I don't."
+100,1025,104,Lost the party of two men and women. -Lotte \n * Mr. Lotte will come to the temple later *
+100,1025,105,More and more people will ash themselves with regret and remorse for a year.
+100,1025,255,Today's lucky number is <color NOTIFY>%d </color>.
+100,1028,0,-Gido
+100,1029,0,Quapatty Bulletin Board
+
+#Auction related
+100,1030,0,%s
+100,1030,1,Minimum bid
+100,1030,2,Prompt decision bid amount
+100,1030,3,Fee
+100,1030,4,*%d%of the winning bid amount will be collected when the transaction is completed.
+100,1030,5,Listing time:%s
+100,1030,6,* Exhibition time is subject to change without notice if there is maintenance etc.
+100,1030,7,Please set a minimum bid.
+100,1030,8,Please set the prompt decision bid amount.
+100,1030,9,Please set the auction period.
+100,1030,10,comment
+100,1030,11,Item name
+100,1030,12,Number of bids
+100,1030,13,remaining time
+100,1030,14,Seller name
+100,1030,15,Minimum amount
+100,1030,16,Prompt decision amount
+100,1030,17,Winning bid:%s G
+100,1030,18,receive
+100,1030,19,Cancellation of listing
+100,1030,20,Relist
+100,1030,21,It was sold
+100,1030,22,No bid
+100,1030,23,%s
+100,1030,24,Diment reward frame
+100,1030,25,Please set the number of listings.
+100,1030,26,I will correct it to this amount. Is it OK?
+100,1030,27,Difference:%s G will be collected.
+100,1030,28,"If the remaining time is less than 1 hour, it cannot be canceled."
+
+100,1030,29,Please enter the bid price.
+100,1030,30,I will bid for this amount. Is it OK?
+
+100,1030,31,Reset conditions
+100,1030,32,Search
+100,1030,33,Soul rank condition
+100,1030,34,Training value
+
+100,1030,35,Equipment search
+100,1030,36,Item search
+100,1030,37,Bid information
+100,1030,38,Listing information
+
+100,1030,40,Refund
+100,1030,41,Bid cancellation
+100,1030,42,Bid amount up
+100,1030,43,Bid:%s G
+100,1030,44,You made a successful bid
+100,1030,45,Others have won the bid
+100,1030,46,And%s
+100,1030,47,Bid%s
+100,1030,48,difference:
+100,1030,49,I will collect it.
+100,1030,50,Caution
+100,1030,51,Cancel the bid for this item. \n Are you sure?
+100,1030,52,Cancel the listing for this item. \n Are you sure?
+100,1030,53,Sell
+100,1030,54,Minimum
+100,1030,55,Prompt decision
+100,1030,56,Bid amount
+100,1030,57,Successful bid amount
+100,1030,58,Current maximum amount
+100,1030,59,Rebid
+100,1030,60,%1%02d:%2%02d
+100,1030,61,There were no bids
+100,1030,62,Successful bid amount:
+100,1030,63,Fee:
+100,1030,64,Amount received
+100,1030,65,The winning bid is not set
+100,1030,66,Listing canceled
+100,1030,67,It was sold
+100,1030,68,%1%02d:%2%02d or less
+100,1030,69,In maintenance mode
+100,1030,70,How many will you sell?
+
+100,1030,100,bid
+100,1030,101,Listing
+
+100,1031,0,Poor
+100,1031,1,Normal
+100,1031,2,Good
+100,1031,3,Master
+100,1031,4,Legend
+100,1031,5,Artifact
+100,1031,6,Epic
+100,1031,7,Other
+100,1031,8,Fighter
+100,1031,9,Thief
+100,1031,10,Priest
+100,1031,11,Mage
+100,1031,12,Samurai
+100,1031,13,Bishop
+100,1031,14,Ninja
+100,1031,15,Road
+100,1031,16,order
+100,1031,17,Neutral
+100,1031,18,chaos
+100,1031,19,Human (male)
+100,1031,20,Human (female)
+100,1031,21,Elf (male)
+100,1031,22,Elf (female)
+100,1031,23,Dwarf
+100,1031,24,Gnome
+100,1031,25,Poker (male)
+100,1031,26,Poker (female)
+
+100,1032,0,Physical attack power
+100,1032,1,Magic attack power
+100,1032,2,Physical defense
+100,1032,3,Magic defense
+100,1032,4,GP
+100,1032,5,Durability
+100,1032,6,Training value
+100,1032,7,quality
+100,1032,8,Bid amount
+100,1032,9,Prompt decision amount
+100,1032,10,Bid number
+100,1032,11,remaining time
+100,1032,12,Gem debris
+100,1032,13,Gem synthetic material
+
+100,1033,0,Listing time: 4:00
+100,1033,1,Listing time: 8:00
+100,1033,2,Listing time: 12:00
+100,1033,3,Listing time: 24:00
+
+100,1034,0,4 hours
+100,1034,1,8 hours
+100,1034,2,12 hours
+100,1034,3,24hours
+
+100,1034,100,weapon
+100,1034,101,Armor
+100,1034,102,accessory
+100,1034,103,Discipline
+100,1034,104,Enchantment
+100,1034,105,Gem
+100,1034,106,Soul partner
+100,1034,107,quest
+100,1034,108,Occupational items
+100,1034,109,Consumption items
+100,1034,110,Other items
+
+
+100,1035,10,Search conditions
+100,1035,11,keyword
+100,1035,12,Soul rank
+100,1035,13,level
+100,1035,14,Profession
+100,1035,15,Race
+100,1035,16,quality
+100,1035,17,price
+100,1035,18,Gem socket
+100,1035,19,Save
+100,1035,20,Release
+100,1035,21,~
+100,1035,22,%d/%d
+100,1035,23,Effectiveness
+100,1035,24,Enter the item name
+100,1035,25,grade
+
+100,1036,0,It doesn't matter
+100,1036,1,FIG
+100,1036,2,THI
+100,1036,3,PRI
+100,1036,4,MAG
+100,1036,5,SAM
+100,1036,6,BIS
+100,1036,7,NIN
+100,1036,8,LOR
+100,1036,9,CLO
+100,1036,10,ALC
+
+100,1036,30,It doesn't matter
+100,1036,31,HUM♂
+100,1036,32,HUM♀
+100,1036,33,ELF ♂
+100,1036,34,ELF ♀
+100,1036,35,DWA
+100,1036,36,GNO
+100,1036,37,POR ♂
+100,1036,38,POR♀
+
+100,1036,60,that's all
+100,1036,61,Less than
+
+100,1036,70,name
+100,1036,71,price
+100,1036,72,time
+100,1036,73,bid
+100,1036,74,Training value
+100,1036,75,socket
+100,1036,76,Physics
+100,1036,77,magic
+100,1036,78,weight
+100,1036,79,Durability
+100,1036,80,Range distance
+100,1036,81,Bullet loading performance
+100,1036,82,Number of bullets
+100,1036,83,GP
+100,1036,84,Unsold
+100,1036,85,Successful bid
+
+100,1036,100,Physical attack power
+100,1036,101,Physical defense
+100,1036,102,Magic attack power
+100,1036,103,Magic defense
+100,1036,104,weight
+100,1036,105,Durability
+100,1036,106,Range distance
+100,1036,107,Bullet loading performance
+100,1036,108,Number of bullets
+100,1036,109,GP
+
+
+#Soul selection related
+100,1040,0,Please select soul
+
+100,1041,0,-- (Create New)
+100,1041,1,%s
+
+100,1041,10,-
+
+100,1042,0,Please select soul
+100,1042,1,Sending soul selection information
+
+#Server integration related
+100,1050,0,"The world ""Ezershan"" and the world ""Alvaroa"" have been integrated into the world ""Estor"". \n \n Due to world integration, it may be necessary to change the soul name for souls with duplicate soul names. \nSoul change target people will be asked to change the soul name after selecting soul. \n \nFor unions with duplicate union names, we have changed the name of the union with low experience points to a temporary union name. \nIf the union name has been changed, the union master can change the union name only once from the union management station NPC. \n \nFor talk rings with duplicate talk ring names, the name of the talk ring with a new creation date has been changed to a temporary talk ring name. \nIf the Token Ring name has been changed, you can change the Token Ring name only once by using the Master Talk Ring. \n \nFor details, please refer to ""Rename in case of duplication"" described in ""Notice of World Integration"" on the official website. \n \n Due to the world integration, the following functions will be suspended from the start of regular maintenance on February 16, 2016 to the end of regular maintenance on February 23, 2016. \n \n-Use of ""Casino"" function in adult social gathering (chip purchase, game, chip exchange) \n-Some event functions available from NPC ""Million"" \n-Available from NPC ""Settuno"" Serial code input function"
+
+100,1051,0,The current soul name%s has a duplicate name with other players and needs to be changed.
+100,1051,1,(%s)
+
+#Union Warehouse
+100,1060,0,General 1
+100,1060,1,Advanced 1
+100,1060,2,General 2
+100,1060,3,Advanced 2
+100,1060,4,General 3
+100,1060,5,General safe
+100,1060,6,Advanced safe
+100,1060,7,It cannot be used because you do not have the authority.
+
+#For error information transmission function
+100,1070,0,The system information could not be obtained
+100,1070,1,---- system ----
+100,1070,2,OS:
+100,1070,3,CPU:
+100,1070,4,System Memory:
+100,1070,5,Localized:
+100,1070,6,DirectX Version:
+100,1070,7,DirectX Runtime Mode:
+100,1070,8,DirectX DebugLevel:
+
+100,1070,20,Chip:
+100,1070,21,VRAM:
+100,1070,22,DDI:
+100,1070,23,DriverName:
+100,1070,24,DriverVersion:
+
+
+100,1071,0,Date:
+100,1071,1,exe build:
+100,1071,2,Type:%d
+100,1071,3,Version:%d
+100,1071,4,StartTime:
+100,1071,5,%1%04d/%2%02d/%3%02d%4%2d:%5%02d
+100,1071,6,ExecTime:
+
+
+100,1072,0,---- error ----
+100,1072,1,ExceptionCode:
+100,1072,2,ExceptionAddress:
+100,1072,3,info0:
+100,1072,4,info1: info1:
+100,1072,5,info2:
+100,1072,6,---- call stack ---
+100,1072,7,---- stack dump ----
+100,1072,8,info3:
+
+100,1072,20,"%1%d,%2%08x,%3%08x"
+100,1072,21,"%1%d,%2%08x"
+
+100,1073,0,---- Game Security ---
+100,1073,1,code:
+100,1073,2,---- CEquipShared :: getNaked () Error ----
+100,1073,3,---- chat ----
+100,1073,4,---- sound error ----
+100,1073,5,---- System Error ----
+100,1073,6,---- error ----
+100,1073,7,---- error ----
+
+100,1074,0,No personal information will be sent
+100,1074,1,%d error logs have been detected. Are you sure you want to send the following content to the operating company?
+100,1074,2,Send
+100,1074,3,Close without sending
+100,1074,4,Error dialog
+100,1074,5,Automatically send error information without confirmation
+
+
+#Macro related
+100,1080,0,%1%s%2%s
+100,1080,1,%02d
+100,1080,2,/%s
+
+
+
+100,1081,0,OK
+100,1081,1,Cancel
+100,1081,2,Delete
+100,1081,3,Macro editing
+100,1081,4,Set the operation content of the macro
+100,1081,5,Background color
+100,1081,6,%02d
+
+100,1081,10,Do you want to remove this macro?
+100,1081,11,Would you like to abandon your edits and close the window?
+
+100,1082,0,sign up
+100,1082,1,help
+100,1082,2,I can't register any more
+100,1082,3,Source: <color PARAM_UP>%s </color> macro
+100,1082,4,Destination: <color PARAM_UP>%s </color> macro
+100,1082,5,Sky
+100,1082,6,Do you want to move or copy macros?
+100,1082,7,copy
+100,1082,8,Move
+100,1082,9,Cancel
+100,1082,10,\n
+100,1082,11,help
+
+#Custom slot
+100,1090,0,Number of slots that can be registered:%d
+100,1090,1,Custom slot
+100,1091,0,Show all
+100,1091,1,Ancient magic
+100,1091,2,Tribal skills
+100,1091,3,Ancient skills
+100,1092,0,Set a custom slot. \n Are you sure?
+
+
+#Special training
+100,1100,0,Please set the material.
+100,1100,1,Please set the equipment to be optimized first.
+100,1100,2,Please set the equipment and materials.
+100,1100,3,Special training
+100,1100,4,
+100,1101,0,Equipment conditions
+100,1101,1,Lv%d ~
+100,1101,2,Equipment to optimize
+100,1101,3,Material (same equipment or optimized universal material)
+100,1101,4,Lv%d ～%d
+100,1101,5,Lv%d
+100,1109,0,Do you specially train?
+100,1109,1,Material items include one of the following items: \n \n-Items strengthened by training \n-Items with gems attached to gem sockets \n-Items with the effect of Sei Kom's amulet or Sogo Guard Medal \n \n Really special training will you do?
+
+#Gem socket port
+100,1110,0,Set equipment B.
+100,1110,1,Please set equipment A first.
+100,1110,2,Please set the equipment.
+100,1110,3,Transplant
+100,1110,4,Results after transplantation
+100,1110,5,Transplant costs
+100,1110,6,Please set the transplant material.
+100,1111,0,
+100,1111,1,(Target equipment)
+100,1111,2,(Equipment with a gem socket to be transplanted)
+100,1111,3,Transplant material
+100,1111,4,Equipment A
+100,1111,5,Equipment B
+100,1112,0,Successful porting of gem sockets!
+100,1112,1,Oops! \nFailed to port the gem socket!
+100,1119,0,Would you like to port the gem socket?
+100,1119,1,The \n gems that are addicted to equipment A (target equipment) will disappear. \nGems that are \n in Equipment B (equipment with a gem socket to be transplanted) will remain. \n \nEquipment B (equipment with a gem socket to be ported) \n will disappear after porting. \n \n Do you want to perform a gem socket port?
+
+#Chat right-click menu
+100,1150,0,You cannot perform any operation on your own remarks
+
+#Ticket window
+100,1160,0,MAC ticket
+100,1160,1,Remaining number of plays
+100,1160,2,Aggregation period
+100,1160,3,days left
+100,1160,4,%d/%d sheets
+100,1160,5,%d/%d times
+100,1160,6,%s ～%s
+100,1160,7,%dD%dH
+
+#NPC list window
+100,1170,0,NPC list
+100,1170,1,NPC name:
+100,1170,2,Quest orders available:
+100,1170,3,Quest orders accepted:
+100,1170,4,Quest complete:
+100,1170,5,Open NPC list
+
+#casino
+100,1180,0,N chip
+100,1180,1,R chip
+
+#Partner system related
+100,1190,0,HP
+100,1190,1,MP
+100,1190,2,STR
+100,1190,3,INT
+100,1190,4,VIT
+100,1190,5,PIE
+100,1190,6,DEX
+100,1190,7,LUK
+100,1190,8,AGI
+100,1190,9,Race
+100,1190,10,Lv.
+100,1190,11,skill
+100,1190,12,Soul partner expansion frame
+100,1190,13,Hersant Medal Frame
+100,1190,14,NO PARTNER
+100,1190,15,CP
+100,1190,16,Total CP
+100,1190,17,Maximum Lv.
+100,1190,18,-
+
+100,1190,20,The level is
+100,1190,21, %d 
+100,1190,22,I went up to!
+100,1190,23,Bonus points
+100,1190,24,* You can allocate the carried-over BP at any time.
+100,1190,25,reset
+100,1190,26,OK
+100,1190,27,close
+100,1190,28,+%d
+100,1190,29,(%d)
+100,1190,50,Would you like to level up this parameter?
+100,1190,51,Do you want to close the BP allocation without confirming it? \n
+100,1190,52,* You can allocate the carried-over BP at any time.
+
+100,1191,0,EXP
+100,1191,1,SG
+100,1191,2,menu
+100,1191,3,close
+100,1191,4,switching
+100,1191,5,?? (Level cap)
+100,1191,6,shop
+100,1191,7,Avatar equipment: None
+
+100,1191,20,Full recovery in%d minutes
+100,1191,21,+%d
+100,1191,22,%d
+100,1191,23,/
+100,1191,24,Full recovery in%d seconds
+100,1191,25,I returned from the search.
+
+100,1191,50,Give a name
+100,1191,51,BP allocation
+
+100,1191,60,skill
+
+100,1191,70,Partner gets EXP when you give a special item
+100,1191,71,Increased intimacy with partners
+100,1191,72,Giving exclusive items will increase intimacy with partners
+100,1191,73,Your partner will talk to you
+100,1191,74,View partner skill board
+100,1191,75,Summon a partner ON/OFF
+
+100,1191,91,Do you give%s? \n
+100,1191,92,* One will be consumed.
+100,1191,93,Do you praise%s?
+100,1191,94,Decide on a partner name
+100,1191,95,Please enter your name
+
+100,1192,0,SG%1%d/%2%d
+100,1192,1,(Summon cool time remaining%d seconds)
+100,1192,2,%s:%s
+
+100,1193,0,close
+100,1193,1,Display switching
+100,1193,2,reset
+100,1193,3,Regular partner
+100,1193,4,%s regular partner
+100,1193,5,%s card
+
+100,1193,99,Organization
+100,1193,100,Swap
+100,1193,101,Soul merge
+100,1193,102,Card
+
+100,1193,121,Order of acquisition
+100,1193,122,Lv order
+100,1193,123,By race name
+100,1193,124,Naming order
+100,1193,125,CP order
+100,1193,126,SG order
+
+100,1193,141,ascending order
+100,1193,142,descending order
+
+100,1193,161,Number of stores:
+100,1193,162,Expand
+100,1193,163,%s/%s
+100,1193,164,Partner warehouse expansion shop
+
+100,1194,0,Regular partner
+100,1194,1,Swap
+100,1194,2,Exploration partner
+100,1194,3,Explore
+100,1194,4,Searching
+100,1194,5,Search complete
+100,1194,6,Stop searching
+100,1194,7,Do you want to search for%1%s?
+100,1194,8,Required GOLD
+100,1194,9,Bonus:
+100,1194,10,Request total level
+100,1194,11,Search time
+100,1194,12,Request total parameters
+100,1194,13,Items that can be acquired
+100,1194,14,%1%02d:%2%02d:%3%02d
+100,1194,15,depart
+100,1194,16,Limit on the number of soul partners
+100,1194,17,Failure
+100,1194,18,success
+100,1194,19,Great success
+100,1194,20,Discovered items
+100,1194,21,* Soul partner does not meet the required total parameters
+100,1194,22,It is an unacquired item.
+100,1194,23,"Do you really want to stop exploring? \n * If you cancel, you will not get any reward. \n SG will also be reduced."
+100,1194,24,Expand the search partner frame
+100,1194,25,Send a search completion email
+100,1194,26,Search result:
+100,1194,27,Completed !!
+100,1194,28,List
+100,1194,29,Bonus list
+100,1194,30,Exploration party
+100,1194,31,%s is searching
+
+100,1194,50,"Since the total CP is over, summoning cannot be done as it is. \n Are you sure?"
+100,1194,51,Do you want to search for%1%s?
+100,1194,52,"At the end of the search, a \n search completion email will be sent to the registered email address of your account. \n * We will send you an email only if you are logged out of the game. \n * It may take about 30 minutes to send the email. \n * If you want to stop sending emails at the end of the search, please uncheck \n."
+
+100,1194,100,None
+100,1194,101,Number of acquired items%d times
+100,1194,102,Earn EXP%d times
+100,1194,103,Great success probability%d times
+100,1194,104,Search time reduction%d%
+100,1194,105,SG consumption decrease%d%
+
+100,1194,111,Acquired items%1%d.%2%d times
+100,1194,112,Earn EXP%1%d.%2%d times
+100,1194,113,Great success probability%1%d.%2%d times
+
+100,1194,120,
+100,1194,121,Recommended Lv%d or higher
+100,1194,122,Recommended Lv%d or less
+100,1194,123,Search time%1%d:%2%d or more
+100,1194,124,Search time%1%d: less than%2%d
+100,1194,125,
+
+100,1194,140,In the direction of Il Faro
+100,1194,141,In the direction of Hersant
+100,1194,142,Day:
+100,1194,143,Month:
+100,1194,144,fire:
+100,1194,145,water:
+100,1194,146,wood:
+100,1194,147,Money:
+100,1194,148,soil:
+
+100,1195,0,Merge cost
+100,1195,1,Money in possession
+100,1195,2,Base card
+100,1195,3,EXP
+100,1195,4,Merge material
+100,1195,5,Soul merge removes material partners
+100,1195,6,reset
+100,1195,7,Soul merge
+
+100,1195,50,"After soul merging, there will be no material partner. \n Are you sure?"
+
+100,1196,0,Carding cost
+100,1196,1,Money in possession
+100,1196,2,Partner to make a card
+100,1196,3,The Lv of the carded soul partner drops to a certain value
+100,1196,4,reset
+100,1196,5,Make a card
+
+100,1196,50,The Lv of the carded soul partner drops to a certain value. \n Are you sure?
+
+100,1197,0,Unidentified
+100,1197,1,White
+100,1197,2,yellow
+100,1197,3,Green
+100,1197,4,Blue
+100,1197,5,Red
+100,1197,50,(%s)
+
+100,1198,0,Unlearned
+
+#slot
+100,1200,0,start
+100,1200,1,close
+
+#Partner picture book system related
+100,1210,0,Picture book
+100,1210,1,List of partners
+100,1210,2,Number of partners collected
+100,1210,3,CP
+100,1210,4,close
+100,1210,5,?? ?? ??
+
+100,1210,50,Wizardry
+100,1210,51,Special
+
+100,1210,100,%1%d/%2%d
+100,1210,101,%d
+
+#Class Advance
+100,1220,1,%s pt
+100,1220,2,%sAdPoint
+100,1220,3,Advancement
+100,1220,4,Rank%d
+100,1220,5,close
+100,1220,6,Do you remember this characteristic?
+100,1220,7,AdPoint is for learning
+100,1220,8,Is required.
+100,1220,9,Do you forget this property?
+100,1220,10,For oblivion
+100,1220,11,I forgot%s.
+100,1220,12,List of learning characteristics
+100,1220,13,Upper limit AdPoint
+100,1220,14,Upper limit AdPoint (M)
+100,1220,15,%s/%s pt
+100,1220,16,Point usage limit
+100,1220,17,Weekly acquisition limit
+100,1220,18,AdPoint is missing%d. \nYou need%d AdPoint for your current profession.
+
+100,1221,1,effect
+100,1221,2,Learning conditions
+100,1221,3,Consumed AdPoint
+100,1221,4,Soul rank
+100,1221,5,Lv
+100,1221,6,Effective for all occupations
+100,1221,7,+%.0f
+100,1221,8,-%.0f
+100,1221,9,+%.1f
+100,1221,10,-%.1f
+100,1221,11,%s enhancement
+
+
+100,1222,0,None
+100,1222,1,HP (fixed)
+100,1222,2,HP (ratio)
+100,1222,3,MP (fixed)
+100,1222,4,MP (ratio)
+100,1222,5,AC when equipped with a shield
+100,1222,6,Muscle strength
+100,1222,7,Vitality
+100,1222,8,Dexterity
+100,1222,9,agile
+100,1222,10,Intelligence
+100,1222,11,Faith
+100,1222,12,Good luck
+100,1222,13,Bare hand attack power
+100,1222,14,Dark device attack power
+100,1222,15,Dagger attack power
+100,1222,16,One-handed sword attack power
+100,1222,17,Rapier attack power
+100,1222,18,Two-handed sword attack power
+100,1222,19,One-handed sword attack power
+100,1222,20,Two-handed sword attack power
+100,1222,21,One-handed hatchet attack power
+100,1222,22,Two-handed ax attack power
+100,1222,23,One-handed blunt instrument attack power
+100,1222,24,Two-handed blunt instrument attack power
+100,1222,25,One-handed cane attack power
+100,1222,26,Two-handed cane attack power
+100,1222,27,Spear attack power
+100,1222,28,Bow attack power
+100,1222,29,Crossbow attack power
+100,1222,30,Gun attack power
+100,1222,31,Musical instrument attack power
+100,1222,32,Double-edged attack power
+100,1222,33,Item rank that can be equipped with bare hands
+100,1222,34,Item rank that can be equipped with dark equipment
+100,1222,35,Item rank that can be equipped with a dagger
+100,1222,36,Item rank that can be equipped with a one-handed sword
+100,1222,37,Item rank that can be equipped with a piercing sword
+100,1222,38,Item rank that can be equipped with a two-handed sword
+100,1222,39,Item rank that can be equipped with a one-handed sword
+100,1222,40,Item rank that can be equipped with a two-handed sword
+100,1222,41,Item rank that can be equipped with a one-handed hatchet
+100,1222,42,Item rank that can be equipped with a two-handed ax
+100,1222,43,Item rank that can be equipped with a one-handed blunt instrument
+100,1222,44,Item rank that can be equipped with a two-handed blunt instrument
+100,1222,45,Item rank that can be equipped with a one-handed cane
+100,1222,46,Item rank that can be equipped with a two-handed cane
+100,1222,47,Item rank that can be equipped with a spear
+100,1222,48,Item rank that can be equipped with a bow
+100,1222,49,Item rank that can be equipped with a crossbow
+100,1222,50,Item rank that can be equipped with a gun
+100,1222,51,Item rank that can be equipped with musical instruments
+100,1222,52,Item rank that can be equipped with double blades
+100,1222,53,Fire attribute attack
+100,1222,54,Water attribute attack
+100,1222,55,Wind attribute attack
+100,1222,56,Earth attribute attack
+100,1222,57,Light attribute attack
+100,1222,58,Darkness attack
+100,1222,59,Fire attribute defense
+100,1222,60,Water attribute defense
+100,1222,61,Wind attribute defense
+100,1222,62,Earth attribute defense
+100,1222,63,Light attribute defense
+100,1222,64,Darkness defense
+100,1222,65,Fire attribute attack
+100,1222,66,Water attribute attack
+100,1222,67,Wind attribute attack
+100,1222,68,Earth attribute attack
+100,1222,69,Light attribute attack
+100,1222,70,Darkness attack
+100,1222,71,Fire attribute defense
+100,1222,72,Water attribute defense
+100,1222,73,Wind attribute defense
+100,1222,74,Earth attribute defense
+100,1222,75,Light attribute defense
+100,1222,76,Darkness defense
+100,1222,77,Poison attribute defense
+100,1222,78,Paralysis resistance
+100,1222,79,Petrification resistance
+100,1222,80,Stun resistance
+100,1222,81,Dark tolerance
+100,1222,82,Sleep tolerance
+100,1222,83,Silence tolerance
+100,1222,84,Fascination resistance
+100,1222,85,Confusion tolerance
+100,1222,86,Fear tolerance
+100,1222,87,Bind resistance
+100,1222,88,Physical attack power
+100,1222,89,Physical defense
+100,1222,90,Magic attack power
+100,1222,91,Magic defense
+100,1222,92,weight
+100,1222,93,MP consumption value
+100,1222,94,OD value consumed
+100,1222,95,Automatic recovery amount of OD
+100,1222,96,Experience points acquired
+100,1222,97,Get GOLD
+100,1222,98,Movement speed (running)
+100,1222,99,Movement speed (dash)
+100,1222,100,Combo damage
+100,1222,101,Amount of hate when attacking
+100,1222,102,Amount of hate when attacked
+100,1222,103,Resurrection success rate
+100,1222,104,Trap release rate
+100,1222,105,Damage correction rate in traps
+100,1222,106,HP recovery amount by item
+100,1222,107,Amount of HP recovered by magic
+100,1222,108,Amount of HP recovered by magic
+100,1222,109,%s effect added
+100,1222,110,Buff enhancement
+100,1222,111,%s acquisition
+100,1222,112,MP consumption value
+100,1222,113,OD value consumed
+100,1222,114,Cast time
+100,1222,115,Cool time
+100,1222,116,Damage rate
+100,1222,117,Grant effect time
+100,1222,118,Give%s%d seconds
+100,1222,119,Additional%s is added when casting
+100,1222,120,Effect size increase/decrease
+100,1222,121,Effect ID switching
+
+100,1223,0,
+100,1223,1,%
+100,1223,2,Seconds
+100,1223,3,Strengthening
+100,1223,4,stage
+
+100,1224,0,Standard
+100,1224,1,Expert
+100,1224,2,Master
+
+#Random dungeon
+100,1230,0,Show icon
+100,1230,1,Breakthrough rate:
+100,1230,2,%d%
+
+100,1231,0,Departure
+100,1231,1,Confluence
+100,1231,2,The number of possession
+100,1231,3,Which hierarchy do you want to start with?
+100,1231,4,Maximum number of participants:%d
+100,1231,5,Dungeon Buff:%s
+100,1231,6,Hierarchy:%d
+100,1231,7,Carry-on restrictions:%s
+100,1231,8,Reward:
+100,1231,9,■ Explanation
+100,1231,10,Yes
+100,1231,11,None
+100,1231,12,CONTINUE
+100,1231,13,%1%s%2%d layer
+100,1231,14,%1%s Lv%2%d%3%s
+100,1231,15,Buff:
+100,1231,16,Number of monsters defeated:
+100,1231,17,Number of gate captures:
+100,1231,18,Number of items collected:
+100,1231,19,Number of deaths:
+100,1231,20,elapsed time
+100,1231,21,%1%03d:%2%02d
+100,1231,22,The number of possession
+100,1231,23,* Capture period%1%d/%2%d/%3%d to%4%d/%5%d/%6%d
+100,1231,24,Cumulative traversal time
+100,1231,25,%1%03d:%2%02d
+100,1231,26,%s sheets
+100,1231,27,The dungeon capture evaluation will be updated when the final stage is cleared by adding up the evaluation personal bests of each stage.
+100,1231,28,Resume
+100,1231,29,NO DATA
+100,1231,30,The party leader
+100,1231,31,%1%s \n%2%s \n%3%d layer
+100,1231,32,I decided.
+100,1231,33,No items can be brought into this area.
+100,1231,34,"Warning: If started, the suspended data will be discarded."
+100,1231,35,Resume from.
+100,1231,36,Wait for the party leader to select the area.
+100,1231,37,The party leader has departed
+100,1231,38,Member departure waiting
+100,1231,39,The party leader is selecting an area.
+100,1231,40,I am trying. Do you want to join?
+100,1231,41,%1%d/%2%d
+100,1231,42,EXPLORE
+100,1231,43,Warning: Buffs granted inside the dungeon will disappear when the dungeon is cleared and retired.
+100,1231,44,* Admission reception%1%d:%2%02d ~%3%d:%4%02d
+100,1231,45,* Capture period From%1%d:%2%02d to%3%d:%4%02d
+
+100,1231,50,normal
+
+100,1231,60,Area information
+100,1231,61,Strategy evaluation
+
+100,1231,70,Obtained%d times!
+100,1231,71,Gold coins
+100,1231,72,Silver coin
+
+100,1232,0,Defeat Monsters:
+100,1232,1,Gate capture:
+100,1232,2,Collected item acquisition rate:
+100,1232,3,Number of deaths:
+100,1232,4,Breaking time
+100,1232,5,%1%03d:%2%02d
+
+100,1232,50,-
+100,1232,51,E
+100,1232,52,D
+100,1232,53,C
+100,1232,54,B
+100,1232,55,A
+100,1232,56,S
+
+100,1233,0,Police Mata bronze coin
+100,1233,1,Data silver coin
+100,1233,2,Athenian gold coins
+
+100,1234,0,Number of monsters defeated:
+100,1234,1,Number of gate captures:
+100,1234,2,Number of items collected:
+100,1234,3,Number of deaths:
+100,1234,4,elapsed time
+100,1234,5,%1%03d:%2%02d
+100,1234,6,The record has been updated!
+100,1234,7,Acquired
+100,1234,8,Sheet
+100,1234,9,??
+100,1234,10,stage:
+
+#Soul Fragment
+100,1240,0,Soul fragment
+100,1240,1,Purchase
+100,1240,2,%d/%d
+100,1240,3,\n It is stored in the Soul Fragment column of the skill tree.
+100,1240,4,Skills are registered in this soul fragment. \n Do you really want to destroy it?
+100,1240,5,The recorded fragment can be used for the skill inheritance frame when changing jobs. \nFragments cannot be reused. Do you want to store \n%s (Lv%d) in the \n fragment?
+100,1240,6,A stone fragment that saves the specified skill for each skill level. \n Saved skills can be registered in the skill inheritance frame when changing jobs. \nThe stone fragments disappear after use.
+100,1240,7,Do you want to throw away the soul fragment?
+100,1240,8,"A soul fragment is used. If you inherit from the \nsoul fragment, the \nsoul fragment will be lost. \n Are you sure?"
+100,1240,9,Soul Fragment Shop
+
+#Enchantment effect statement
+100,1250,1,Durability <color PARAM_UP2> ＋%.0f </color>
+100,1250,2,Maximum weight <color PARAM_UP2> ＋%.2f </color>
+100,1250,3,HP <color PARAM_UP2> ＋%.0f </color>
+100,1250,4,MP <color PARAM_UP2> ＋%.0f </color>
+100,1250,5,GP <color PARAM_UP2> ＋%.0f </color>
+100,1250,6,STR <color PARAM_UP2> ＋%.0f </color>
+100,1250,7,VIT <color PARAM_UP2> ＋%.0f </color>
+100,1250,8,DEX <color PARAM_UP2> ＋%.0f </color>
+100,1250,9,AGI <color PARAM_UP2> ＋%.0f </color>
+100,1250,10,INT <color PARAM_UP2> ＋%.0f </color>
+100,1250,11,PIE <color PARAM_UP2> ＋%.0f </color>
+100,1250,12,LUK <color PARAM_UP2> ＋%.0f </color>
+100,1250,13,Physical attack power <color PARAM_UP2> ＋%.0f </color>
+100,1250,14,Physical defense <color PARAM_UP2> ＋%.0f </color>
+100,1250,15,Magic attack power <color PARAM_UP2> ＋%.0f </color>
+100,1250,16,Magic defense <color PARAM_UP2> ＋%.0f </color>
+100,1250,17,Slash attribute attack power <color PARAM_UP2> ＋%.0f </color>
+100,1250,18,Hitting attribute attack power <color PARAM_UP2> ＋%.0f </color>
+100,1250,19,Sudden attribute attack power <color PARAM_UP2> ＋%.0f </color>
+100,1250,20,Slash attribute defense power <color PARAM_UP2> ＋%.0f </color>
+100,1250,21,Strike attribute defense <color PARAM_UP2> ＋%.0f </color>
+100,1250,22,Sudden attribute defense power <color PARAM_UP2> ＋%.0f </color>
+100,1250,23,Fire attribute attack <color PARAM_UP2> ＋%.0f </color>
+100,1250,24,Water attribute attack <color PARAM_UP2> ＋%.0f </color>
+100,1250,25,Wind attribute attack <color PARAM_UP2> ＋%.0f </color>
+100,1250,26,Earth attribute attack <color PARAM_UP2> ＋%.0f </color>
+100,1250,27,Light attribute attack <color PARAM_UP2> ＋%.0f </color>
+100,1250,28,Dark attribute attack <color PARAM_UP2> ＋%.0f </color>
+100,1250,29,Fire attribute defense <color PARAM_UP2> ＋%.0f </color>
+100,1250,30,Water attribute defense <color PARAM_UP2> ＋%.0f </color>
+100,1250,31,Wind attribute defense <color PARAM_UP2> ＋%.0f </color>
+100,1250,32,Earth attribute defense <color PARAM_UP2> ＋%.0f </color>
+100,1250,33,Light attribute protection <color PARAM_UP2> ＋%.0f </color>
+100,1250,34,Darkness Defensive <color PARAM_UP2> ＋%.0f </color>
+100,1250,35,Poison resistance <color PARAM_UP2> ＋%.0f </color>
+100,1250,36,Paralysis resistance <color PARAM_UP2> ＋%.0f </color>
+100,1250,37,Petrification resistance <color PARAM_UP2> ＋%.0f </color>
+100,1250,38,Stun resistance <color PARAM_UP2> ＋%.0f </color>
+100,1250,39,Darkness resistance <color PARAM_UP2> ＋%.0f </color>
+100,1250,40,Sleep tolerance <color PARAM_UP2> ＋%.0f </color>
+100,1250,41,Silence resistance <color PARAM_UP2> ＋%.0f </color>
+100,1250,42,Fascination resistance <color PARAM_UP2> ＋%.0f </color>
+100,1250,43,Confusion tolerance <color PARAM_UP2> ＋%.0f </color>
+100,1250,44,Fear resistance <color PARAM_UP2> ＋%.0f </color>
+100,1250,45,Bind resistance <color PARAM_UP2> ＋%.0f </color>
+100,1250,46,Skill consumption MP <color PARAM_DN2> ＋%.0f </color>
+100,1250,47,Skill consumption OD <color PARAM_DN2> ＋%.0f </color>
+100,1250,48,Dash consumption OD <color PARAM_DN2> ＋%.0f </color>
+100,1250,49,Dash jump consumption OD <color PARAM_DN2> ＋%.0f </color>
+100,1250,50,Step consumption OD <color PARAM_DN2> ＋%.0f </color>
+100,1250,51,OD natural recovery amount <color PARAM_UP2> ＋%.0f </color>
+100,1250,52,OD natural recovery time <color PARAM_DN2> ＋%.0f </color>
+100,1250,53,OD natural recovery upper limit <color PARAM_UP2> ＋%.0f </color>
+100,1250,54,GP natural recovery amount <color PARAM_UP2> ＋%.0f </color>
+100,1250,55,GP natural recovery time <color PARAM_DN2> ＋%.0f </color>
+100,1250,56,GP natural recovery start time <color PARAM_DN2> ＋%.0f </color>
+100,1250,57,Attack skill Cool time <color PARAM_DN2> ＋%.0f </color>
+100,1250,58,Defense skill Cool time <color PARAM_DN2> ＋%.0f </color>
+100,1250,59,Recovery Skill Cool Time <color PARAM_DN2> ＋%.0f </color>
+100,1250,60,Resurrection Skill Cool Time <color PARAM_DN2> ＋%.0f </color>
+100,1250,61,Auxiliary skill Cool time <color PARAM_DN2> ＋%.0f </color>
+100,1250,62,Interference skill Cool time <color PARAM_DN2> ＋%.0f </color>
+100,1250,63,Other skills Cool time <color PARAM_DN2> ＋%.0f </color>
+100,1250,64,Durability value <color PARAM_UP2> ＋%.0f </color>
+100,1250,65,Weight <color PARAM_DN2> ＋%.0f </color>
+100,1250,66,Hardness <color PARAM_UP2> ＋%.0f </color>
+100,1250,67,Price <color PARAM_UP2> ＋%.0f </color>
+100,1250,68,Repair cost <color PARAM_DN2> ＋%.0f </color>
+100,1250,69,Range <color PARAM_UP2> ＋%.0f </color>
+100,1250,70,Bow storage performance & gun loading performance <color PARAM_UP2> ＋%.0f </color>
+100,1250,71,Number of loads <color PARAM_UP2> ＋%.0f </color>
+100,1250,72,Movement speed <color PARAM_UP2> ＋%.0f </color>
+100,1250,73,Dash speed <color PARAM_UP2> ＋%.0f </color>
+100,1250,74,Step speed <color PARAM_UP2> ＋%.0f </color>
+100,1250,75,Turning speed <color PARAM_UP2> ＋%.0f </color>
+100,1250,76,Item given HP recovery amount <color PARAM_UP2> ＋%.0f </color>
+100,1250,77,Item HP recovery amount <color PARAM_UP2> ＋%.0f </color>
+100,1250,78,Camp HP recovery amount <color PARAM_UP2> ＋%.0f </color>
+100,1250,79,Attack skill duration <color PARAM_UP2> ＋%.0f </color>
+100,1250,80,Defense skill duration <color PARAM_UP2> ＋%.0f </color>
+100,1250,81,Recovery skill duration <color PARAM_UP2> ＋%.0f </color>
+100,1250,82,Revival skill duration <color PARAM_UP2> ＋%.0f </color>
+100,1250,83,Auxiliary skill duration <color PARAM_UP2> ＋%.0f </color>
+100,1250,84,Interference skill duration <color PARAM_UP2> ＋%.0f </color>
+100,1250,85,Other skill duration <color PARAM_UP2> ＋%.0f </color>
+100,1250,86,Attack skill effect time <color PARAM_UP2> ＋%.0f </color>
+100,1250,87,Defensive skill effect time <color PARAM_UP2> ＋%.0f </color>
+100,1250,88,Recovery skill effect time <color PARAM_UP2> ＋%.0f </color>
+100,1250,89,Revival skill effect time <color PARAM_UP2> ＋%.0f </color>
+100,1250,90,Auxiliary skill effect time <color PARAM_UP2> ＋%.0f </color>
+100,1250,91,Interference skill effect time <color PARAM_UP2> ＋%.0f </color>
+100,1250,92,Other skills Effective time <color PARAM_UP2> ＋%.0f </color>
+100,1250,93,Experience value <color PARAM_UP2> ＋%.0f </color>
+100,1250,94,Drop rate <color PARAM_UP2> ＋%.0f </color>
+100,1250,95,Gold drop rate <color PARAM_UP2> ＋%.0f </color>
+100,1250,96,Weapon compatibility value <color PARAM_UP2> ＋%.2f </color>
+100,1250,97,Revival skill success rate <color PARAM_UP2> ＋%.0f </color>
+100,1250,98,CON reduction due to trap <color PARAM_DN2> ＋%.0f </color>
+100,1250,99,GP <color PARAM_UP2> ＋%.0f </color>
+100,1250,100,Soul point acquisition amount <color PARAM_UP2> ＋%.0f </color>
+100,1250,101,Maximum fire attribute attack <color PARAM_UP2> ＋%.0f </color>
+100,1250,102,Maximum water attribute attack <color PARAM_UP2> ＋%.0f </color>
+100,1250,103,Wind attribute attack maximum value <color PARAM_UP2> ＋%.0f </color>
+100,1250,104,Earth attribute attack maximum value <color PARAM_UP2> ＋%.0f </color>
+100,1250,105,Maximum light attribute attack <color PARAM_UP2> ＋%.0f </color>
+100,1250,106,Darkness attribute attack maximum value <color PARAM_UP2> ＋%.0f </color>
+100,1250,107,Maximum fire protection <color PARAM_UP2> ＋%.0f </color>
+100,1250,108,Maximum water attribute defense <color PARAM_UP2> ＋%.0f </color>
+100,1250,109,Wind attribute defense maximum value <color PARAM_UP2> ＋%.0f </color>
+100,1250,110,Earth attribute defense maximum value <color PARAM_UP2> ＋%.0f </color>
+100,1250,111,Maximum light attribute protection <color PARAM_UP2> ＋%.0f </color>
+100,1250,112,Darkness attribute defense maximum value <color PARAM_UP2> ＋%.0f </color>
+100,1250,113,Maximum value of all attack magic attributes <color PARAM_UP2> ＋%.0f </color>
+100,1250,114,Maximum value of all defense magic attributes <color PARAM_UP2> ＋%.0f </color>
+100,1251,1,Durability <color PARAM_DN2> －%.0f </color>
+100,1251,2,Maximum weight <color PARAM_DN2> －%.2f </color>
+100,1251,3,HP <color PARAM_DN2> －%.0f </color>
+100,1251,4,MP <color PARAM_DN2> －%.0f </color>
+100,1251,5,GP <color PARAM_DN2> －%.0f </color>
+100,1251,6,STR <color PARAM_DN2> －%.0f </color>
+100,1251,7,VIT <color PARAM_DN2> －%.0f </color>
+100,1251,8,DEX <color PARAM_DN2> －%.0f </color>
+100,1251,9,AGI <color PARAM_DN2> －%.0f </color>
+100,1251,10,INT <color PARAM_DN2> －%.0f </color>
+100,1251,11,PIE <color PARAM_DN2> －%.0f </color>
+100,1251,12,LUK <color PARAM_DN2> －%.0f </color>
+100,1251,13,Physical attack power <color PARAM_DN2> －%.0f </color>
+100,1251,14,Physical defense <color PARAM_DN2> －%.0f </color>
+100,1251,15,Magic attack power <color PARAM_DN2> －%.0f </color>
+100,1251,16,Magic defense <color PARAM_DN2> －%.0f </color>
+100,1251,17,Slash attribute attack power <color PARAM_DN2> －%.0f </color>
+100,1251,18,Strike attribute attack power <color PARAM_DN2> －%.0f </color>
+100,1251,19,Sudden attribute attack power <color PARAM_DN2> －%.0f </color>
+100,1251,20,Slash attribute defense power <color PARAM_DN2> －%.0f </color>
+100,1251,21,Strike attribute defense <color PARAM_DN2> －%.0f </color>
+100,1251,22,Sudden attribute defense <color PARAM_DN2> －%.0f </color>
+100,1251,23,Fire attribute attack <color PARAM_DN2> －%.0f </color>
+100,1251,24,Water attribute attack <color PARAM_DN2> －%.0f </color>
+100,1251,25,Wind attribute attack <color PARAM_DN2> －%.0f </color>
+100,1251,26,Earth attribute attack <color PARAM_DN2> －%.0f </color>
+100,1251,27,Light attribute attack <color PARAM_DN2> －%.0f </color>
+100,1251,28,Darkness Attack <color PARAM_DN2> －%.0f </color>
+100,1251,29,Fire attribute defense <color PARAM_DN2> －%.0f </color>
+100,1251,30,Water attribute defense <color PARAM_DN2> －%.0f </color>
+100,1251,31,Wind attribute protection <color PARAM_DN2> －%.0f </color>
+100,1251,32,Earth attribute defense <color PARAM_DN2> －%.0f </color>
+100,1251,33,Light attribute protection <color PARAM_DN2> －%.0f </color>
+100,1251,34,Darkness Defense <color PARAM_DN2> －%.0f </color>
+100,1251,35,Poison resistance <color PARAM_DN2> －%.0f </color>
+100,1251,36,Paralysis resistance <color PARAM_DN2> －%.0f </color>
+100,1251,37,Petrification resistance <color PARAM_DN2> －%.0f </color>
+100,1251,38,Stun resistance <color PARAM_DN2> －%.0f </color>
+100,1251,39,Darkness resistance <color PARAM_DN2> －%.0f </color>
+100,1251,40,Sleep tolerance <color PARAM_DN2> －%.0f </color>
+100,1251,41,Silence resistance <color PARAM_DN2> －%.0f </color>
+100,1251,42,Fascination resistance <color PARAM_DN2> －%.0f </color>
+100,1251,43,Confusion tolerance <color PARAM_DN2> －%.0f </color>
+100,1251,44,Fear resistance <color PARAM_DN2> －%.0f </color>
+100,1251,45,Bind resistance <color PARAM_DN2> －%.0f </color>
+100,1251,46,Skill consumption MP <color PARAM_UP2> －%.0f </color>
+100,1251,47,Skill consumption OD <color PARAM_UP2> －%.0f </color>
+100,1251,48,Dash consumption OD <color PARAM_UP2> －%.0f </color>
+100,1251,49,Dash jump consumption OD <color PARAM_UP2> －%.0f </color>
+100,1251,50,Step consumption OD <color PARAM_UP2> －%.0f </color>
+100,1251,51,OD natural recovery amount <color PARAM_DN2> －%.0f </color>
+100,1251,52,OD natural recovery time <color PARAM_UP2> －%.0f </color>
+100,1251,53,OD natural recovery upper limit <color PARAM_DN2> －%.0f </color>
+100,1251,54,GP natural recovery amount <color PARAM_DN2> －%.0f </color>
+100,1251,55,GP natural recovery time <color PARAM_UP2> －%.0f </color>
+100,1251,56,GP natural recovery start time <color PARAM_UP2> －%.0f </color>
+100,1251,57,Attack Skill Cool Time <color PARAM_UP2> －%.0f </color>
+100,1251,58,Defense Skill Cool Time <color PARAM_UP2> －%.0f </color>
+100,1251,59,Recovery Skill Cool Time <color PARAM_UP2> －%.0f </color>
+100,1251,60,Resurrection Skill Cool Time <color PARAM_UP2> －%.0f </color>
+100,1251,61,Auxiliary skill Cool time <color PARAM_UP2> －%.0f </color>
+100,1251,62,Interference skill Cool time <color PARAM_UP2> －%.0f </color>
+100,1251,63,Other skills Cool time <color PARAM_UP2> －%.0f </color>
+100,1251,64,Durability value <color PARAM_DN2> －%.0f </color>
+100,1251,65,Weight <color PARAM_UP2> －%.0f </color>
+100,1251,66,Hardness <color PARAM_DN2> －%.0f </color>
+100,1251,67,Price <color PARAM_DN2> －%.0f </color>
+100,1251,68,Repair cost <color PARAM_UP2> －%.0f </color>
+100,1251,69,Range <color PARAM_DN2> －%.0f </color>
+100,1251,70,Bow storage performance & gun loading performance <color PARAM_DN2> －%.0f </color>
+100,1251,71,Number of bullets loaded <color PARAM_DN2> －%.0f </color>
+100,1251,72,Movement speed <color PARAM_DN2> －%.0f </color>
+100,1251,73,Dash speed <color PARAM_DN2> －%.0f </color>
+100,1251,74,Step speed <color PARAM_DN2> －%.0f </color>
+100,1251,75,Turning speed <color PARAM_DN2> －%.0f </color>
+100,1251,76,Item given HP recovery amount <color PARAM_DN2> －%.0f </color>
+100,1251,77,Item HP recovery amount <color PARAM_DN2> －%.0f </color>
+100,1251,78,Camp HP recovery amount <color PARAM_DN2> －%.0f </color>
+100,1251,79,Attack skill duration <color PARAM_DN2> －%.0f </color>
+100,1251,80,Defense skill duration <color PARAM_DN2> －%.0f </color>
+100,1251,81,Recovery skill duration <color PARAM_DN2> －%.0f </color>
+100,1251,82,Revival skill duration <color PARAM_DN2> －%.0f </color>
+100,1251,83,Auxiliary skill duration <color PARAM_DN2> －%.0f </color>
+100,1251,84,Interference skill duration <color PARAM_DN2> －%.0f </color>
+100,1251,85,Other skill duration <color PARAM_DN2> －%.0f </color>
+100,1251,86,Attack skill effect time <color PARAM_DN2> －%.0f </color>
+100,1251,87,Defense skill duration <color PARAM_DN2> －%.0f </color>
+100,1251,88,Recovery skill duration <color PARAM_DN2> －%.0f </color>
+100,1251,89,Resurrection skill Effective time <color PARAM_DN2> －%.0f </color>
+100,1251,90,Auxiliary skill effect time <color PARAM_DN2> －%.0f </color>
+100,1251,91,Interference skill effect time <color PARAM_DN2> －%.0f </color>
+100,1251,92,Other skills Effective time <color PARAM_DN2> －%.0f </color>
+100,1251,93,Experience value <color PARAM_DN2> －%.0f </color>
+100,1251,94,Drop rate <color PARAM_DN2> －%.0f </color>
+100,1251,95,Gold drop rate <color PARAM_DN2> －%.0f </color>
+100,1251,96,Weapon compatibility value <color PARAM_DN2> －%.2f </color>
+100,1251,97,Revival skill success rate <color PARAM_DN2> －%.0f </color>
+100,1251,98,CON reduction due to trap <color PARAM_UP2> －%.0f </color>
+100,1251,99,GP <color PARAM_DN2> －%.0f </color>
+100,1251,100,Soul point acquisition amount <color PARAM_DN2> －%.0f </color>
+100,1251,101,Maximum fire attribute attack <color PARAM_DN2> －%.0f </color>
+100,1251,102,Maximum water attribute attack <color PARAM_DN2> －%.0f </color>
+100,1251,103,Wind attribute attack maximum value <color PARAM_DN2> －%.0f </color>
+100,1251,104,Earth attribute attack maximum value <color PARAM_DN2> －%.0f </color>
+100,1251,105,Maximum light attribute attack <color PARAM_DN2> －%.0f </color>
+100,1251,106,Darkness attribute attack maximum value <color PARAM_DN2> －%.0f </color>
+100,1251,107,Maximum fire protection <color PARAM_DN2> －%.0f </color>
+100,1251,108,Maximum water attribute protection <color PARAM_DN2> －%.0f </color>
+100,1251,109,Wind attribute defense maximum value <color PARAM_DN2> －%.0f </color>
+100,1251,110,Earth attribute defense maximum value <color PARAM_DN2> －%.0f </color>
+100,1251,111,Maximum light attribute protection <color PARAM_DN2> －%.0f </color>
+100,1251,112,Maximum darkness protection <color PARAM_DN2> －%.0f </color>
+100,1251,113,Maximum value of all attack magic attributes <color PARAM_DN2> －%.0f </color>
+100,1251,114,Maximum value of all defense magic attributes <color PARAM_DN2> －%.0f </color>
+100,1252,0,Grant%s when equipped
+100,1252,1,Activate%s when attacking (%s%)%d
+100,1252,2,Skill%s activated
+100,1252,3,?? ?? ??
+100,1252,4,Remove enchantment
+100,1252,5,Extract enchantments
+100,1252,50,<color PARAM_UP2> ～%s%.0f </color>
+100,1252,51,<color PARAM_DN2> ～%s%.0f </color>
+100,1252,52,<color PARAM_UP2> ～%s%.2f </color>
+100,1252,53,<color PARAM_DN2> ～%s%.2f </color>
+100,1252,54,~%d
+100,1252,55,Seconds
+
+#For help page
+# 1st page
+200,1,0,Move
+200,1,1,Camera movement
+200,1,2,Camera reset
+200,1,3,"Special actions (examine/speak, etc.)"
+200,1,4,dash
+200,1,5,Jump
+200,1,6,Crouching
+200,1,7,Target ON/OFF
+200,1,8,Change target target
+200,1,9,Change of target part
+200,1,10,Party member target
+200,1,11,Keyboard: WASD
+200,1,12,Controller: Move the left stick
+200,1,13,Keyboard: ↑ ← ↓ →
+200,1,14,Controller: Move the right stick
+200,1,15,Keyboard: End
+200,1,16,Controller: Push right stick
+200,1,17,Keyboard: B
+200,1,18,Controller: Button 3
+200,1,19,Keyboard: WASD + Shift
+200,1,20,Controller: Move the right stick + Button 6
+200,1,21,* Movement speed and jump distance increase while pressing
+200,1,22,Keyboard: Space
+200,1,23,Controller: Button 2
+200,1,24,Keyboard: N
+200,1,25,Controller: Button 5
+200,1,26,* Valid while pressing the button
+200,1,27,keyboard:@
+200,1,28,Controller: Push right stick
+200,1,29,Keyboard: IO
+200,1,30,Controller: Direction button left and right
+200,1,31,Keyboard: U
+200,1,32,Controller: On the direction button
+200,1,33,Keyboard: P
+200,1,34,Controller: Below the direction button
+200,1,35,* Valid only for specific Mobs
+200,1,36,Show/hide shortcuts
+200,1,37,Keyboard: 90-^
+200,1,38,Controller: Button 7
+200,1,39,Use shortcuts
+200,1,40,Keyboard: 1 2 3 4 5 6 7 8
+200,1,41,Controller: Select with left and right direction buttons Press button 3 to decide
+200,1,42,Switching between sword pulling and sword delivery
+200,1,43,Keyboard: G
+200,1,44,Controller: Push left stick
+200,1,45,Attack
+200,1,46,During sword pulling
+200,1,47,Keyboard: J
+200,1,48,Controller: Button 6
+200,1,49,Ranged attack Target manipulation
+200,1,50,Keyboard: ↑ ← ↓ →
+200,1,51,Controller: Move the right stick
+200,1,52,Shoot an arrow (bullet)
+200,1,53,Step move
+200,1,54,Keyboard: ASD + M
+200,1,55,Controller: Left stick Left left Lower right + Button 2
+200,1,56,guard
+200,1,57,Keyboard: V
+200,1,58,Controller: Button 5
+200,1,59,Map switching
+200,1,60,Keyboard: F12
+200,1,61,Controller: Button 9
+200,1,62,Minimap scaling
+200,1,63,Keyboard: F11
+200,1,64,Controller: Button 8
+200,1,65,Main menu open/closed
+200,1,66,Keyboard: F8
+200,1,67,Controller: Button 10
+200,1,68,Chat mode ON
+200,1,69,Keyboard: Enter
+200,1,70,Chat mode OFF
+200,1,71,In chat mode
+200,1,72,Keyboard: Esc/Enter with no input
+200,1,73,During the move

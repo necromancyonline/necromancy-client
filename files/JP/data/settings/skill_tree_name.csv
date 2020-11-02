@@ -1,0 +1,22 @@
+#Job,no,Skill tree name
+FIGHTER,1,Rush strike
+FIGHTER,2,Guard core
+PRIEST,1,Life relief
+PRIEST,2,White backer
+MAGE,1,Witchcraft
+MAGE,2,Aggressive
+THIEF,1,Trickster
+THIEF,2,Sidewinder
+THIEF,3,Strategist
+SAMURAI,1,Sword dancer
+SAMURAI,2,Black artist
+BISHOP,1,Somatage
+BISHOP,2,Theology
+NINJA,1,Ninjutsu
+NINJA,2,Secret skill
+LORD,1,Fortress
+LORD,2,recovery
+CLOWN,1,Sebright
+ALCHEMIST,1,Alchemy
+ALCHEMIST,2,Chemist
+ALCHEMIST,3,Variable Blow
