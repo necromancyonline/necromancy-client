@@ -2404,7 +2404,7 @@
 	</FilterEditWindow>
 	<FilterListItem>
 		<Ctrl Type="CONTROL" ID="31000" X="0" Y="0" W="679" H="22" MarkFocus="OFF">
-			<Ctrl Type="STATIC" ID="1000" X="0" Y="0" W="244" H="22" Caption="100,0,0" Font="Small" Align="RIGHT_VCENTER" TextColor="255,255,255,255" TextDecoColor="0,0,0,0" Edge="ON" Shadow="OFF" TextBGColor="0,0,0,0" CharSpace="0" LineSpace="0" AttachID-0="0" />
+			<Ctrl Type="STATIC" ID="1000" X="0" Y="0" W="224" H="22" Caption="100,0,0" Font="Small" Align="RIGHT_VCENTER" TextColor="255,255,255,255" TextDecoColor="0,0,0,0" Edge="ON" Shadow="OFF" TextBGColor="0,0,0,0" CharSpace="0" LineSpace="0" AttachID-0="0"/>
 			<Ctrl Type="IMAGE" ID="2550" X="249" Y="3" W="15" H="15" ImgID="-1" AttachID-0="0">
 				<Ctrl Type="BUTTON" ID="2547" X="-2" Y="-2" W="19" H="19" ButtonPartsID="12800" Font="UIGothic" Align="CENTER" TextColor="255,255,255,255" TextDecoColor="0,0,0,0" Edge="ON" TextBGColor="0,0,0,0" ImageTextID="0" ImageTextX="0" ImageTextY="0" MarkFocus="OFF" PushedSoundID="0" LastInputFocus="OFF" />
 			</Ctrl>
