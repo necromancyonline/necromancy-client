@@ -4,9 +4,11 @@
     "\\docs",
     "\\docs\\img",
     "\\files",
-    "\\files\\JP",
-    "\\files\\JP\\data\\settings"
+    "\\files\\jp",
+    "\\files\\jp\\English Patch",
+    "\\files\\jp\\English Patch\\data",
+    "\\files\\jp\\English Patch\\data\\settings"
   ],
-  "SelectedNode": "\\files\\JP\\English Patch",
+  "SelectedNode": "\\files\\jp\\English Patch\\data\\settings\\atk_rel_pose_se.csv",
   "PreviewInSolutionExplorer": false
 }
