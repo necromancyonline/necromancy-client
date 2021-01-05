@@ -2199,9 +2199,10 @@
 	<ItemBalloonArmor>
 		<Ctrl Type="WINDOW" ID="37003" X="0" Y="0" W="275" H="686" BaseColor="255,255,255,255" FrameType="SIZE" FrameID="1329" MarkFocus="OFF">
 			<Ctrl Type="STATIC" ID="1435" X="17" Y="12" W="241" H="16" Caption="100,0,0" Font="Small" Align="0" TextColor="255,255,255,255" TextDecoColor="0,0,0,0" Edge="ON" Shadow="OFF" TextBGColor="0,0,0,0" CharSpace="-1" LineSpace="-4" AttachID-0="0" />
+			<Ctrl Type="STATIC" ID="2789" X="140" Y="46" W="118" H="16" Caption="0,0,1" Font="Small" Align="RIGHT" TextColor="255,255,255,255" TextDecoColor="0,0,0,0" Edge="ON" Shadow="OFF" TextBGColor="0,0,0,0" CharSpace="-1" LineSpace="-4" AttachID-0="0" />																																																											  
 			<Ctrl Type="STATIC" ID="2280" X="17" Y="28" W="120" H="20" Caption="100,0,0" Font="Small" Align="0" TextColor="255,255,255,255" TextDecoColor="0,0,0,0" Edge="ON" Shadow="OFF" TextBGColor="0,0,0,0" CharSpace="-1" LineSpace="-4" AttachID-0="0" />
-			<Ctrl Type="STATIC" ID="2135" X="17" Y="62" W="109" H="26" Caption="100,0,0" Font="Small" Align="0" TextColor="255,255,255,255" TextDecoColor="0,0,0,0" Edge="ON" Shadow="OFF" TextBGColor="0,0,0,0" CharSpace="-1" LineSpace="-4" AttachID-0="0" />
-			<Ctrl Type="STATIC" ID="2789" X="140" Y="63" W="118" H="16" Caption="0,0,1" Font="Small" Align="RIGHT" TextColor="255,255,255,255" TextDecoColor="0,0,0,0" Edge="ON" Shadow="OFF" TextBGColor="0,0,0,0" CharSpace="-1" LineSpace="-4" AttachID-0="0" />
+			<Ctrl Type="STATIC" ID="2135" X="17" Y="46" W="109" H="26" Caption="100,0,0" Font="Small" Align="0" TextColor="255,255,255,255" TextDecoColor="0,0,0,0" Edge="ON" Shadow="OFF" TextBGColor="0,0,0,0" CharSpace="-1" LineSpace="-4" AttachID-0="0" />
+			
 			<Ctrl Type="IMAGE" ID="2000" X="126" Y="59" W="26" H="26" ImgID="699" AttachID-0="0">
 				<Ctrl Type="IMAGE" ID="2001" X="26" Y="0" W="26" H="26" ImgID="703" AttachID-0="0" />
 				<Ctrl Type="IMAGE" ID="2002" X="52" Y="0" W="26" H="26" ImgID="704" AttachID-0="0" />
@@ -2210,18 +2211,18 @@
 			</Ctrl>
 			<Ctrl Type="STATIC" ID="6623" X="17" Y="45" W="200" H="20" Caption="100,0,0" Font="Small" Align="0" TextColor="255,255,255,255" TextDecoColor="0,0,0,0" Edge="ON" Shadow="OFF" TextBGColor="0,0,0,0" CharSpace="0" LineSpace="0" AttachID-0="0" />
 			<Ctrl Type="IMAGE" ID="2369" X="17" Y="89" W="241" H="3" ImgID="1246" AttachID-0="0" />
-			<Ctrl Type="STATIC" ID="2128" X="17" Y="94" W="64" H="14" Caption="100,90,8" Font="Small" Align="RIGHT" TextColor="175,175,175,255" TextDecoColor="0,0,0,255" Edge="ON" Shadow="OFF" TextBGColor="0,0,0,0" CharSpace="-1" LineSpace="-4" AttachID-0="0" />
-			<Ctrl Type="STATIC" ID="2277" X="86" Y="94" W="176" H="19" Caption="100,0,0" Font="Small" Align="0" TextColor="255,255,255,255" TextDecoColor="0,0,0,0" Edge="ON" Shadow="OFF" TextBGColor="0,0,0,0" CharSpace="-1" LineSpace="-4" AttachID-0="0" />
-			<Ctrl Type="STATIC" ID="2286" X="17" Y="110" W="64" H="14" Caption="100,91,8" Font="Small" Align="RIGHT" TextColor="175,175,175,255" TextDecoColor="0,0,0,255" Edge="ON" Shadow="OFF" TextBGColor="0,0,0,0" CharSpace="-1" LineSpace="-4" AttachID-0="0" />
-			<Ctrl Type="STATIC" ID="2290" X="86" Y="110" W="176" H="19" Caption="100,0,0" Font="Small" Align="0" TextColor="255,255,255,255" TextDecoColor="0,0,0,0" Edge="ON" Shadow="OFF" TextBGColor="0,0,0,0" CharSpace="-1" LineSpace="-4" AttachID-0="0" />
-			<Ctrl Type="STATIC" ID="2311" X="17" Y="142" W="64" H="14" Caption="100,91,10" Font="Small" Align="RIGHT" TextColor="175,175,175,255" TextDecoColor="0,0,0,255" Edge="ON" Shadow="OFF" TextBGColor="0,0,0,0" CharSpace="-1" LineSpace="-4" AttachID-0="0" />
-			<Ctrl Type="STATIC" ID="2365" X="86" Y="142" W="176" H="19" Caption="100,0,0" Font="Small" Align="0" TextColor="255,255,255,255" TextDecoColor="0,0,0,0" Edge="ON" Shadow="OFF" TextBGColor="0,0,0,0" CharSpace="-1" LineSpace="-4" AttachID-0="0" />
-			<Ctrl Type="STATIC" ID="2281" X="17" Y="126" W="64" H="14" Caption="100,91,5" Font="Small" Align="RIGHT" TextColor="175,175,175,255" TextDecoColor="0,0,0,255" Edge="ON" Shadow="OFF" TextBGColor="0,0,0,0" CharSpace="-1" LineSpace="-4" AttachID-0="0" />
-			<Ctrl Type="STATIC" ID="2362" X="86" Y="126" W="176" H="19" Caption="0,0,1" Font="Small" Align="0" TextColor="255,255,255,255" TextDecoColor="0,0,0,0" Edge="ON" Shadow="OFF" TextBGColor="0,0,0,0" CharSpace="-1" LineSpace="-4" AttachID-0="0" />
-			<Ctrl Type="STATIC" ID="2139" X="17" Y="158" W="64" H="14" Caption="100,90,11" Font="Small" Align="RIGHT" TextColor="175,175,175,255" TextDecoColor="0,0,0,255" Edge="ON" Shadow="OFF" TextBGColor="0,0,0,0" CharSpace="-1" LineSpace="-4" AttachID-0="0" />
-			<Ctrl Type="STATIC" ID="2279" X="86" Y="158" W="176" H="19" Caption="100,0,0" Font="Small" Align="0" TextColor="255,255,255,255" TextDecoColor="0,0,0,0" Edge="ON" Shadow="OFF" TextBGColor="0,0,0,0" CharSpace="-1" LineSpace="-4" AttachID-0="0" />
-			<Ctrl Type="STATIC" ID="2302" X="17" Y="174" W="64" H="14" Caption="100,91,6" Font="Small" Align="RIGHT" TextColor="175,175,175,255" TextDecoColor="0,0,0,255" Edge="ON" Shadow="OFF" TextBGColor="0,0,0,0" CharSpace="-1" LineSpace="-4" AttachID-0="0" />
-			<Ctrl Type="STATIC" ID="2364" X="86" Y="174" W="176" H="19" Caption="100,0,0" Font="Small" Align="0" TextColor="255,255,255,255" TextDecoColor="0,0,0,0" Edge="ON" Shadow="OFF" TextBGColor="0,0,0,0" CharSpace="-1" LineSpace="-4" AttachID-0="0" />
+			<Ctrl Type="STATIC" ID="2128" X="17" Y="94" W="64" H="14" Caption="100,90,8" Font="Small" Align="RIGHT_VCENTER" TextColor="175,175,175,255" TextDecoColor="0,0,0,255" Edge="ON" Shadow="OFF" TextBGColor="0,0,0,0" CharSpace="-1" LineSpace="-4" AttachID-0="0" />
+			<Ctrl Type="STATIC" ID="2277" X="86" Y="94" W="176" H="19" Caption="100,0,0" Font="Small" Align="VCENTER" TextColor="255,255,255,255" TextDecoColor="0,0,0,0" Edge="ON" Shadow="OFF" TextBGColor="0,0,0,0" CharSpace="-1" LineSpace="-4" AttachID-0="0" />
+			<Ctrl Type="STATIC" ID="2286" X="17" Y="110" W="64" H="14" Caption="100,91,8" Font="Small" Align="RIGHT_VCENTER" TextColor="175,175,175,255" TextDecoColor="0,0,0,255" Edge="ON" Shadow="OFF" TextBGColor="0,0,0,0" CharSpace="-1" LineSpace="-4" AttachID-0="0" />
+			<Ctrl Type="STATIC" ID="2290" X="86" Y="110" W="176" H="19" Caption="100,0,0" Font="Small" Align="VCENTER" TextColor="255,255,255,255" TextDecoColor="0,0,0,0" Edge="ON" Shadow="OFF" TextBGColor="0,0,0,0" CharSpace="-1" LineSpace="-4" AttachID-0="0" />
+			<Ctrl Type="STATIC" ID="2311" X="17" Y="142" W="64" H="14" Caption="100,91,10" Font="Small" Align="RIGHT_VCENTER" TextColor="175,175,175,255" TextDecoColor="0,0,0,255" Edge="ON" Shadow="OFF" TextBGColor="0,0,0,0" CharSpace="-1" LineSpace="-4" AttachID-0="0" />
+			<Ctrl Type="STATIC" ID="2365" X="86" Y="142" W="176" H="19" Caption="100,0,0" Font="Small" Align="VCENTER" TextColor="255,255,255,255" TextDecoColor="0,0,0,0" Edge="ON" Shadow="OFF" TextBGColor="0,0,0,0" CharSpace="-1" LineSpace="-4" AttachID-0="0" />
+			<Ctrl Type="STATIC" ID="2281" X="17" Y="126" W="64" H="14" Caption="100,91,5" Font="Small" Align="RIGHT_VCENTER" TextColor="175,175,175,255" TextDecoColor="0,0,0,255" Edge="ON" Shadow="OFF" TextBGColor="0,0,0,0" CharSpace="-1" LineSpace="-4" AttachID-0="0" />
+			<Ctrl Type="STATIC" ID="2362" X="86" Y="126" W="176" H="19" Caption="0,0,1" Font="Small" Align="VCENTER" TextColor="255,255,255,255" TextDecoColor="0,0,0,0" Edge="ON" Shadow="OFF" TextBGColor="0,0,0,0" CharSpace="-1" LineSpace="-4" AttachID-0="0" />
+			<Ctrl Type="STATIC" ID="2139" X="17" Y="158" W="64" H="14" Caption="100,90,11" Font="Small" Align="RIGHT_VCENTER" TextColor="175,175,175,255" TextDecoColor="0,0,0,255" Edge="ON" Shadow="OFF" TextBGColor="0,0,0,0" CharSpace="-1" LineSpace="-4" AttachID-0="0" />
+			<Ctrl Type="STATIC" ID="2279" X="86" Y="158" W="176" H="19" Caption="100,0,0" Font="Small" Align="VCENTER" TextColor="255,255,255,255" TextDecoColor="0,0,0,0" Edge="ON" Shadow="OFF" TextBGColor="0,0,0,0" CharSpace="-1" LineSpace="-4" AttachID-0="0" />
+			<Ctrl Type="STATIC" ID="2302" X="17" Y="174" W="64" H="14" Caption="100,91,6" Font="Small" Align="RIGHT_VCENTER" TextColor="175,175,175,255" TextDecoColor="0,0,0,255" Edge="ON" Shadow="OFF" TextBGColor="0,0,0,0" CharSpace="-1" LineSpace="-4" AttachID-0="0" />
+			<Ctrl Type="STATIC" ID="2364" X="86" Y="174" W="176" H="19" Caption="100,0,0" Font="Small" Align="VCENTER" TextColor="255,255,255,255" TextDecoColor="0,0,0,0" Edge="ON" Shadow="OFF" TextBGColor="0,0,0,0" CharSpace="-1" LineSpace="-4" AttachID-0="0" />
 			<Ctrl Type="STATIC" ID="2134" X="17" Y="192" W="64" H="14" Caption="100,91,9" Font="Small" Align="RIGHT" TextColor="175,175,175,255" TextDecoColor="0,0,0,255" Edge="ON" Shadow="OFF" TextBGColor="0,0,0,0" CharSpace="-1" LineSpace="-4" AttachID-0="0" />
 			<Ctrl Type="STATIC" ID="2294" X="86" Y="192" W="170" H="14" Caption="100,0,0" Font="Small" Align="0" TextColor="255,255,255,255" TextDecoColor="0,0,0,0" Edge="ON" Shadow="OFF" TextBGColor="0,0,0,0" CharSpace="-1" LineSpace="-4" AttachID-0="0" />
 			<Ctrl Type="IMAGE" ID="2295" X="17" Y="215" W="241" H="3" ImgID="1246" AttachID-0="0" />
@@ -13876,7 +13877,7 @@
 		<Ctrl Type="WINDOW" ID="37014" X="0" Y="0" W="327" H="549" BaseColor="255,255,255,255" FrameType="SIZE" FrameID="1329" MarkFocus="OFF">
 			<Ctrl Type="STATIC" ID="7448" X="17" Y="10" W="300" H="16" Caption="100,0,0" Font="Small" Align="0" TextColor="255,255,255,255" TextDecoColor="0,0,0,0" Edge="ON" Shadow="OFF" TextBGColor="0,0,0,0" CharSpace="-1" LineSpace="-4" AttachID-0="0" />
 			<Ctrl Type="STATIC" ID="7449" X="189" Y="97" W="118" H="16" Caption="0,0,1" Font="Small" Align="RIGHT" TextColor="255,255,255,255" TextDecoColor="0,0,0,0" Edge="ON" Shadow="OFF" TextBGColor="0,0,0,0" CharSpace="-1" LineSpace="-4" AttachID-0="0" />
-			<Ctrl Type="STATIC" ID="7451" X="17" Y="78" W="31" H="16" Caption="100,91,11" Font="Small" Align="0" TextColor="175,175,175,255" TextDecoColor="0,0,0,255" Edge="ON" Shadow="OFF" TextBGColor="0,0,0,0" CharSpace="-1" LineSpace="-4" AttachID-0="0" />
+			<Ctrl Type="STATIC" ID="7451" X="17" Y="78" W="41" H="16" Caption="100,91,11`" Font="Small" Align="0" TextColor="175,175,175,255" TextDecoColor="0,0,0,255" Edge="ON" Shadow="OFF" TextBGColor="0,0,0,0" CharSpace="-1" LineSpace="-4" AttachID-0="0" />
 			<Ctrl Type="IMAGE" ID="7458" X="158" Y="93" W="26" H="26" ImgID="699" AttachID-0="0" />
 			<Ctrl Type="IMAGE" ID="7459" X="184" Y="93" W="26" H="26" ImgID="703" AttachID-0="0" />
 			<Ctrl Type="IMAGE" ID="7460" X="210" Y="93" W="26" H="26" ImgID="704" AttachID-0="0" />
@@ -13895,8 +13896,8 @@
 			<Ctrl Type="STATIC" ID="7467" X="86" Y="188" W="176" H="16" Caption="100,0,0" Font="Small" Align="0" TextColor="255,255,255,255" TextDecoColor="0,0,0,0" Edge="ON" Shadow="OFF" TextBGColor="0,0,0,0" CharSpace="-1" LineSpace="-4" AttachID-0="0" />
 			<Ctrl Type="STATIC" ID="7468" X="17" Y="203" W="64" H="16" Caption="100,91,9" Font="Small" Align="RIGHT" TextColor="175,175,175,255" TextDecoColor="0,0,0,255" Edge="ON" Shadow="OFF" TextBGColor="0,0,0,0" CharSpace="-1" LineSpace="-4" AttachID-0="0" />
 			<Ctrl Type="STATIC" ID="7469" X="86" Y="203" W="176" H="16" Caption="100,0,0" Font="Small" Align="0" TextColor="255,255,255,255" TextDecoColor="0,0,0,0" Edge="ON" Shadow="OFF" TextBGColor="0,0,0,0" CharSpace="-1" LineSpace="-4" AttachID-0="0" />
-			<Ctrl Type="STATIC" ID="7470" X="196" Y="173" W="29" H="16" Caption="100,91,6" Font="Small" Align="0" TextColor="175,175,175,255" TextDecoColor="0,0,0,255" Edge="ON" Shadow="OFF" TextBGColor="0,0,0,0" CharSpace="-1" LineSpace="-4" AttachID-0="0" />
-			<Ctrl Type="STATIC" ID="7471" X="225" Y="173" W="37" H="16" Caption="100,0,0" Font="Small" Align="0" TextColor="255,255,255,255" TextDecoColor="0,0,0,0" Edge="ON" Shadow="OFF" TextBGColor="0,0,0,0" CharSpace="-1" LineSpace="-4" AttachID-0="0" />
+			<Ctrl Type="STATIC" ID="7470" X="190" Y="173" W="50" H="16" Caption="100,91,6" Font="Small" Align="RIGHT" TextColor="175,175,175,255" TextDecoColor="0,0,0,255" Edge="ON" Shadow="OFF" TextBGColor="0,0,0,0" CharSpace="-1" LineSpace="-4" AttachID-0="0" />
+			<Ctrl Type="STATIC" ID="7471" X="243" Y="173" W="37" H="16" Caption="100,0,0" Font="Small" Align="0" TextColor="255,255,255,255" TextDecoColor="0,0,0,0" Edge="ON" Shadow="OFF" TextBGColor="0,0,0,0" CharSpace="-1" LineSpace="-4" AttachID-0="0" />
 			<Ctrl Type="IMAGE" ID="7472" X="17" Y="240" W="290" H="3" ImgID="1246" AttachID-0="0" />
 			<Ctrl Type="STATIC" ID="7473" X="17" Y="218" W="64" H="16" Caption="100,91,37" Font="Small" Align="RIGHT" TextColor="175,175,175,255" TextDecoColor="0,0,0,255" Edge="ON" Shadow="OFF" TextBGColor="0,0,0,0" CharSpace="0" LineSpace="0" AttachID-0="0" />
 			<Ctrl Type="STATIC" ID="7474" X="86" Y="218" W="176" H="16" Caption="100,0,0" Font="Small" Align="0" TextColor="255,255,255,255" TextDecoColor="0,0,0,0" Edge="ON" Shadow="OFF" TextBGColor="0,0,0,0" CharSpace="-1" LineSpace="-4" AttachID-0="0" />
@@ -13929,11 +13930,11 @@
 			<Ctrl Type="STATIC" ID="7500" X="17" Y="44" W="150" H="16" Caption="100,0,0" Font="Small" Align="0" TextColor="255,255,255,255" TextDecoColor="0,0,0,0" Edge="ON" Shadow="OFF" TextBGColor="0,0,0,0" CharSpace="0" LineSpace="0" AttachID-0="0" />
 			<Ctrl Type="STATIC" ID="7501" X="168" Y="44" W="150" H="16" Caption="100,0,0" Font="Small" Align="0" TextColor="255,255,255,255" TextDecoColor="0,0,0,0" Edge="ON" Shadow="OFF" TextBGColor="0,0,0,0" CharSpace="0" LineSpace="0" AttachID-0="0" />
 			<Ctrl Type="STATIC" ID="7502" X="17" Y="59" W="150" H="16" Caption="100,0,0" Font="Small" Align="0" TextColor="255,255,255,255" TextDecoColor="0,0,0,0" Edge="ON" Shadow="OFF" TextBGColor="0,0,0,0" CharSpace="0" LineSpace="0" AttachID-0="0" />
-			<Ctrl Type="STATIC" ID="7503" X="48" Y="78" W="119" H="16" Caption="100,0,0" Font="Small" Align="0" TextColor="255,255,255,255" TextDecoColor="0,0,0,255" Edge="ON" Shadow="OFF" TextBGColor="0,0,0,0" CharSpace="-1" LineSpace="-4" AttachID-0="0" />
+			<Ctrl Type="STATIC" ID="7503" X="61" Y="78" W="119" H="16" Caption="100,0,0" Font="Small" Align="0" TextColor="255,255,255,255" TextDecoColor="0,0,0,255" Edge="ON" Shadow="OFF" TextBGColor="0,0,0,0" CharSpace="-1" LineSpace="-4" AttachID-0="0" />
 			<Ctrl Type="STATIC" ID="7504" X="168" Y="78" W="56" H="16" Caption="100,90,14" Font="Small" Align="0" TextColor="175,175,175,255" TextDecoColor="0,0,0,255" Edge="ON" Shadow="OFF" TextBGColor="0,0,0,0" CharSpace="-1" LineSpace="-4" AttachID-0="0" />
 			<Ctrl Type="STATIC" ID="7505" X="224" Y="78" W="94" H="16" Caption="100,0,0" Font="Small" Align="0" TextColor="255,255,255,255" TextDecoColor="0,0,0,255" Edge="ON" Shadow="OFF" TextBGColor="0,0,0,0" CharSpace="-1" LineSpace="-4" AttachID-0="0" />
 			<Ctrl Type="STATIC" ID="7506" X="17" Y="97" W="31" H="16" Caption="100,91,1" Font="Small" Align="0" TextColor="175,175,175,255" TextDecoColor="0,0,0,255" Edge="ON" Shadow="OFF" TextBGColor="0,0,0,0" CharSpace="-1" LineSpace="-4" AttachID-0="0" />
-			<Ctrl Type="STATIC" ID="7507" X="48" Y="97" W="110" H="16" Caption="100,0,0" Font="Small" Align="0" TextColor="255,255,255,255" TextDecoColor="0,0,0,255" Edge="ON" Shadow="OFF" TextBGColor="0,0,0,0" CharSpace="-1" LineSpace="-4" AttachID-0="0" />
+			<Ctrl Type="STATIC" ID="7507" X="51" Y="97" W="110" H="16" Caption="100,0,0" Font="Small" Align="0" TextColor="255,255,255,255" TextDecoColor="0,0,0,255" Edge="ON" Shadow="OFF" TextBGColor="0,0,0,0" CharSpace="-1" LineSpace="-4" AttachID-0="0" />
 		</Ctrl>
 	</ItemBalloonArmorNew>
 	<ItemBalloonAccessoryNew>

@@ -4,7 +4,10 @@
     "\\docs",
     "\\docs\\img",
     "\\files",
-    "\\files\\jp"
+    "\\files\\jp",
+    "\\files\\jp\\English Patch",
+    "\\files\\jp\\English Patch\\data"
   ],
+  "SelectedNode": "\\files\\jp\\English Patch\\data\\settings",
   "PreviewInSolutionExplorer": false
 }
