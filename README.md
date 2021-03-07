@@ -7,12 +7,12 @@ Contains all files related to the client.
 
 Please check the wiki for additional information.
 
-## Steps for Steam Client
+## Steps for JP Client
 1) Clone this repository ```git clone https://github.com/necromancyonline/necromancy-client.git```
-2) Copy the files under `/steam/`-folder into your steam game client folder.
+2) Copy the files under `/files/data`-folder into your jp game client `/data/` folder.
 
 ## Settings
-https://github.com/necromancyonline/necromancy-client/blob/master/files/steam/save/launcher_option.dat
+https://github.com/necromancyonline/necromancy-client/blob/master/files/save/launcher_option.dat
 
 Contains settings for the game client.
 
