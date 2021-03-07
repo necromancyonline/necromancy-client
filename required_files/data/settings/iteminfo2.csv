@@ -2844,21 +2844,33 @@
 80001126,Gem Fragment LUK + 2
 80001127,Gem Fragment LUK + 3
 80001128,Gem Fragment Fire Attack + 5
+80001129,Gem Fragment Fire Attack + 10
+80001130,Gem Fragment Fire Attack + 15
 #,80001129,#,N/A
 #,80001130,#,N/A
 80001131,Gem Fragment Water Attack + 5
+80001132,Gem Fragment Water Attack + 10
+80001133,Gem Fragment Water Attack + 15
 #,80001132,#,N/A
 #,80001133,#,N/A
 80001134,Gem Fragment Air Attack + 5
+80001135,Gem Fragment Air Attack + 10
+80001136,Gem Fragment Air Attack + 15
 #,80001135,#,N/A
 #,80001136,#,N/A
 80001137,Gem Fragment Earth Attack + 5
+80001138,Gem Fragment Earth Attack + 10
+80001139,Gem Fragment Earth Attack + 15
 #,80001138,#,N/A
 #,80001139,#,N/A
 80001140,Gem Fragment Light Attack + 5
+80001141,Gem Fragment Light Attack + 10
+80001142,Gem Fragment Light Attack + 15
 #,80001141,#,N/A
 #,80001142,#,N/A
 80001143,Gem Fragment Dark Attack + 5
+80001144,Gem Fragment Dark Attack + 10
+80001145,Gem Fragment Dark Attack + 15
 #,80001144,#,N/A
 #,80001145,#,N/A
 80001146,Gem Fragment Fire Resistance + 5
