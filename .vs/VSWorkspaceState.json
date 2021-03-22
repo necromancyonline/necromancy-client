@@ -6,8 +6,10 @@
     "\\files",
     "\\files\\jp",
     "\\files\\jp\\English Patch",
-    "\\files\\jp\\English Patch\\data"
+    "\\files\\jp\\English Patch\\data",
+    "\\files\\jp\\English Patch\\data\\interface",
+    "\\files\\jp\\English Patch\\data\\interface\\layout"
   ],
-  "SelectedNode": "\\files\\jp\\English Patch\\data\\settings",
+  "SelectedNode": "\\files\\jp\\English Patch\\data\\interface\\layout",
   "PreviewInSolutionExplorer": false
 }
