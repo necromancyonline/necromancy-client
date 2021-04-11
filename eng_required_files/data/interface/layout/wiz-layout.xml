@@ -5109,13 +5109,13 @@
 		</Ctrl>
 	</EditWindow>
 	<InputNumConfirmWindow>
-		<Ctrl Type="WINDOW" ID="34011" X="317" Y="349" W="390" H="165" BaseColor="255,255,255,255" FrameType="SIZE" FrameID="1320" MarkFocus="ON">
-		<Ctrl Type="STATIC" ID="2000" X="337" Y="368" W="350" H="32" Font="Small" Align="CENTER" TextColor="255,255,255,255" TextDecoColor="72,18,3,0" Edge="ON" Shadow="OFF" TextBGColor="0,0,0,0" CharSpace="0" LineSpace="0" AttachID-0="0" />
-		<Ctrl Type="CONTROL" ID="4000" X="399" Y="402" W="235" H="46" MarkFocus="OFF" />
-		<Ctrl Type="BUTTON" ID="3000" X="408" Y="471" W="103" H="26" ButtonPartsID="4200" Caption="50,10,12" Font="UIGothic" Align="CENTER" TextColor="255,255,255,255" TextDecoColor="0,0,0,255" Edge="ON" TextBGColor="0,0,0,0" ImageTextID="0" ImageTextX="0" ImageTextY="0" MarkFocus="OFF" PushedSoundID="0" LastInputFocus="OFF" />
-		<Ctrl Type="BUTTON" ID="3001" X="517" Y="471" W="103" H="26" ButtonPartsID="4200" Caption="50,10,13" Font="UIGothic" Align="CENTER" TextColor="255,255,255,255" TextDecoColor="0,0,0,255" Edge="ON" TextBGColor="0,0,0,0" ImageTextID="0" ImageTextX="0" ImageTextY="0" MarkFocus="OFF" PushedSoundID="0" LastInputFocus="OFF" />
-		<Ctrl Type="BUTTON" ID="3002" X="626" Y="471" W="103" H="26" ButtonPartsID="4200" Caption="100,0,0" Font="UIGothic" Align="CENTER" TextColor="255,255,255,255" TextDecoColor="0,0,0,0" Edge="ON" TextBGColor="0,0,0,0" ImageTextID="0" ImageTextX="0" ImageTextY="0" MarkFocus="OFF" PushedSoundID="0" LastInputFocus="OFF" />
-		<Ctrl Type="IMAGE" ID="2368" X="404" Y="462" W="217" H="3" ImgID="1246" AttachID-0="0" />
+		<Ctrl Type="WINDOW" ID="34011" X="317" Y="0" W="390" H="165" BaseColor="255,255,255,255" FrameType="SIZE" FrameID="1320" MarkFocus="ON">
+		<Ctrl Type="STATIC" ID="2000" X="337" Y="19" W="350" H="32" Font="Small" Align="CENTER" TextColor="255,255,255,255" TextDecoColor="72,18,3,0" Edge="ON" Shadow="OFF" TextBGColor="0,0,0,0" CharSpace="0" LineSpace="0" AttachID-0="0" />
+		<Ctrl Type="CONTROL" ID="4000" X="399" Y="53" W="235" H="46" MarkFocus="OFF" />
+		<Ctrl Type="BUTTON" ID="3000" X="408" Y="122" W="103" H="26" ButtonPartsID="4200" Caption="50,10,12" Font="UIGothic" Align="CENTER" TextColor="255,255,255,255" TextDecoColor="0,0,0,255" Edge="ON" TextBGColor="0,0,0,0" ImageTextID="0" ImageTextX="0" ImageTextY="0" MarkFocus="OFF" PushedSoundID="0" LastInputFocus="OFF" />
+		<Ctrl Type="BUTTON" ID="3001" X="517" Y="122" W="103" H="26" ButtonPartsID="4200" Caption="50,10,13" Font="UIGothic" Align="CENTER" TextColor="255,255,255,255" TextDecoColor="0,0,0,255" Edge="ON" TextBGColor="0,0,0,0" ImageTextID="0" ImageTextX="0" ImageTextY="0" MarkFocus="OFF" PushedSoundID="0" LastInputFocus="OFF" />
+		<Ctrl Type="BUTTON" ID="3002" X="626" Y="122" W="103" H="26" ButtonPartsID="4200" Caption="100,0,0" Font="UIGothic" Align="CENTER" TextColor="255,255,255,255" TextDecoColor="0,0,0,0" Edge="ON" TextBGColor="0,0,0,0" ImageTextID="0" ImageTextX="0" ImageTextY="0" MarkFocus="OFF" PushedSoundID="0" LastInputFocus="OFF" />
+		<Ctrl Type="IMAGE" ID="2368" X="404" Y="113" W="217" H="3" ImgID="1246" AttachID-0="0" />
 		 </Ctrl>
 	</InputNumConfirmWindow>
 	<DrawWindow>
