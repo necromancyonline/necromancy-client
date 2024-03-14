@@ -1,4 +1,4 @@
-﻿#,ID,String,Message type,Supports special tags
+#,ID,String,Message type,Supports special tags
 #Category name,,,,
 #,,,,
 GENERAL,1,Test </br> ABC </strong> Data </​​strong> <map 1001001> </br>%s,SYSTEM_NOTIFY,1
@@ -99,6 +99,20 @@ COMMON_ERRMSG,-3503,"Seoul"","" who is not a criminal"","" cannot be the bounty.
 COMMON_ERRMSG,-3505,Characters in prison cannot be deleted.,SYSTEM_NOTIFY,
 COMMON_ERRMSG,-2151,Cannot be used when the sword is delivered,SYSTEM_WARNING,
 COMMON_ERRMSG,-4800,No more bullets can be loaded,SYSTEM_WARNING,
+#Custom_COMMON_ERRMSGS,,,,
+COMMON_ERRMSG,-10001,You are not a high enough level to equip this item.,SYSTEM_WARNING,
+COMMON_ERRMSG,-10002,Your current class is not able to equip this item.,SYSTEM_WARNING,
+COMMON_ERRMSG,-10003,Your STR level is too low to equip this item.,SYSTEM_WARNING,
+COMMON_ERRMSG,-10004,Your VIT level is too low to equip this item.,SYSTEM_WARNING,
+COMMON_ERRMSG,-10005,Your DEX level is too low to equip this item.,SYSTEM_WARNING,
+COMMON_ERRMSG,-10006,Your AGI level is too low to equip this item.,SYSTEM_WARNING,
+COMMON_ERRMSG,-10007,Your INT level is too low to equip this item.,SYSTEM_WARNING,
+COMMON_ERRMSG,-10008,Your PIE level is too low to equip this item.,SYSTEM_WARNING,
+COMMON_ERRMSG,-10009,Your LUCK level is too low to equip this item.,SYSTEM_WARNING,
+COMMON_ERRMSG,-10010,Your character alignment is preventing you from equiping this item.,SYSTEM_WARNING,
+COMMON_ERRMSG,-10011,This item needs to be identified before it can be equiped.,SYSTEM_WARNING,
+COMMON_ERRMSG,-10012,You need a higher soul level to equip this item.,SYSTEM_WARNING,
+COMMON_ERRMSG,-10013,I do not know how to explain this other than your chosen character race is simply unable to use this weapon.,SYSTEM_WARNING,
 #Error related log,,,,
 ERR_SELECTWORLD,GENERIC,An unknown error has occurred,SYSTEM_WARNING,
 ERR_SELECTWORLD,-2,Server processing is over allowed,SYSTEM_WARNING,
